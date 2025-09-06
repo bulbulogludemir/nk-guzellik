@@ -297,7 +297,7 @@ export default function Home() {
               NK Estetik & Güzellik Merkezi
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
-              Ankara Çankaya'da, uzman kadromuz ve modern teknolojimizle size en kaliteli güzellik hizmetini sunuyoruz. 
+              Ankara Çankaya&apos;da, uzman kadromuz ve modern teknolojimizle size en kaliteli güzellik hizmetini sunuyoruz. 
               Müşteri memnuniyetini ön planda tutarak, her detayı özenle planlıyoruz.
             </p>
           </motion.div>

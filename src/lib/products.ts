@@ -154,7 +154,7 @@ export const getExcerpt = (description: string, maxLength: number = 150): string
   }
   
   const sentences = description.split(/[.!?]+/)
-  let excerpt = sentences[0]
+  const excerpt = sentences[0]
   
   if (excerpt.length > maxLength) {
     return description.substring(0, maxLength) + '...'

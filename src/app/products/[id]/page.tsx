@@ -1,6 +1,4 @@
-'use client'
-
-import React, { useState } from 'react'
+import React from 'react'
 import { motion } from 'framer-motion'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
@@ -24,13 +22,13 @@ import { Badge } from '@/components/ui/badge'
 import { getProductById, getProductImages, getAllProducts, Product } from '@/lib/products'
 
 interface ProductDetailPageProps {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }
 
-export default function ProductDetailPage({ params }: ProductDetailPageProps) {
-  const [isLiked, setIsLiked] = useState(false)
+export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
+  const { id } = await params
   
-  const product = getProductById(params.id)
+  const product = getProductById(id)
   
   if (!product) {
     notFound()
@@ -129,15 +127,8 @@ export default function ProductDetailPage({ params }: ProductDetailPageProps) {
                 
                 {/* Action buttons */}
                 <div className="absolute top-4 right-4 flex flex-col gap-2">
-                  <button
-                    onClick={() => setIsLiked(!isLiked)}
-                    className={`p-3 rounded-full backdrop-blur-xl transition-colors beauty-transition ${
-                      isLiked 
-                        ? 'bg-red-500 text-white' 
-                        : 'bg-white/80 text-muted-foreground hover:text-red-500'
-                    }`}
-                  >
-                    <Heart className="w-5 h-5" fill={isLiked ? 'currentColor' : 'none'} />
+                  <button className="p-3 rounded-full bg-white/80 text-muted-foreground hover:text-red-500 backdrop-blur-xl transition-colors beauty-transition">
+                    <Heart className="w-5 h-5" />
                   </button>
                   <button
                     onClick={handleShare}
