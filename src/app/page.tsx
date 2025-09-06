@@ -141,8 +141,8 @@ export default function Home() {
           style={{ backgroundImage: 'url(/images/main-bg.avif)' }}
         />
         {/* Background Gradient Overlay */}
-        <div className="absolute inset-0 beauty-gradient opacity-90" />
-        <div className="absolute inset-0 bg-black/20" />
+        <div className="absolute inset-0 beauty-gradient opacity-20" />
+        <div className="absolute inset-0 bg-black/10" />
         
         {/* Animated Elements */}
         <div className="absolute top-4 sm:top-10 left-4 sm:left-10 animate-bounce">
