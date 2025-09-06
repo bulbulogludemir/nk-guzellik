@@ -135,7 +135,12 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Gradient */}
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(/images/main-bg.avif)' }}
+        />
+        {/* Background Gradient Overlay */}
         <div className="absolute inset-0 beauty-gradient opacity-90" />
         <div className="absolute inset-0 bg-black/20" />
         
