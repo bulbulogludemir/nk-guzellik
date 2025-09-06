@@ -28,7 +28,7 @@ const navigation = [
 ];
 
 const contactInfo = [
-  { icon: Phone, text: '+90 312 440 20 19', href: 'tel:+903124402019' },
+  { icon: Phone, text: '+90 535 872 67 52', href: 'tel:+905358726752' },
   { icon: MapPin, text: 'Çankaya/Ankara', href: '#' },
   { icon: Instagram, text: '@nkguzellik', href: 'https://instagram.com/nkguzellik' }
 ];

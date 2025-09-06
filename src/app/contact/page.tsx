@@ -31,9 +31,9 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Telefon',
-    info: '+90 312 440 20 19',
+    info: '+90 535 872 67 52',
     subInfo: 'Pazartesi-Cumartesi 10:00-20:00',
-    href: 'tel:+903124402019',
+    href: 'tel:+905358726752',
     color: 'beauty-rose'
   },
   {

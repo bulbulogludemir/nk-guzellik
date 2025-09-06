@@ -284,7 +284,7 @@ export default function ServicesPage() {
 
                     {/* CTA Button */}
                     <Button className="w-full beauty-transition" asChild>
-                      <Link href="https://wa.me/905001234567" target="_blank">
+                      <Link href="https://wa.me/905358726752" target="_blank">
                         <MessageCircle className="mr-2 h-4 w-4" />
                         Bu Hizmet İçin Randevu Al
                         <ArrowRight className="ml-2 h-4 w-4" />
@@ -362,7 +362,7 @@ export default function ServicesPage() {
                 className="bg-white text-primary hover:bg-white/90 beauty-transition"
                 asChild
               >
-                <Link href="https://wa.me/905001234567" target="_blank">
+                <Link href="https://wa.me/905358726752" target="_blank">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   WhatsApp ile Danış
                 </Link>

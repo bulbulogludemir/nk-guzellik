@@ -400,7 +400,7 @@ export default function Home() {
                 className="bg-white text-primary hover:bg-white/90 beauty-transition"
                 asChild
               >
-                <Link href="tel:+903124402019">
+                <Link href="tel:+905358726752">
                   <Phone className="mr-2 h-5 w-5" />
                   Hemen Ara
                 </Link>
@@ -439,7 +439,7 @@ export default function Home() {
               <Phone className="w-8 h-8 text-primary mb-3" />
               <h3 className="font-semibold mb-2">Telefon</h3>
               <p className="text-sm text-muted-foreground">
-                +90 312 440 20 19
+                +90 535 872 67 52
               </p>
             </motion.div>
 
