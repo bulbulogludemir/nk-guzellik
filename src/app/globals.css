@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.75rem;
+  /* Beauty salon color palette - soft elegant theme */
+  --background: 0 0% 97%;
+  --foreground: 220 13% 25%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 13% 25%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 13% 25%;
+  /* Primary: Rose Gold */
+  --primary: 25 35% 60%;
+  --primary-foreground: 0 0% 97%;
+  /* Secondary: Soft Lavender */
+  --secondary: 280 20% 88%;
+  --secondary-foreground: 280 20% 35%;
+  --muted: 320 10% 94%;
+  --muted-foreground: 320 10% 55%;
+  /* Accent: Soft Pink */
+  --accent: 350 20% 82%;
+  --accent-foreground: 350 20% 30%;
+  --destructive: 0 65% 51%;
+  --destructive-foreground: 0 0% 97%;
+  --border: 330 6% 90%;
+  --input: 340 4% 93%;
+  --ring: 25 35% 60%;
+}
+
+.dark {
+  /* Dark mode beauty salon theme */
+  --background: 340 15% 8%;
+  --foreground: 0 0% 95%;
+  --card: 340 10% 12%;
+  --card-foreground: 0 0% 95%;
+  --popover: 340 10% 12%;
+  --popover-foreground: 0 0% 95%;
+  /* Primary: Brighter Rose Gold in dark */
+  --primary: 25 40% 65%;
+  --primary-foreground: 340 15% 8%;
+  /* Secondary: Deeper Lavender */
+  --secondary: 280 15% 20%;
+  --secondary-foreground: 280 20% 90%;
+  --muted: 320 10% 18%;
+  --muted-foreground: 320 10% 65%;
+  /* Accent: Soft Pink in dark */
+  --accent: 350 15% 25%;
+  --accent-foreground: 350 20% 85%;
+  --destructive: 0 65% 65%;
+  --destructive-foreground: 340 15% 8%;
+  --border: 330 6% 20%;
+  --input: 340 4% 16%;
+  --ring: 25 40% 65%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Beauty salon specific utilities */
+  .beauty-gradient {
+    background: linear-gradient(135deg, 
+      hsl(350 25% 65%), 
+      hsl(35 40% 70%), 
+      hsl(280 30% 75%)
+    );
+  }
+  
+  /* Smooth animations */
+  .beauty-transition {
+    @apply transition-all duration-500 ease-out;
+  }
+  
+  /* Glass effect for modern look */
+  .beauty-glass {
+    @apply backdrop-blur-xl bg-white/80 dark:bg-black/20 border border-white/20;
+  }
+  
+  /* Elegant shadow */
+  .beauty-shadow {
+    box-shadow: 0 20px 40px -10px rgb(0 0 0 / 0.1), 0 0 0 1px rgb(255 255 255 / 0.05);
+  }
+}
