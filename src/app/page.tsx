@@ -44,12 +44,6 @@ const services = [
     title: 'Cilt Bakım',
     description: 'Hydrafacial, Dermapen ve pHformula ile profesyonel cilt tedavileri',
     color: 'beauty-lavender'
-  },
-  {
-    icon: Crown,
-    title: 'Medikal Estetik',
-    description: 'Doktor kontrolünde botoks, dolgu ve cilt gençleştirme uygulamaları',
-    color: 'beauty-sage'
   }
 ];
 
@@ -161,9 +155,6 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <Badge className="mb-4 sm:mb-6 bg-white/20 text-white border-white/30 text-sm">
-              NK Estetik & Güzellik Merkezi
-            </Badge>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
               Güzelliğinizde
               <br />
@@ -237,7 +228,12 @@ export default function Home() {
               >
                 <Card className="beauty-transition hover:scale-105 hover:beauty-shadow border-border/50">
                   <CardContent className="p-4 sm:p-6 text-center">
-                    <div className={`w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 rounded-full bg-${service.color} flex items-center justify-center`}>
+                    <div className={`w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 rounded-full flex items-center justify-center ${
+                      service.color === 'beauty-rose' ? 'bg-rose-500' :
+                      service.color === 'beauty-gold' ? 'bg-amber-500' :
+                      service.color === 'beauty-lavender' ? 'bg-purple-400' :
+                      service.color === 'beauty-sage' ? 'bg-green-400' : 'bg-gray-500'
+                    }`}>
                       <service.icon className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                     </div>
                     <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">{service.title}</h3>
@@ -299,7 +295,7 @@ export default function Home() {
           >
             <Badge className="mb-4">Hakkımızda</Badge>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-              NK Estetik & Güzellik Merkezi
+              NK Güzellik
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
               Ankara Çankaya&apos;da, uzman kadromuz ve modern teknolojimizle size en kaliteli güzellik hizmetini sunuyoruz. 
