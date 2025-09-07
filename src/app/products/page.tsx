@@ -45,16 +45,55 @@ export default function ProductsPage() {
         const description = product.description?.toLowerCase() || ''
         const category = selectedCategory.toLowerCase()
         
-        return name.includes(category) || description.includes(category)
+        // Kategori isimlerine göre ürünleri filtrele
+        if (category === 'temizleyiciler') {
+          return name.includes('cleanse') || name.includes('temizley') || name.includes('clean')
+        } else if (category === 'serumlar & çözümler') {
+          return name.includes('serum') || name.includes('solution') || name.includes('çözüm')
+        } else if (category === 'kremler') {
+          return name.includes('cream') || name.includes('krem') || name.includes('balm')
+        } else if (category === 'güneş koruma') {
+          return name.includes('spf') || name.includes('protect') || name.includes('sun') || name.includes('u.v.')
+        } else if (category === 'recovery bakım') {
+          return name.includes('recovery') || name.includes('repair') || name.includes('restorative')
+        } else if (category === 'göz bakımı') {
+          return name.includes('eye') || name.includes('göz')
+        } else if (category === 'yağlar') {
+          return name.includes('oil') || name.includes('yağ')
+        } else if (category === 'tonikler') {
+          return name.includes('tonic') || name.includes('essence') || name.includes('tonik')
+        } else if (category === 'primerler') {
+          return name.includes('primer') || name.includes('base')
+        } else if (category === 'özel bakım') {
+          return name.includes('complex') || name.includes('formula') || name.includes('active')
+        } else if (category === 'yaşlanma karşıtı') {
+          return name.includes('age') || name.includes('anti-aging') || name.includes('yaşlanma')
+        } else if (category === 'masaj') {
+          return name.includes('massage') || name.includes('masaj')
+        } else if (category === 'peeling & dermabrazyon') {
+          return name.includes('dermabrasion') || name.includes('exfo') || name.includes('peeling')
+        } else {
+          // Genel arama için eski mantığı kullan
+          return name.includes(category) || description.includes(category)
+        }
       })
     }
 
     // Boyut filtresi
     if (selectedSize !== 'all') {
-      products = products.filter(product => 
-        product.size?.includes(selectedSize) || 
-        product.name.includes(selectedSize)
-      )
+      products = products.filter(product => {
+        const name = product.name.toLowerCase()
+        const size = product.size?.toLowerCase() || ''
+        const selectedSizeStr = selectedSize.toLowerCase()
+        
+        // Boyut alanında veya ürün adında belirtilen boyutu ara
+        return size.includes(selectedSizeStr) || 
+               name.includes(selectedSizeStr) ||
+               // Esnek boyut arama (ml, gr gibi ölçü birimlerini de kontrol et)
+               (selectedSizeStr.includes('ml') && (size.includes('ml') || name.includes('ml'))) ||
+               (selectedSizeStr.includes('gr') && (size.includes('gr') || name.includes('gr'))) ||
+               (selectedSizeStr.includes('g') && !selectedSizeStr.includes('gr') && (size.includes('g') || name.includes('g')))
+      })
     }
 
     // Sıralama

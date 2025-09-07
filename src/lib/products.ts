@@ -89,25 +89,67 @@ export const getCategories = (): string[] => {
   
   productsData.products.forEach(product => {
     const name = product.name.toLowerCase()
+    const description = product.description?.toLowerCase() || ''
     
-    if (name.includes('cleanse') || name.includes('temizley')) {
+    // Temizleyici ürünler
+    if (name.includes('cleanse') || name.includes('temizley') || name.includes('clean')) {
       categories.add('Temizleyiciler')
-    } else if (name.includes('serum')) {
-      categories.add('Serumlar')  
-    } else if (name.includes('cream') || name.includes('krem')) {
+    }
+    // Serumlar ve çözümler
+    else if (name.includes('serum') || name.includes('solution') || name.includes('çözüm')) {
+      categories.add('Serumlar & Çözümler')
+    }
+    // Kremler
+    else if (name.includes('cream') || name.includes('krem') || name.includes('balm')) {
       categories.add('Kremler')
-    } else if (name.includes('mask') || name.includes('maske')) {
+    }
+    // Maskeler
+    else if (name.includes('mask') || name.includes('maske')) {
       categories.add('Maskeler')
-    } else if (name.includes('spf') || name.includes('protect') || name.includes('sun')) {
+    }
+    // Güneş koruma
+    else if (name.includes('spf') || name.includes('protect') || name.includes('sun') || name.includes('u.v.')) {
       categories.add('Güneş Koruma')
-    } else if (name.includes('solution') || name.includes('çözüm')) {
-      categories.add('Çözümler')
-    } else if (name.includes('kit') || name.includes('set')) {
-      categories.add('Setler')
-    } else if (name.includes('eye') || name.includes('göz')) {
+    }
+    // Recovery ürünleri
+    else if (name.includes('recovery') || name.includes('repair') || name.includes('restorative')) {
+      categories.add('Recovery Bakım')
+    }
+    // Göz bakımı
+    else if (name.includes('eye') || name.includes('göz')) {
       categories.add('Göz Bakımı')
-    } else if (name.includes('sos')) {
-      categories.add('SOS Bakım')
+    }
+    // Yağlar
+    else if (name.includes('oil') || name.includes('yağ')) {
+      categories.add('Yağlar')
+    }
+    // Tonikler ve essenceler
+    else if (name.includes('tonic') || name.includes('essence') || name.includes('tonik')) {
+      categories.add('Tonikler')
+    }
+    // Primerlar
+    else if (name.includes('primer') || name.includes('base')) {
+      categories.add('Primerler')
+    }
+    // Özel bakım
+    else if (name.includes('complex') || name.includes('formula') || name.includes('active')) {
+      categories.add('Özel Bakım')
+    }
+    // Age care
+    else if (name.includes('age') || name.includes('anti-aging') || name.includes('yaşlanma')) {
+      categories.add('Yaşlanma Karşıtı')
+    }
+    // Masaj ürünleri
+    else if (name.includes('massage') || name.includes('masaj')) {
+      categories.add('Masaj')
+    }
+    // Dermabrazyon
+    else if (name.includes('dermabrasion') || name.includes('exfo') || name.includes('peeling')) {
+      categories.add('Peeling & Dermabrazyon')
+    }
+    // Diğerleri
+    else {
+      categories.add('Diğer')
     }
   })
   

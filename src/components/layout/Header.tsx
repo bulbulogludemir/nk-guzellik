@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { 
   Crown, 
@@ -95,14 +96,20 @@ export default function Header() {
           <div className="flex items-center justify-between h-14 sm:h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2 sm:space-x-3 group">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl beauty-gradient flex items-center justify-center group-hover:scale-105 beauty-transition">
-                <Crown className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
+              <div className="w-8 h-8 sm:w-12 sm:h-10 relative group-hover:scale-105 beauty-transition">
+                <Image
+                  src="/images/nk-beauty-logo-transparent.png"
+                  alt="NK Beauty Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
               <div className="block">
                 <h1 className="text-lg sm:text-xl font-bold text-foreground group-hover:text-primary beauty-transition">
-                  NK Güzellik
+                  NK Beauty
                 </h1>
-                <p className="text-xs text-muted-foreground hidden sm:block">Premium Beauty Salon</p>
+                <p className="text-xs text-muted-foreground hidden sm:block">Nur Kaman</p>
               </div>
             </Link>
 
