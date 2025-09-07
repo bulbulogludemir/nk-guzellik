@@ -93,10 +93,10 @@ export default function Header() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="flex items-center justify-between h-14 sm:h-16">
+          <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center space-x-2 sm:space-x-3 group">
-              <div className="w-8 h-8 sm:w-12 sm:h-10 relative group-hover:scale-105 beauty-transition">
+            <Link href="/" className="flex items-center group">
+              <div className="w-16 h-12 sm:w-20 sm:h-16 relative group-hover:scale-105 beauty-transition">
                 <Image
                   src="/images/nk-beauty-logo-transparent.png"
                   alt="NK Beauty Logo"
@@ -104,12 +104,6 @@ export default function Header() {
                   className="object-contain"
                   priority
                 />
-              </div>
-              <div className="block">
-                <h1 className="text-lg sm:text-xl font-bold text-foreground group-hover:text-primary beauty-transition">
-                  NK Beauty
-                </h1>
-                <p className="text-xs text-muted-foreground hidden sm:block">Nur Kaman</p>
               </div>
             </Link>
 
