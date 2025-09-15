@@ -1,0 +1,429 @@
+/Users/demir/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2025-09-15 12:48:34,544 - INFO - Starting Genosys product scraping...
+2025-09-15 12:48:34,544 - INFO - Fetching: https://nurederm.com/urunler/genosys/all
+2025-09-15 12:48:34,786 - INFO - Found 60 products
+2025-09-15 12:48:34,786 - INFO - Found 60 products to scrape
+2025-09-15 12:48:34,786 - INFO - Processing product 1/60: GENOSYS HR³ MATRIX SCALP BRUSH
+2025-09-15 12:48:34,787 - INFO - Fetching: https://nurederm.com/urun/genosys-hr3-matrix-scalp-brush
+2025-09-15 12:48:35,047 - INFO - Downloaded: GENOSYS-HR³-MATRIX-SCALP-BRUSH-1.jpg
+2025-09-15 12:48:35,067 - INFO - Downloaded: GENOSYS-HR³-MATRIX-SCALP-BRUSH-2.jpg
+2025-09-15 12:48:35,111 - INFO - Downloaded: GENOSYS-HR³-MATRIX-SCALP-BRUSH-3.jpg
+2025-09-15 12:48:35,138 - INFO - Downloaded: GENOSYS-HR³-MATRIX-SCALP-BRUSH-4.jpg
+2025-09-15 12:48:35,164 - INFO - Downloaded: GENOSYS-HR³-MATRIX-SCALP-BRUSH-5.jpg
+2025-09-15 12:48:36,174 - INFO - Processing product 2/60: GENOSYS HR³ MATRIX CARBOXY SCALP REFRESHER α
+2025-09-15 12:48:36,174 - INFO - Fetching: https://nurederm.com/urun/genosys-hr3-matrix-carboxy-scalp-refresher-a
+2025-09-15 12:48:36,393 - INFO - Downloaded: GENOSYS-HR³-MATRIX-CARBOXY-SCALP-REFRESHER-α-1.jpg
+2025-09-15 12:48:36,413 - INFO - Downloaded: GENOSYS-HR³-MATRIX-CARBOXY-SCALP-REFRESHER-α-2.jpg
+2025-09-15 12:48:36,524 - INFO - Downloaded: GENOSYS-HR³-MATRIX-CARBOXY-SCALP-REFRESHER-α-3.jpg
+2025-09-15 12:48:36,562 - INFO - Downloaded: GENOSYS-HR³-MATRIX-CARBOXY-SCALP-REFRESHER-α-4.jpg
+2025-09-15 12:48:36,601 - INFO - Downloaded: GENOSYS-HR³-MATRIX-CARBOXY-SCALP-REFRESHER-α-5.jpg
+2025-09-15 12:48:37,608 - INFO - Processing product 3/60: Skin Caring BB Cushion Camel 15 g+ 15g refill
+2025-09-15 12:48:37,608 - INFO - Fetching: https://nurederm.com/urun/skin-caring-bb-cushion-camel-15-g-15g-refill
+2025-09-15 12:48:37,752 - INFO - Downloaded: Skin-Caring-BB-Cushion-Camel-15-g-15g-refill-1.jpg
+2025-09-15 12:48:37,775 - INFO - Downloaded: Skin-Caring-BB-Cushion-Camel-15-g-15g-refill-2.jpg
+2025-09-15 12:48:37,819 - INFO - Downloaded: Skin-Caring-BB-Cushion-Camel-15-g-15g-refill-3.jpg
+2025-09-15 12:48:37,858 - INFO - Downloaded: Skin-Caring-BB-Cushion-Camel-15-g-15g-refill-4.jpg
+2025-09-15 12:48:37,898 - INFO - Downloaded: Skin-Caring-BB-Cushion-Camel-15-g-15g-refill-5.jpg
+2025-09-15 12:48:38,900 - INFO - Processing product 4/60: BBC (Blemish Balm Cream) 50 ml
+2025-09-15 12:48:38,901 - INFO - Fetching: https://nurederm.com/urun/bbc-blemish-balm-cream-50-ml
+2025-09-15 12:48:39,046 - INFO - Downloaded: BBC-Blemish-Balm-Cream-50-ml-1.jpg
+2025-09-15 12:48:39,067 - INFO - Downloaded: BBC-Blemish-Balm-Cream-50-ml-2.jpg
+2025-09-15 12:48:39,112 - INFO - Downloaded: BBC-Blemish-Balm-Cream-50-ml-3.jpg
+2025-09-15 12:48:39,162 - INFO - Downloaded: BBC-Blemish-Balm-Cream-50-ml-4.jpg
+2025-09-15 12:48:39,210 - INFO - Downloaded: BBC-Blemish-Balm-Cream-50-ml-5.jpg
+2025-09-15 12:48:40,220 - INFO - Processing product 5/60: Snow O2 Cleanser 500 ml
+2025-09-15 12:48:40,220 - INFO - Fetching: https://nurederm.com/urun/snow-o2-cleanser-500-ml
+2025-09-15 12:48:41,979 - INFO - Downloaded: Snow-O2-Cleanser-500-ml-1.jpg
+2025-09-15 12:48:42,000 - INFO - Downloaded: Snow-O2-Cleanser-500-ml-2.jpg
+2025-09-15 12:48:42,050 - INFO - Downloaded: Snow-O2-Cleanser-500-ml-3.jpg
+2025-09-15 12:48:42,099 - INFO - Downloaded: Snow-O2-Cleanser-500-ml-4.jpg
+2025-09-15 12:48:42,152 - INFO - Downloaded: Snow-O2-Cleanser-500-ml-5.jpg
+2025-09-15 12:48:43,162 - INFO - Processing product 6/60: Snow O2 Cleanser 180 ml
+2025-09-15 12:48:43,162 - INFO - Fetching: https://nurederm.com/urun/snow-o2-cleanser-180-ml
+2025-09-15 12:48:43,313 - INFO - Downloaded: Snow-O2-Cleanser-180-ml-1.jpg
+2025-09-15 12:48:43,333 - INFO - Downloaded: Snow-O2-Cleanser-180-ml-2.jpg
+2025-09-15 12:48:43,378 - INFO - Downloaded: Snow-O2-Cleanser-180-ml-3.jpg
+2025-09-15 12:48:43,430 - INFO - Downloaded: Snow-O2-Cleanser-180-ml-4.jpg
+2025-09-15 12:48:43,485 - INFO - Downloaded: Snow-O2-Cleanser-180-ml-5.jpg
+2025-09-15 12:48:44,494 - INFO - Processing product 7/60: SBT (Snow Booster Tonic) 1000 ml
+2025-09-15 12:48:44,495 - INFO - Fetching: https://nurederm.com/urun/sbt-snow-booster-tonic-1000-ml
+2025-09-15 12:48:44,645 - INFO - Downloaded: SBT-Snow-Booster-Tonic-1000-ml-1.jpg
+2025-09-15 12:48:44,665 - INFO - Downloaded: SBT-Snow-Booster-Tonic-1000-ml-2.jpg
+2025-09-15 12:48:44,708 - INFO - Downloaded: SBT-Snow-Booster-Tonic-1000-ml-3.jpg
+2025-09-15 12:48:44,756 - INFO - Downloaded: SBT-Snow-Booster-Tonic-1000-ml-4.jpg
+2025-09-15 12:48:44,807 - INFO - Downloaded: SBT-Snow-Booster-Tonic-1000-ml-5.jpg
+2025-09-15 12:48:45,811 - INFO - Processing product 8/60: SBT (Snow Booster Tonic) 200 ml
+2025-09-15 12:48:45,811 - INFO - Fetching: https://nurederm.com/urun/sbt-snow-booster-tonic-200-ml
+2025-09-15 12:48:45,948 - INFO - Downloaded: SBT-Snow-Booster-Tonic-200-ml-1.jpg
+2025-09-15 12:48:45,969 - INFO - Downloaded: SBT-Snow-Booster-Tonic-200-ml-2.jpg
+2025-09-15 12:48:46,017 - INFO - Downloaded: SBT-Snow-Booster-Tonic-200-ml-3.jpg
+2025-09-15 12:48:46,066 - INFO - Downloaded: SBT-Snow-Booster-Tonic-200-ml-4.jpg
+2025-09-15 12:48:46,115 - INFO - Downloaded: SBT-Snow-Booster-Tonic-200-ml-5.jpg
+2025-09-15 12:48:47,120 - INFO - Processing product 9/60: Intensive Problem Control Toner 200 ml
+2025-09-15 12:48:47,120 - INFO - Fetching: https://nurederm.com/urun/intensive-problem-control-toner-200-ml
+2025-09-15 12:48:47,271 - INFO - Downloaded: Intensive-Problem-Control-Toner-200-ml-1.jpg
+2025-09-15 12:48:47,293 - INFO - Downloaded: Intensive-Problem-Control-Toner-200-ml-2.jpg
+2025-09-15 12:48:47,338 - INFO - Downloaded: Intensive-Problem-Control-Toner-200-ml-3.jpg
+2025-09-15 12:48:47,389 - INFO - Downloaded: Intensive-Problem-Control-Toner-200-ml-4.jpg
+2025-09-15 12:48:47,440 - INFO - Downloaded: Intensive-Problem-Control-Toner-200-ml-5.jpg
+2025-09-15 12:48:48,450 - INFO - Processing product 10/60: Intensive Problem Control Toner 500 ml
+2025-09-15 12:48:48,450 - INFO - Fetching: https://nurederm.com/urun/intensive-problem-control-toner-500-ml
+2025-09-15 12:48:48,599 - INFO - Downloaded: Intensive-Problem-Control-Toner-500-ml-1.jpg
+2025-09-15 12:48:48,620 - INFO - Downloaded: Intensive-Problem-Control-Toner-500-ml-2.jpg
+2025-09-15 12:48:48,663 - INFO - Downloaded: Intensive-Problem-Control-Toner-500-ml-3.jpg
+2025-09-15 12:48:48,713 - INFO - Downloaded: Intensive-Problem-Control-Toner-500-ml-4.jpg
+2025-09-15 12:48:48,765 - INFO - Downloaded: Intensive-Problem-Control-Toner-500-ml-5.jpg
+2025-09-15 12:48:49,772 - INFO - Processing product 11/60: Skin Defender Lip & Eye Make Up Remover
+2025-09-15 12:48:49,773 - INFO - Fetching: https://nurederm.com/urun/skin-defender-lip-eye-make-up-remover
+2025-09-15 12:48:49,913 - INFO - Downloaded: Skin-Defender-Lip-Eye-Make-Up-Remover-1.jpg
+2025-09-15 12:48:49,934 - INFO - Downloaded: Skin-Defender-Lip-Eye-Make-Up-Remover-2.jpg
+2025-09-15 12:48:49,979 - INFO - Downloaded: Skin-Defender-Lip-Eye-Make-Up-Remover-3.jpg
+2025-09-15 12:48:50,041 - INFO - Downloaded: Skin-Defender-Lip-Eye-Make-Up-Remover-4.jpg
+2025-09-15 12:48:50,100 - INFO - Downloaded: Skin-Defender-Lip-Eye-Make-Up-Remover-5.jpg
+2025-09-15 12:48:51,110 - INFO - Processing product 12/60: Epi Turnover Boosting Peeling Gel 100 ml
+2025-09-15 12:48:51,110 - INFO - Fetching: https://nurederm.com/urun/epi-turnover-boosting-peeling-gel-100-ml
+2025-09-15 12:48:51,488 - INFO - Downloaded: Epi-Turnover-Boosting-Peeling-Gel-100-ml-1.jpg
+2025-09-15 12:48:51,512 - INFO - Downloaded: Epi-Turnover-Boosting-Peeling-Gel-100-ml-2.jpg
+2025-09-15 12:48:51,567 - INFO - Downloaded: Epi-Turnover-Boosting-Peeling-Gel-100-ml-3.jpg
+2025-09-15 12:48:51,621 - INFO - Downloaded: Epi-Turnover-Boosting-Peeling-Gel-100-ml-4.jpg
+2025-09-15 12:48:51,675 - INFO - Downloaded: Epi-Turnover-Boosting-Peeling-Gel-100-ml-5.jpg
+2025-09-15 12:48:52,679 - INFO - Processing product 13/60: MFS (Multi Functional Serum) 30 ml
+2025-09-15 12:48:52,680 - INFO - Fetching: https://nurederm.com/urun/mfs-multi-functional-serum-30-ml
+2025-09-15 12:48:52,814 - INFO - Downloaded: MFS-Multi-Functional-Serum-30-ml-1.jpg
+2025-09-15 12:48:52,835 - INFO - Downloaded: MFS-Multi-Functional-Serum-30-ml-2.jpg
+2025-09-15 12:48:52,881 - INFO - Downloaded: MFS-Multi-Functional-Serum-30-ml-3.jpg
+2025-09-15 12:48:52,939 - INFO - Downloaded: MFS-Multi-Functional-Serum-30-ml-4.jpg
+2025-09-15 12:48:52,999 - INFO - Downloaded: MFS-Multi-Functional-Serum-30-ml-5.jpg
+2025-09-15 12:48:54,004 - INFO - Processing product 14/60: PCS (Problem Control Serum) 30 ml
+2025-09-15 12:48:54,005 - INFO - Fetching: https://nurederm.com/urun/pcs-problem-control-serum-30-ml
+2025-09-15 12:48:54,167 - INFO - Downloaded: PCS-Problem-Control-Serum-30-ml-1.jpg
+2025-09-15 12:48:54,187 - INFO - Downloaded: PCS-Problem-Control-Serum-30-ml-2.jpg
+2025-09-15 12:48:54,231 - INFO - Downloaded: PCS-Problem-Control-Serum-30-ml-3.jpg
+2025-09-15 12:48:54,292 - INFO - Downloaded: PCS-Problem-Control-Serum-30-ml-4.jpg
+2025-09-15 12:48:54,352 - INFO - Downloaded: PCS-Problem-Control-Serum-30-ml-5.jpg
+2025-09-15 12:48:55,360 - INFO - Processing product 15/60: AFS (All For Sensitive Serum) 30 ml
+2025-09-15 12:48:55,361 - INFO - Fetching: https://nurederm.com/urun/afs-all-for-sensitive-serum-30-ml
+2025-09-15 12:48:55,489 - INFO - Downloaded: AFS-All-For-Sensitive-Serum-30-ml-1.jpg
+2025-09-15 12:48:55,511 - INFO - Downloaded: AFS-All-For-Sensitive-Serum-30-ml-2.jpg
+2025-09-15 12:48:55,555 - INFO - Downloaded: AFS-All-For-Sensitive-Serum-30-ml-3.jpg
+2025-09-15 12:48:55,622 - INFO - Downloaded: AFS-All-For-Sensitive-Serum-30-ml-4.jpg
+2025-09-15 12:48:55,687 - INFO - Downloaded: AFS-All-For-Sensitive-Serum-30-ml-5.jpg
+2025-09-15 12:48:56,697 - INFO - Processing product 16/60: MVS (Multi Vita Radiance Serum) 30 ml
+2025-09-15 12:48:56,697 - INFO - Fetching: https://nurederm.com/urun/mvs-multi-vita-radiance-serum-30-ml
+2025-09-15 12:48:56,950 - INFO - Downloaded: MVS-Multi-Vita-Radiance-Serum-30-ml-1.jpg
+2025-09-15 12:48:56,973 - INFO - Downloaded: MVS-Multi-Vita-Radiance-Serum-30-ml-2.jpg
+2025-09-15 12:48:57,023 - INFO - Downloaded: MVS-Multi-Vita-Radiance-Serum-30-ml-3.jpg
+2025-09-15 12:48:57,087 - INFO - Downloaded: MVS-Multi-Vita-Radiance-Serum-30-ml-4.jpg
+2025-09-15 12:48:57,153 - INFO - Downloaded: MVS-Multi-Vita-Radiance-Serum-30-ml-5.jpg
+2025-09-15 12:48:58,159 - INFO - Processing product 17/60: MHS (Moisture Replenishing Hyaluron Serum) 30ml
+2025-09-15 12:48:58,159 - INFO - Fetching: https://nurederm.com/urun/mhs-moisture-replenishing-hyaluron-serum-30ml
+2025-09-15 12:48:58,299 - INFO - Downloaded: MHS-Moisture-Replenishing-Hyaluron-Serum-30ml-1.jpg
+2025-09-15 12:48:58,320 - INFO - Downloaded: MHS-Moisture-Replenishing-Hyaluron-Serum-30ml-2.jpg
+2025-09-15 12:48:58,367 - INFO - Downloaded: MHS-Moisture-Replenishing-Hyaluron-Serum-30ml-3.jpg
+2025-09-15 12:48:58,426 - INFO - Downloaded: MHS-Moisture-Replenishing-Hyaluron-Serum-30ml-4.jpg
+2025-09-15 12:48:58,484 - INFO - Downloaded: MHS-Moisture-Replenishing-Hyaluron-Serum-30ml-5.jpg
+2025-09-15 12:48:59,486 - INFO - Processing product 18/60: MFC (Multi Functional Anti Wrinkle Cream) 50 ml
+2025-09-15 12:48:59,486 - INFO - Fetching: https://nurederm.com/urun/mfc-multi-functional-anti-wrinkle-cream-50-ml
+2025-09-15 12:48:59,645 - INFO - Downloaded: MFC-Multi-Functional-Anti-Wrinkle-Cream-50-ml-1.jpg
+2025-09-15 12:48:59,666 - INFO - Downloaded: MFC-Multi-Functional-Anti-Wrinkle-Cream-50-ml-2.jpg
+2025-09-15 12:48:59,713 - INFO - Downloaded: MFC-Multi-Functional-Anti-Wrinkle-Cream-50-ml-3.jpg
+2025-09-15 12:48:59,763 - INFO - Downloaded: MFC-Multi-Functional-Anti-Wrinkle-Cream-50-ml-4.jpg
+2025-09-15 12:48:59,812 - INFO - Downloaded: MFC-Multi-Functional-Anti-Wrinkle-Cream-50-ml-5.jpg
+2025-09-15 12:49:00,819 - INFO - Processing product 19/60: HSC (Hydro Soothing Cream) 50 ml
+2025-09-15 12:49:00,819 - INFO - Fetching: https://nurederm.com/urun/hsc-hydro-soothing-cream-50-ml
+2025-09-15 12:49:01,062 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-50-ml-1.jpg
+2025-09-15 12:49:01,082 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-50-ml-2.jpg
+2025-09-15 12:49:01,126 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-50-ml-3.jpg
+2025-09-15 12:49:01,180 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-50-ml-4.jpg
+2025-09-15 12:49:01,235 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-50-ml-5.jpg
+2025-09-15 12:49:02,245 - INFO - Processing product 20/60: PCC (Problem Control Cream) 50 ml
+2025-09-15 12:49:02,245 - INFO - Fetching: https://nurederm.com/urun/pcc-problem-control-cream-50-ml
+2025-09-15 12:49:02,395 - INFO - Downloaded: PCC-Problem-Control-Cream-50-ml-1.jpg
+2025-09-15 12:49:02,417 - INFO - Downloaded: PCC-Problem-Control-Cream-50-ml-2.jpg
+2025-09-15 12:49:02,499 - INFO - Downloaded: PCC-Problem-Control-Cream-50-ml-3.jpg
+2025-09-15 12:49:02,600 - INFO - Downloaded: PCC-Problem-Control-Cream-50-ml-4.jpg
+2025-09-15 12:49:02,693 - INFO - Downloaded: PCC-Problem-Control-Cream-50-ml-5.jpg
+2025-09-15 12:49:03,699 - INFO - Processing product 21/60: MFC Multi Functional Cream 250 ml
+2025-09-15 12:49:03,699 - INFO - Fetching: https://nurederm.com/urun/mfc-multi-functional-cream-250-ml
+2025-09-15 12:49:03,855 - INFO - Downloaded: MFC-Multi-Functional-Cream-250-ml-1.jpg
+2025-09-15 12:49:03,882 - INFO - Downloaded: MFC-Multi-Functional-Cream-250-ml-2.jpg
+2025-09-15 12:49:03,932 - INFO - Downloaded: MFC-Multi-Functional-Cream-250-ml-3.jpg
+2025-09-15 12:49:03,999 - INFO - Downloaded: MFC-Multi-Functional-Cream-250-ml-4.jpg
+2025-09-15 12:49:04,061 - INFO - Downloaded: MFC-Multi-Functional-Cream-250-ml-5.jpg
+2025-09-15 12:49:05,069 - INFO - Processing product 22/60: Moisture Replenishing Hyaluron Cream 50 ml
+2025-09-15 12:49:05,070 - INFO - Fetching: https://nurederm.com/urun/moisture-replenishing-hyaluron-cream-50-ml
+2025-09-15 12:49:05,221 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-50-ml-1.jpg
+2025-09-15 12:49:05,242 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-50-ml-2.jpg
+2025-09-15 12:49:05,286 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-50-ml-3.jpg
+2025-09-15 12:49:05,340 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-50-ml-4.jpg
+2025-09-15 12:49:05,393 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-50-ml-5.jpg
+2025-09-15 12:49:06,398 - INFO - Processing product 23/60: MVC (Multi Vita Radiance Cream) 50 ml
+2025-09-15 12:49:06,398 - INFO - Fetching: https://nurederm.com/urun/mvc-multi-vita-radiance-cream-50-ml
+2025-09-15 12:49:06,553 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-50-ml-1.jpg
+2025-09-15 12:49:06,576 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-50-ml-2.jpg
+2025-09-15 12:49:06,647 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-50-ml-3.jpg
+2025-09-15 12:49:06,714 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-50-ml-4.jpg
+2025-09-15 12:49:06,778 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-50-ml-5.jpg
+2025-09-15 12:49:07,784 - INFO - Processing product 24/60: HSC (Hydro Soothing Cream) 250 ml
+2025-09-15 12:49:07,784 - INFO - Fetching: https://nurederm.com/urun/hsc-hydro-soothing-cream-250-ml
+2025-09-15 12:49:08,033 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-250-ml-1.jpg
+2025-09-15 12:49:08,053 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-250-ml-2.jpg
+2025-09-15 12:49:08,098 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-250-ml-3.jpg
+2025-09-15 12:49:08,147 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-250-ml-4.jpg
+2025-09-15 12:49:08,195 - INFO - Downloaded: HSC-Hydro-Soothing-Cream-250-ml-5.jpg
+2025-09-15 12:49:09,204 - INFO - Processing product 25/60: MSC (Multi Sun Cream) 40 ml
+2025-09-15 12:49:09,204 - INFO - Fetching: https://nurederm.com/urun/msc-multi-sun-cream-40-ml
+2025-09-15 12:49:09,367 - INFO - Downloaded: MSC-Multi-Sun-Cream-40-ml-1.jpg
+2025-09-15 12:49:09,387 - INFO - Downloaded: MSC-Multi-Sun-Cream-40-ml-2.jpg
+2025-09-15 12:49:09,431 - INFO - Downloaded: MSC-Multi-Sun-Cream-40-ml-3.jpg
+2025-09-15 12:49:09,501 - INFO - Downloaded: MSC-Multi-Sun-Cream-40-ml-4.jpg
+2025-09-15 12:49:09,551 - INFO - Downloaded: MSC-Multi-Sun-Cream-40-ml-5.jpg
+2025-09-15 12:49:10,555 - INFO - Processing product 26/60: USC (Ultra Shield Sun Cream) 50 ml
+2025-09-15 12:49:10,556 - INFO - Fetching: https://nurederm.com/urun/usc-ultra-shield-sun-cream-50-ml
+2025-09-15 12:49:10,702 - INFO - Downloaded: USC-Ultra-Shield-Sun-Cream-50-ml-1.jpg
+2025-09-15 12:49:10,723 - INFO - Downloaded: USC-Ultra-Shield-Sun-Cream-50-ml-2.jpg
+2025-09-15 12:49:10,767 - INFO - Downloaded: USC-Ultra-Shield-Sun-Cream-50-ml-3.jpg
+2025-09-15 12:49:10,817 - INFO - Downloaded: USC-Ultra-Shield-Sun-Cream-50-ml-4.jpg
+2025-09-15 12:49:10,867 - INFO - Downloaded: USC-Ultra-Shield-Sun-Cream-50-ml-5.jpg
+2025-09-15 12:49:11,872 - INFO - Processing product 27/60: Moisture Replenishing Hyaluron Cream 250 ml
+2025-09-15 12:49:11,872 - INFO - Fetching: https://nurederm.com/urun/moisture-replenishing-hyaluron-cream-250-ml
+2025-09-15 12:49:12,016 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-250-ml-1.jpg
+2025-09-15 12:49:12,036 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-250-ml-2.jpg
+2025-09-15 12:49:12,081 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-250-ml-3.jpg
+2025-09-15 12:49:12,130 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-250-ml-4.jpg
+2025-09-15 12:49:12,180 - INFO - Downloaded: Moisture-Replenishing-Hyaluron-Cream-250-ml-5.jpg
+2025-09-15 12:49:13,188 - INFO - Processing product 28/60: PCC (Problem Control Cream) 250 ml
+2025-09-15 12:49:13,189 - INFO - Fetching: https://nurederm.com/urun/pcc-problem-control-cream-250-ml
+2025-09-15 12:49:13,672 - INFO - Downloaded: PCC-Problem-Control-Cream-250-ml-1.jpg
+2025-09-15 12:49:13,693 - INFO - Downloaded: PCC-Problem-Control-Cream-250-ml-2.jpg
+2025-09-15 12:49:13,740 - INFO - Downloaded: PCC-Problem-Control-Cream-250-ml-3.jpg
+2025-09-15 12:49:13,792 - INFO - Downloaded: PCC-Problem-Control-Cream-250-ml-4.jpg
+2025-09-15 12:49:13,836 - INFO - Downloaded: PCC-Problem-Control-Cream-250-ml-5.jpg
+2025-09-15 12:49:14,844 - INFO - Processing product 29/60: MVC (Multi Vita Radiance Cream) 230 ml
+2025-09-15 12:49:14,844 - INFO - Fetching: https://nurederm.com/urun/mvc-multi-vita-radiance-cream-230-ml
+2025-09-15 12:49:14,983 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-230-ml-1.jpg
+2025-09-15 12:49:15,003 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-230-ml-2.jpg
+2025-09-15 12:49:15,050 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-230-ml-3.jpg
+2025-09-15 12:49:15,103 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-230-ml-4.jpg
+2025-09-15 12:49:15,160 - INFO - Downloaded: MVC-Multi-Vita-Radiance-Cream-230-ml-5.jpg
+2025-09-15 12:49:16,166 - INFO - Processing product 30/60: Skin Caring Blemish Balm Cushion / Ivory
+2025-09-15 12:49:16,167 - INFO - Fetching: https://nurederm.com/urun/skin-caring-blemish-balm-cushion-ivory
+2025-09-15 12:49:16,326 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Ivory-1.jpg
+2025-09-15 12:49:16,348 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Ivory-2.jpg
+2025-09-15 12:49:16,392 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Ivory-3.jpg
+2025-09-15 12:49:16,468 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Ivory-4.jpg
+2025-09-15 12:49:16,548 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Ivory-5.jpg
+2025-09-15 12:49:17,556 - INFO - Processing product 31/60: Skin Caring Blemish Balm Cushion / Beige
+2025-09-15 12:49:17,556 - INFO - Fetching: https://nurederm.com/urun/skin-caring-blemish-balm-cushion-beige
+2025-09-15 12:49:17,695 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Beige-1.jpg
+2025-09-15 12:49:17,718 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Beige-2.jpg
+2025-09-15 12:49:17,760 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Beige-3.jpg
+2025-09-15 12:49:17,834 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Beige-4.jpg
+2025-09-15 12:49:17,908 - INFO - Downloaded: Skin-Caring-Blemish-Balm-Cushion-Beige-5.jpg
+2025-09-15 12:49:18,918 - INFO - Processing product 32/60: SPC (Skin Barrier Protecting Cream) 100 ml
+2025-09-15 12:49:18,918 - INFO - Fetching: https://nurederm.com/urun/spc-skin-barrier-protecting-cream-100-ml
+2025-09-15 12:49:19,030 - INFO - Downloaded: SPC-Skin-Barrier-Protecting-Cream-100-ml-1.jpg
+2025-09-15 12:49:19,051 - INFO - Downloaded: SPC-Skin-Barrier-Protecting-Cream-100-ml-2.jpg
+2025-09-15 12:49:19,094 - INFO - Downloaded: SPC-Skin-Barrier-Protecting-Cream-100-ml-3.jpg
+2025-09-15 12:49:19,144 - INFO - Downloaded: SPC-Skin-Barrier-Protecting-Cream-100-ml-4.jpg
+2025-09-15 12:49:19,197 - INFO - Downloaded: SPC-Skin-Barrier-Protecting-Cream-100-ml-5.jpg
+2025-09-15 12:49:20,207 - INFO - Processing product 33/60: EGF Repair Oxymask Cream 50 ml
+2025-09-15 12:49:20,207 - INFO - Fetching: https://nurederm.com/urun/egf-repair-oxymask-cream-50-ml
+2025-09-15 12:49:20,362 - INFO - Downloaded: EGF-Repair-Oxymask-Cream-50-ml-1.jpg
+2025-09-15 12:49:20,382 - INFO - Downloaded: EGF-Repair-Oxymask-Cream-50-ml-2.jpg
+2025-09-15 12:49:20,431 - INFO - Downloaded: EGF-Repair-Oxymask-Cream-50-ml-3.jpg
+2025-09-15 12:49:20,490 - INFO - Downloaded: EGF-Repair-Oxymask-Cream-50-ml-4.jpg
+2025-09-15 12:49:20,549 - INFO - Downloaded: EGF-Repair-Oxymask-Cream-50-ml-5.jpg
+2025-09-15 12:49:21,554 - INFO - Processing product 34/60: Microbiome Energy Infusing Mist 80 ml
+2025-09-15 12:49:21,554 - INFO - Fetching: https://nurederm.com/urun/microbiome-energy-infusing-mist-80-ml
+2025-09-15 12:49:21,702 - INFO - Downloaded: Microbiome-Energy-Infusing-Mist-80-ml-1.jpg
+2025-09-15 12:49:21,726 - INFO - Downloaded: Microbiome-Energy-Infusing-Mist-80-ml-2.jpg
+2025-09-15 12:49:21,791 - INFO - Downloaded: Microbiome-Energy-Infusing-Mist-80-ml-3.jpg
+2025-09-15 12:49:21,875 - INFO - Downloaded: Microbiome-Energy-Infusing-Mist-80-ml-4.jpg
+2025-09-15 12:49:21,966 - INFO - Downloaded: Microbiome-Energy-Infusing-Mist-80-ml-5.jpg
+2025-09-15 12:49:22,972 - INFO - Processing product 35/60: ND Cell Anti-Wrinkle Cream 50 ml
+2025-09-15 12:49:22,972 - INFO - Fetching: https://nurederm.com/urun/nd-cell-anti-wrinkle-cream-50-ml
+2025-09-15 12:49:23,092 - INFO - Downloaded: ND-Cell-Anti-Wrinkle-Cream-50-ml-1.jpg
+2025-09-15 12:49:23,111 - INFO - Downloaded: ND-Cell-Anti-Wrinkle-Cream-50-ml-2.jpg
+2025-09-15 12:49:23,154 - INFO - Downloaded: ND-Cell-Anti-Wrinkle-Cream-50-ml-3.jpg
+2025-09-15 12:49:23,217 - INFO - Downloaded: ND-Cell-Anti-Wrinkle-Cream-50-ml-4.jpg
+2025-09-15 12:49:23,300 - INFO - Downloaded: ND-Cell-Anti-Wrinkle-Cream-50-ml-5.jpg
+2025-09-15 12:49:24,310 - INFO - Processing product 36/60: Eye Contour Cream 20 ml
+2025-09-15 12:49:24,310 - INFO - Fetching: https://nurederm.com/urun/eye-contour-cream-20-ml
+2025-09-15 12:49:24,661 - INFO - Downloaded: Eye-Contour-Cream-20-ml-1.jpg
+2025-09-15 12:49:24,682 - INFO - Downloaded: Eye-Contour-Cream-20-ml-2.jpg
+2025-09-15 12:49:24,727 - INFO - Downloaded: Eye-Contour-Cream-20-ml-3.jpg
+2025-09-15 12:49:24,783 - INFO - Downloaded: Eye-Contour-Cream-20-ml-4.jpg
+2025-09-15 12:49:24,839 - INFO - Downloaded: Eye-Contour-Cream-20-ml-5.jpg
+2025-09-15 12:49:25,841 - INFO - Processing product 37/60: Eye Contour Serum 10 ml
+2025-09-15 12:49:25,841 - INFO - Fetching: https://nurederm.com/urun/eye-contour-serum-10-ml
+2025-09-15 12:49:25,991 - INFO - Downloaded: Eye-Contour-Serum-10-ml-1.jpg
+2025-09-15 12:49:26,011 - INFO - Downloaded: Eye-Contour-Serum-10-ml-2.jpg
+2025-09-15 12:49:26,056 - INFO - Downloaded: Eye-Contour-Serum-10-ml-3.jpg
+2025-09-15 12:49:26,113 - INFO - Downloaded: Eye-Contour-Serum-10-ml-4.jpg
+2025-09-15 12:49:26,166 - INFO - Downloaded: Eye-Contour-Serum-10-ml-5.jpg
+2025-09-15 12:49:27,168 - INFO - Processing product 38/60: Eyecell Peptide Gel Patch 30
+2025-09-15 12:49:27,168 - INFO - Fetching: https://nurederm.com/urun/eyecell-peptide-gel-patch-30
+2025-09-15 12:49:27,312 - INFO - Downloaded: Eyecell-Peptide-Gel-Patch-30-1.jpg
+2025-09-15 12:49:27,408 - INFO - Downloaded: Eyecell-Peptide-Gel-Patch-30-2.jpg
+2025-09-15 12:49:27,476 - INFO - Downloaded: Eyecell-Peptide-Gel-Patch-30-3.jpg
+2025-09-15 12:49:27,529 - INFO - Downloaded: Eyecell-Peptide-Gel-Patch-30-4.jpg
+2025-09-15 12:49:27,581 - INFO - Downloaded: Eyecell-Peptide-Gel-Patch-30-5.jpg
+2025-09-15 12:49:28,589 - INFO - Processing product 39/60: SRP (Soothing Repair Postcream) 20 ml
+2025-09-15 12:49:28,589 - INFO - Fetching: https://nurederm.com/urun/srp-soothing-repair-postcream-20-ml
+2025-09-15 12:49:28,751 - INFO - Downloaded: SRP-Soothing-Repair-Postcream-20-ml-1.jpg
+2025-09-15 12:49:28,806 - INFO - Downloaded: SRP-Soothing-Repair-Postcream-20-ml-2.jpg
+2025-09-15 12:49:28,890 - INFO - Downloaded: SRP-Soothing-Repair-Postcream-20-ml-3.jpg
+2025-09-15 12:49:28,940 - INFO - Downloaded: SRP-Soothing-Repair-Postcream-20-ml-4.jpg
+2025-09-15 12:49:28,984 - INFO - Downloaded: SRP-Soothing-Repair-Postcream-20-ml-5.jpg
+2025-09-15 12:49:29,994 - INFO - Processing product 40/60: Eyecell Kit
+2025-09-15 12:49:29,994 - INFO - Fetching: https://nurederm.com/urun/eyecell-kit
+2025-09-15 12:49:30,160 - INFO - Downloaded: Eyecell-Kit-1.jpg
+2025-09-15 12:49:30,295 - INFO - Downloaded: Eyecell-Kit-2.jpg
+2025-09-15 12:49:30,399 - INFO - Downloaded: Eyecell-Kit-3.jpg
+2025-09-15 12:49:30,584 - INFO - Downloaded: Eyecell-Kit-4.jpg
+2025-09-15 12:49:30,676 - INFO - Downloaded: Eyecell-Kit-5.jpg
+2025-09-15 12:49:31,682 - INFO - Processing product 41/60: EzCo2 Mask
+2025-09-15 12:49:31,682 - INFO - Fetching: https://nurederm.com/urun/ezco2-mask
+2025-09-15 12:49:31,831 - INFO - Downloaded: EzCo2-Mask-1.jpg
+2025-09-15 12:49:31,852 - INFO - Downloaded: EzCo2-Mask-2.jpg
+2025-09-15 12:49:31,896 - INFO - Downloaded: EzCo2-Mask-3.jpg
+2025-09-15 12:49:31,948 - INFO - Downloaded: EzCo2-Mask-4.jpg
+2025-09-15 12:49:31,997 - INFO - Downloaded: EzCo2-Mask-5.jpg
+2025-09-15 12:49:33,001 - INFO - Processing product 42/60: Intensive Repair Collagen Mask
+2025-09-15 12:49:33,002 - INFO - Fetching: https://nurederm.com/urun/intensive-repair-collagen-mask
+2025-09-15 12:49:33,168 - INFO - Downloaded: Intensive-Repair-Collagen-Mask-1.jpg
+2025-09-15 12:49:33,188 - INFO - Downloaded: Intensive-Repair-Collagen-Mask-2.jpg
+2025-09-15 12:49:33,231 - INFO - Downloaded: Intensive-Repair-Collagen-Mask-3.jpg
+2025-09-15 12:49:33,277 - INFO - Downloaded: Intensive-Repair-Collagen-Mask-4.jpg
+2025-09-15 12:49:33,320 - INFO - Downloaded: Intensive-Repair-Collagen-Mask-5.jpg
+2025-09-15 12:49:34,325 - INFO - Processing product 43/60: Peptide Gel Mask
+2025-09-15 12:49:34,326 - INFO - Fetching: https://nurederm.com/urun/peptide-gel-mask
+2025-09-15 12:49:34,428 - INFO - Downloaded: Peptide-Gel-Mask-1.jpg
+2025-09-15 12:49:34,449 - INFO - Downloaded: Peptide-Gel-Mask-2.jpg
+2025-09-15 12:49:34,493 - INFO - Downloaded: Peptide-Gel-Mask-3.jpg
+2025-09-15 12:49:34,535 - INFO - Downloaded: Peptide-Gel-Mask-4.jpg
+2025-09-15 12:49:34,577 - INFO - Downloaded: Peptide-Gel-Mask-5.jpg
+2025-09-15 12:49:35,582 - INFO - Processing product 44/60: Soothing Bomb Sea Algae Mask
+2025-09-15 12:49:35,582 - INFO - Fetching: https://nurederm.com/urun/soothing-bomb-sea-algae-mask
+2025-09-15 12:49:35,848 - INFO - Downloaded: Soothing-Bomb-Sea-Algae-Mask-1.jpg
+2025-09-15 12:49:35,876 - INFO - Downloaded: Soothing-Bomb-Sea-Algae-Mask-2.jpg
+2025-09-15 12:49:35,946 - INFO - Downloaded: Soothing-Bomb-Sea-Algae-Mask-3.jpg
+2025-09-15 12:49:36,030 - INFO - Downloaded: Soothing-Bomb-Sea-Algae-Mask-4.jpg
+2025-09-15 12:49:36,121 - INFO - Downloaded: Soothing-Bomb-Sea-Algae-Mask-5.jpg
+2025-09-15 12:49:37,125 - INFO - Processing product 45/60: Hydro Cool Modeling Mask 1 kg
+2025-09-15 12:49:37,125 - INFO - Fetching: https://nurederm.com/urun/hydro-cool-modeling-mask-1-kg
+2025-09-15 12:49:37,271 - INFO - Downloaded: Hydro-Cool-Modeling-Mask-1-kg-1.jpg
+2025-09-15 12:49:37,295 - INFO - Downloaded: Hydro-Cool-Modeling-Mask-1-kg-2.jpg
+2025-09-15 12:49:37,341 - INFO - Downloaded: Hydro-Cool-Modeling-Mask-1-kg-3.jpg
+2025-09-15 12:49:37,394 - INFO - Downloaded: Hydro-Cool-Modeling-Mask-1-kg-4.jpg
+2025-09-15 12:49:37,455 - INFO - Downloaded: Hydro-Cool-Modeling-Mask-1-kg-5.jpg
+2025-09-15 12:49:38,460 - INFO - Processing product 46/60: ALA (%13) Mask
+2025-09-15 12:49:38,460 - INFO - Fetching: https://nurederm.com/urun/ala-13-mask
+2025-09-15 12:49:38,607 - INFO - Downloaded: ALA-13-Mask-1.jpg
+2025-09-15 12:49:38,628 - INFO - Downloaded: ALA-13-Mask-2.jpg
+2025-09-15 12:49:38,681 - INFO - Downloaded: ALA-13-Mask-3.jpg
+2025-09-15 12:49:38,737 - INFO - Downloaded: ALA-13-Mask-4.jpg
+2025-09-15 12:49:38,793 - INFO - Downloaded: ALA-13-Mask-5.jpg
+2025-09-15 12:49:39,797 - INFO - Processing product 47/60: Skin Rescue Overnight Cream Mask
+2025-09-15 12:49:39,797 - INFO - Fetching: https://nurederm.com/urun/skin-rescue-overnight-cream-mask
+2025-09-15 12:49:39,925 - INFO - Downloaded: Skin-Rescue-Overnight-Cream-Mask-1.jpg
+2025-09-15 12:49:39,945 - INFO - Downloaded: Skin-Rescue-Overnight-Cream-Mask-2.jpg
+2025-09-15 12:49:39,989 - INFO - Downloaded: Skin-Rescue-Overnight-Cream-Mask-3.jpg
+2025-09-15 12:49:40,052 - INFO - Downloaded: Skin-Rescue-Overnight-Cream-Mask-4.jpg
+2025-09-15 12:49:40,113 - INFO - Downloaded: Skin-Rescue-Overnight-Cream-Mask-5.jpg
+2025-09-15 12:49:41,116 - INFO - Processing product 48/60: HR3 Matrix Hair Tonic
+2025-09-15 12:49:41,116 - INFO - Fetching: https://nurederm.com/urun/hr3-matrix-hair-tonic
+2025-09-15 12:49:41,249 - INFO - Downloaded: HR3-Matrix-Hair-Tonic-1.jpg
+2025-09-15 12:49:41,271 - INFO - Downloaded: HR3-Matrix-Hair-Tonic-2.jpg
+2025-09-15 12:49:41,322 - INFO - Downloaded: HR3-Matrix-Hair-Tonic-3.jpg
+2025-09-15 12:49:41,381 - INFO - Downloaded: HR3-Matrix-Hair-Tonic-4.jpg
+2025-09-15 12:49:41,444 - INFO - Downloaded: HR3-Matrix-Hair-Tonic-5.jpg
+2025-09-15 12:49:42,445 - INFO - Processing product 49/60: HR³ Matrix Scalp Shampoo α 300 ml
+2025-09-15 12:49:42,446 - INFO - Fetching: https://nurederm.com/urun/hr3-matrix-scalp-shampoo-a-300-ml
+2025-09-15 12:49:42,588 - INFO - Downloaded: HR³-Matrix-Scalp-Shampoo-α-300-ml-1.jpg
+2025-09-15 12:49:42,613 - INFO - Downloaded: HR³-Matrix-Scalp-Shampoo-α-300-ml-2.jpg
+2025-09-15 12:49:42,682 - INFO - Downloaded: HR³-Matrix-Scalp-Shampoo-α-300-ml-3.jpg
+2025-09-15 12:49:42,828 - INFO - Downloaded: HR³-Matrix-Scalp-Shampoo-α-300-ml-4.jpg
+2025-09-15 12:49:42,987 - INFO - Downloaded: HR³-Matrix-Scalp-Shampoo-α-300-ml-5.jpg
+2025-09-15 12:49:43,992 - INFO - Processing product 50/60: HR3 Matrix Hair Solution α
+2025-09-15 12:49:43,992 - INFO - Fetching: https://nurederm.com/urun/hr3-matrix-hair-solution-a
+2025-09-15 12:49:44,143 - INFO - Downloaded: HR3-Matrix-Hair-Solution-α-1.jpg
+2025-09-15 12:49:44,178 - INFO - Downloaded: HR3-Matrix-Hair-Solution-α-2.jpg
+2025-09-15 12:49:44,242 - INFO - Downloaded: HR3-Matrix-Hair-Solution-α-3.jpg
+2025-09-15 12:49:44,364 - INFO - Downloaded: HR3-Matrix-Hair-Solution-α-4.jpg
+2025-09-15 12:49:44,499 - INFO - Downloaded: HR3-Matrix-Hair-Solution-α-5.jpg
+2025-09-15 12:49:45,504 - INFO - Processing product 51/60: Hair Solution α
+2025-09-15 12:49:45,504 - INFO - Fetching: https://nurederm.com/urun/hair-solution-a
+2025-09-15 12:49:45,636 - INFO - Downloaded: Hair-Solution-α-1.jpg
+2025-09-15 12:49:45,659 - INFO - Downloaded: Hair-Solution-α-2.jpg
+2025-09-15 12:49:45,733 - INFO - Downloaded: Hair-Solution-α-3.jpg
+2025-09-15 12:49:45,812 - INFO - Downloaded: Hair-Solution-α-4.jpg
+2025-09-15 12:49:45,882 - INFO - Downloaded: Hair-Solution-α-5.jpg
+2025-09-15 12:49:46,887 - INFO - Processing product 52/60: Clinical Scalp Peeling α 100 ml
+2025-09-15 12:49:46,888 - INFO - Fetching: https://nurederm.com/urun/clinical-scalp-peeling-a-100-ml
+2025-09-15 12:49:47,025 - INFO - Downloaded: Clinical-Scalp-Peeling-α-100-ml-1.jpg
+2025-09-15 12:49:47,046 - INFO - Downloaded: Clinical-Scalp-Peeling-α-100-ml-2.jpg
+2025-09-15 12:49:47,091 - INFO - Downloaded: Clinical-Scalp-Peeling-α-100-ml-3.jpg
+2025-09-15 12:49:47,148 - INFO - Downloaded: Clinical-Scalp-Peeling-α-100-ml-4.jpg
+2025-09-15 12:49:47,215 - INFO - Downloaded: Clinical-Scalp-Peeling-α-100-ml-5.jpg
+2025-09-15 12:49:48,220 - INFO - Processing product 53/60: HR3 Matrix Kit
+2025-09-15 12:49:48,220 - INFO - Fetching: https://nurederm.com/urun/hr3-matrix-kit
+2025-09-15 12:49:48,394 - INFO - Downloaded: HR3-Matrix-Kit-1.jpg
+2025-09-15 12:49:48,416 - INFO - Downloaded: HR3-Matrix-Kit-2.jpg
+2025-09-15 12:49:48,462 - INFO - Downloaded: HR3-Matrix-Kit-3.jpg
+2025-09-15 12:49:48,539 - INFO - Downloaded: HR3-Matrix-Kit-4.jpg
+2025-09-15 12:49:48,618 - INFO - Downloaded: HR3-Matrix-Kit-5.jpg
+2025-09-15 12:49:49,623 - INFO - Processing product 54/60: SnowCell Peel Kit
+2025-09-15 12:49:49,623 - INFO - Fetching: https://nurederm.com/urun/snowcell-peel-kit
+2025-09-15 12:49:49,746 - INFO - Downloaded: SnowCell-Peel-Kit-1.jpg
+2025-09-15 12:49:49,768 - INFO - Downloaded: SnowCell-Peel-Kit-2.jpg
+2025-09-15 12:49:49,814 - INFO - Downloaded: SnowCell-Peel-Kit-3.jpg
+2025-09-15 12:49:49,881 - INFO - Downloaded: SnowCell-Peel-Kit-4.jpg
+2025-09-15 12:49:49,950 - INFO - Downloaded: SnowCell-Peel-Kit-5.jpg
+2025-09-15 12:49:50,956 - INFO - Processing product 55/60: SRS (Skin Renewal System)
+2025-09-15 12:49:50,956 - INFO - Fetching: https://nurederm.com/urun/srs-skin-renewal-system
+2025-09-15 12:49:51,117 - INFO - Downloaded: SRS-Skin-Renewal-System-1.jpg
+2025-09-15 12:49:51,137 - INFO - Downloaded: SRS-Skin-Renewal-System-2.jpg
+2025-09-15 12:49:51,182 - INFO - Downloaded: SRS-Skin-Renewal-System-3.jpg
+2025-09-15 12:49:51,234 - INFO - Downloaded: SRS-Skin-Renewal-System-4.jpg
+2025-09-15 12:49:51,286 - INFO - Downloaded: SRS-Skin-Renewal-System-5.jpg
+2025-09-15 12:49:52,291 - INFO - Processing product 56/60: AWS (Anti Wrinkle Solution)
+2025-09-15 12:49:52,291 - INFO - Fetching: https://nurederm.com/urun/aws-anti-wrinkle-solution
+2025-09-15 12:49:52,436 - INFO - Downloaded: AWS-Anti-Wrinkle-Solution-1.jpg
+2025-09-15 12:49:52,457 - INFO - Downloaded: AWS-Anti-Wrinkle-Solution-2.jpg
+2025-09-15 12:49:52,505 - INFO - Downloaded: AWS-Anti-Wrinkle-Solution-3.jpg
+2025-09-15 12:49:52,559 - INFO - Downloaded: AWS-Anti-Wrinkle-Solution-4.jpg
+2025-09-15 12:49:52,611 - INFO - Downloaded: AWS-Anti-Wrinkle-Solution-5.jpg
+2025-09-15 12:49:53,615 - INFO - Processing product 57/60: PCS (Problem Control Solution)
+2025-09-15 12:49:53,616 - INFO - Fetching: https://nurederm.com/urun/pcs-problem-control-solution
+2025-09-15 12:49:53,755 - INFO - Downloaded: PCS-Problem-Control-Solution-1.jpg
+2025-09-15 12:49:53,776 - INFO - Downloaded: PCS-Problem-Control-Solution-2.jpg
+2025-09-15 12:49:53,819 - INFO - Downloaded: PCS-Problem-Control-Solution-3.jpg
+2025-09-15 12:49:53,876 - INFO - Downloaded: PCS-Problem-Control-Solution-4.jpg
+2025-09-15 12:49:53,928 - INFO - Downloaded: PCS-Problem-Control-Solution-5.jpg
+2025-09-15 12:49:54,934 - INFO - Processing product 58/60: HES (HA Volume Enhancing Solution)
+2025-09-15 12:49:54,934 - INFO - Fetching: https://nurederm.com/urun/hes-ha-volume-enhancing-solution
+2025-09-15 12:49:55,090 - INFO - Downloaded: HES-HA-Volume-Enhancing-Solution-1.jpg
+2025-09-15 12:49:55,111 - INFO - Downloaded: HES-HA-Volume-Enhancing-Solution-2.jpg
+2025-09-15 12:49:55,155 - INFO - Downloaded: HES-HA-Volume-Enhancing-Solution-3.jpg
+2025-09-15 12:49:55,208 - INFO - Downloaded: HES-HA-Volume-Enhancing-Solution-4.jpg
+2025-09-15 12:49:55,262 - INFO - Downloaded: HES-HA-Volume-Enhancing-Solution-5.jpg
+2025-09-15 12:49:56,267 - INFO - Processing product 59/60: CTS (Cytokine Concentrate Solution)
+2025-09-15 12:49:56,268 - INFO - Fetching: https://nurederm.com/urun/cts-cytokine-concentrate-solution
+2025-09-15 12:49:56,657 - INFO - Downloaded: CTS-Cytokine-Concentrate-Solution-1.jpg
+2025-09-15 12:49:56,681 - INFO - Downloaded: CTS-Cytokine-Concentrate-Solution-2.jpg
+2025-09-15 12:49:56,737 - INFO - Downloaded: CTS-Cytokine-Concentrate-Solution-3.jpg
+2025-09-15 12:49:56,796 - INFO - Downloaded: CTS-Cytokine-Concentrate-Solution-4.jpg
+2025-09-15 12:49:56,851 - INFO - Downloaded: CTS-Cytokine-Concentrate-Solution-5.jpg
+2025-09-15 12:49:57,856 - INFO - Processing product 60/60: CVS (Cytokine Vitamin Solution)
+2025-09-15 12:49:57,856 - INFO - Fetching: https://nurederm.com/urun/cvs-cytokine-vitamin-solution
+2025-09-15 12:49:58,025 - INFO - Downloaded: CVS-Cytokine-Vitamin-Solution-1.jpg
+2025-09-15 12:49:58,046 - INFO - Downloaded: CVS-Cytokine-Vitamin-Solution-2.jpg
+2025-09-15 12:49:58,090 - INFO - Downloaded: CVS-Cytokine-Vitamin-Solution-3.jpg
+2025-09-15 12:49:58,152 - INFO - Downloaded: CVS-Cytokine-Vitamin-Solution-4.jpg
+2025-09-15 12:49:58,214 - INFO - Downloaded: CVS-Cytokine-Vitamin-Solution-5.jpg
+2025-09-15 12:49:59,228 - INFO - Scraping completed! Data saved to genosys_products.json
+2025-09-15 12:49:59,229 - INFO - Total products: 60
+2025-09-15 12:49:59,229 - INFO - Images saved to: genosys_images/
