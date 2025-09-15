@@ -7,12 +7,13 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { ProductCard } from '@/components/ProductCard'
-import { 
-  getAllProducts, 
-  searchProducts, 
-  getCategories, 
-  getSizes, 
-  Product 
+import {
+  getAllProducts,
+  searchProducts,
+  getCategories,
+  getSizes,
+  getBrands,
+  Product
 } from '@/lib/products'
 
 type ViewMode = 'grid' | 'list'
@@ -22,12 +23,14 @@ export default function ProductsPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedSize, setSelectedSize] = useState('all')
+  const [selectedBrand, setSelectedBrand] = useState('all')
   const [viewMode, setViewMode] = useState<ViewMode>('grid')
   const [sortBy, setSortBy] = useState<SortOption>('name-asc')
 
   const allProducts = getAllProducts()
   const categories = getCategories()
   const sizes = getSizes()
+  const brands = getBrands()
 
   // Filtrelenmiş ve sıralanmış ürünler
   const filteredProducts = useMemo(() => {
@@ -85,14 +88,21 @@ export default function ProductsPage() {
         const name = product.name.toLowerCase()
         const size = product.size?.toLowerCase() || ''
         const selectedSizeStr = selectedSize.toLowerCase()
-        
+
         // Boyut alanında veya ürün adında belirtilen boyutu ara
-        return size.includes(selectedSizeStr) || 
+        return size.includes(selectedSizeStr) ||
                name.includes(selectedSizeStr) ||
                // Esnek boyut arama (ml, gr gibi ölçü birimlerini de kontrol et)
                (selectedSizeStr.includes('ml') && (size.includes('ml') || name.includes('ml'))) ||
                (selectedSizeStr.includes('gr') && (size.includes('gr') || name.includes('gr'))) ||
                (selectedSizeStr.includes('g') && !selectedSizeStr.includes('gr') && (size.includes('g') || name.includes('g')))
+      })
+    }
+
+    // Marka filtresi
+    if (selectedBrand !== 'all') {
+      products = products.filter(product => {
+        return product.brand?.toLowerCase() === selectedBrand.toLowerCase()
       })
     }
 
@@ -113,15 +123,16 @@ export default function ProductsPage() {
     })
 
     return products
-  }, [allProducts, searchQuery, selectedCategory, selectedSize, sortBy])
+  }, [allProducts, searchQuery, selectedCategory, selectedSize, selectedBrand, sortBy])
 
   const clearFilters = () => {
     setSearchQuery('')
     setSelectedCategory('all')
     setSelectedSize('all')
+    setSelectedBrand('all')
   }
 
-  const hasActiveFilters = searchQuery || selectedCategory !== 'all' || selectedSize !== 'all'
+  const hasActiveFilters = searchQuery || selectedCategory !== 'all' || selectedSize !== 'all' || selectedBrand !== 'all'
 
   return (
     <div className="min-h-screen">
@@ -144,6 +155,43 @@ export default function ProductsPage() {
               Tedavilerimizde kullandığımız premium markaların ürünlerini keşfedin
             </p>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Brand Filters */}
+      <section className="py-8 px-4 sm:px-6 bg-white border-b">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-6">
+            <h2 className="text-lg font-semibold mb-4">Markalar</h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              <button
+                onClick={() => setSelectedBrand('all')}
+                className={`px-6 py-3 rounded-lg text-sm font-medium transition-colors ${
+                  selectedBrand === 'all'
+                    ? 'bg-primary text-primary-foreground'
+                    : 'bg-muted hover:bg-muted/80'
+                }`}
+              >
+                Tüm Markalar ({allProducts.length})
+              </button>
+              {brands.map(brand => {
+                const brandCount = allProducts.filter(p => p.brand === brand).length
+                return (
+                  <button
+                    key={brand}
+                    onClick={() => setSelectedBrand(brand)}
+                    className={`px-6 py-3 rounded-lg text-sm font-medium transition-colors ${
+                      selectedBrand === brand
+                        ? 'bg-primary text-primary-foreground'
+                        : 'bg-muted hover:bg-muted/80'
+                    }`}
+                  >
+                    {brand} ({brandCount})
+                  </button>
+                )
+              })}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -188,6 +236,18 @@ export default function ProductsPage() {
                 <option value="all">Tüm Boyutlar</option>
                 {sizes.map(size => (
                   <option key={size} value={size}>{size}</option>
+                ))}
+              </select>
+
+              {/* Marka */}
+              <select
+                value={selectedBrand}
+                onChange={(e) => setSelectedBrand(e.target.value)}
+                className="px-3 py-2 rounded-lg border border-input bg-background text-foreground text-sm"
+              >
+                <option value="all">Tüm Markalar</option>
+                {brands.map(brand => (
+                  <option key={brand} value={brand}>{brand}</option>
                 ))}
               </select>
 
@@ -238,6 +298,11 @@ export default function ProductsPage() {
               {selectedSize !== 'all' && (
                 <Badge variant="secondary" className="text-xs">
                   Boyut: {selectedSize}
+                </Badge>
+              )}
+              {selectedBrand !== 'all' && (
+                <Badge variant="secondary" className="text-xs">
+                  Marka: {selectedBrand}
                 </Badge>
               )}
               <Button

@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Heart, Eye, MessageCircle } from 'lucide-react'
-import { Product, getProductImageUrl, getExcerpt } from '@/lib/products'
+import { Product, getExcerpt } from '@/lib/products'
 
 interface ProductCardProps {
   product: Product

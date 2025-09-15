@@ -1,15 +1,16 @@
-import React from 'react'
+'use client'
+
+import React, { use } from 'react'
 import { motion } from 'framer-motion'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
-import { 
-  ArrowLeft, 
-  MessageCircle, 
-  Heart, 
-  Share2, 
-  Eye, 
-  ShoppingCart,
+import {
+  ArrowLeft,
+  MessageCircle,
+  Heart,
+  Share2,
+  Eye,
   Star,
   Calendar,
   Info,
@@ -19,14 +20,14 @@ import {
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { getProductById, getProductImages, getAllProducts, Product } from '@/lib/products'
+import { getProductById, getAllProducts } from '@/lib/products'
 
 interface ProductDetailPageProps {
   params: Promise<{ id: string }>
 }
 
-export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
-  const { id } = await params
+export default function ProductDetailPage({ params }: ProductDetailPageProps) {
+  const { id } = use(params)
   
   const product = getProductById(id)
   
@@ -34,7 +35,6 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
     notFound()
   }
 
-  const productImages = getProductImages(product.product_id)
   const allProducts = getAllProducts()
   
   // İlgili ürünler (aynı kategoriden 4 ürün)
@@ -176,7 +176,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                       />
                     ))}
                   </div>
-                  <span className="text-sm text-muted-foreground">(NK Estetik Onaylı)</span>
+                  <span className="text-sm text-muted-foreground">(NK Beauty Onaylı)</span>
                 </div>
               </div>
 

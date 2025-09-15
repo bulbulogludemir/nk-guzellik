@@ -42,7 +42,7 @@ const services = [
   {
     icon: Heart,
     title: 'Cilt Bakım',
-    description: 'Hydrafacial, Dermapen ve pHformula ile profesyonel cilt tedavileri',
+    description: 'Hydrafacial, Meline, Greenpeel, pHformula, Genosys ve Theraderm ile cilt yenileme sanatı',
     color: 'beauty-lavender'
   }
 ];
@@ -141,7 +141,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
-              Ankara Çankaya&apos;da bulunan NK Estetik ile daha ışıltılı, daha sağlıklı ve genç görünen bir cilde kavuşun
+              Ankara Çankaya&apos;da bulunan NK Beauty ile daha ışıltılı, daha sağlıklı ve genç görünen bir cilde kavuşun
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

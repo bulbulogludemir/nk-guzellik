@@ -49,6 +49,33 @@ const services = [
     ]
   },
   {
+    id: 'cilt-bakim',
+    icon: Flower2,
+    title: 'Cilt Bakım Tedavileri',
+    subtitle: 'Gelişmiş cilt bakım sistemleri',
+    description: 'Hydrafacial, Meline, Greenpeel, pHformula, Genosys ve Theraderm ile cilt yenileme sanatı',
+    color: 'beauty-lavender',
+    duration: '45-90 dk',
+    services: [
+      'Hydrafacial Tedavisi',
+      'Meline Peeling',
+      'Greenpeel Bitkisel Peeling',
+      'pHformula Kimyasal Peeling',
+      'Genosys Cilt Bakımı',
+      'Theraderm Tedavileri',
+      'Göz Çevresi Özel Bakım',
+      'Cilt Analizi ve Tanı',
+      'Anti-aging Tedaviler',
+      'Akne ve Leke Tedavisi'
+    ],
+    benefits: [
+      'Anında görülebilir sonuç',
+      'Kişiye özel program',
+      'Klinik ortamda uygulama',
+      'Uzman denetiminde'
+    ]
+  },
+  {
     id: 'lazer-epilasyon',
     icon: Sparkles,
     title: 'Lazer Epilasyon (Soprano ICE)',
@@ -72,41 +99,15 @@ const services = [
     ]
   },
   {
-    id: 'cilt-bakim',
-    icon: Flower2,
-    title: 'Cilt Bakım Tedavileri',
-    subtitle: 'Gelişmiş cilt bakım sistemleri',
-    description: 'Hydrafacial, Dermapen ve pHformula ile profesyonel cilt bakım tedavileri',
-    color: 'beauty-lavender',
-    duration: '45-90 dk',
-    services: [
-      'Hydrafacial Tedavisi',
-      'Dermapen (Mikro İğneleme)',
-      'pHformula Kimyasal Peeling',
-      'Greenpeel Bitkisel Peeling',
-      'Pumpkin Peel (Kabak Peeling)',
-      'Göz Çevresi Özel Bakım',
-      'Cilt Analizi ve Tanı',
-      'Anti-aging Tedaviler',
-      'Akne ve Leke Tedavisi'
-    ],
-    benefits: [
-      'Anında görülebilir sonuç',
-      'Kişiye özel program',
-      'Klinik ortamda uygulama',
-      'Uzman denetiminde'
-    ]
-  },
-  {
     id: 'kirpik-lamination',
     icon: Eye,
     title: 'Kirpik Laminasyon (MY Lamination)',
     subtitle: 'Kirpik kaldırma ve boyama',
-    description: 'MY Lamination sistemi ile doğal kirpiklerinizi kaldırıp boyuyoruz',
+    description: 'Kirpiklerinizi besleyerek uzatan ve kıvrımlı bir görünüm kazandıran bir işlem',
     color: 'beauty-sage',
     duration: '60-90 dk',
     services: [
-      'Kirpik Laminasyon',
+      'MY Lamination Sistemi',
       'Kirpik Lifting',
       'Kirpik Boyama',
       'Kaş Laminasyonu',

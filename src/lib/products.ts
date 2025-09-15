@@ -159,20 +159,33 @@ export const getCategories = (): string[] => {
 // Ürün boyutlarını çıkar
 export const getSizes = (): string[] => {
   const sizes = new Set<string>()
-  
+
   productsData.products.forEach(product => {
     if (product.size) {
       sizes.add(product.size)
     }
-    
+
     // Ürün adından boyut çıkar
     const sizeMatch = product.name.match(/(\d+(?:[.,]\d+)?\s*(?:ml|gr|g|mg))/i)
     if (sizeMatch) {
       sizes.add(sizeMatch[1])
     }
   })
-  
+
   return Array.from(sizes).sort()
+}
+
+// Markaları çıkar
+export const getBrands = (): string[] => {
+  const brands = new Set<string>()
+
+  productsData.products.forEach(product => {
+    if (product.brand) {
+      brands.add(product.brand)
+    }
+  })
+
+  return Array.from(brands).sort()
 }
 
 // Fiyat formatla (Türk Lirası)

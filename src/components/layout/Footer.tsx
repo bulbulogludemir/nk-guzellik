@@ -27,10 +27,7 @@ const navigation = {
     { name: 'İletişim', href: '/contact' }
   ],
   services: [
-    { name: 'Saç Tasarımı', href: '/services#sac-tasarim' },
-    { name: 'Cilt Bakımı', href: '/services#cilt-bakim' },
-    { name: 'Makyaj', href: '/services#makyaj' },
-    { name: 'Gelin Paketi', href: '/services#gelin-paket' }
+    { name: 'Cilt Bakımı', href: '/services#cilt-bakim' }
   ],
   social: [
     {
@@ -47,7 +44,7 @@ const navigation = {
 };
 
 const workingHours = [
-  { day: 'Pazartesi - Cumartesi', time: '10:00 - 20:00' },
+  { day: 'Pazartesi - Cumartesi', time: '10:00 - 19:30' },
   { day: 'Pazar', time: 'Kapalı' }
 ];
 
@@ -101,12 +98,12 @@ export default function Footer() {
                   <Crown className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold">NK Estetik</h3>
-                  <p className="text-sm text-muted-foreground">Estetik & Güzellik Merkezi</p>
+                  <h3 className="text-xl font-bold">NK Beauty</h3>
+                  <p className="text-sm text-muted-foreground">Beauty & Güzellik Merkezi</p>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Ankara Çankaya&apos;da bulunan NK Estetik & Güzellik ile daha ışıltılı, 
+                Ankara Çankaya&apos;da bulunan NK Beauty ile daha ışıltılı,
                 daha sağlıklı ve genç görünen bir cilde kavuşun. Profesyonel ekibimiz ve hijyenik ortamımızla hizmetinizdeyiz.
               </p>
               <div className="flex items-center space-x-4">
@@ -146,7 +143,7 @@ export default function Footer() {
             {/* Services */}
             <div>
               <h4 className="font-semibold text-foreground mb-6 flex items-center">
-                <Scissors className="w-4 h-4 mr-2 text-primary" />
+                <Heart className="w-4 h-4 mr-2 text-primary" />
                 Hizmetlerimiz
               </h4>
               <ul className="space-y-3">
