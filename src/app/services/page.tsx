@@ -217,8 +217,9 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-6">
-        <div className="max-w-7xl mx-auto">
+      <section className="relative py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-6 beauty-gradient">
+        <div className="absolute inset-0 bg-black/10" />
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {services.map((service, index) => (
               <motion.div
@@ -304,26 +305,69 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Service Discovery Section */}
+      <section className="py-12 sm:py-16 lg:py-20 px-3 sm:px-4 lg:px-6 bg-background">
+        <div className="max-w-4xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <Flower2 className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-4 sm:mb-6 text-primary" />
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
+              Size Uygun Hizmeti Keşfedin
+            </h2>
+            <p className="text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Hangi hizmeti seçeceğiniz konusunda kararsız mısınız? Uzman ekibimiz size en uygun paketleri önerebilir.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+              <Button
+                size="lg"
+                className="beauty-transition text-sm sm:text-base"
+                asChild
+              >
+                <Link href="https://wa.me/905358726752" target="_blank">
+                  <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                  WhatsApp ile Danış
+                </Link>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="beauty-transition text-sm sm:text-base"
+                asChild
+              >
+                <Link href="/">
+                  Ana Sayfaya Dön
+                </Link>
+              </Button>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
-      <section className="py-20 px-6 bg-muted/30">
-        <div className="max-w-6xl mx-auto">
+      <section className="relative py-12 sm:py-16 lg:py-20 px-3 sm:px-4 lg:px-6 beauty-gradient">
+        <div className="absolute inset-0 bg-black/10" />
+        <div className="relative z-10 max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-8 sm:mb-12 lg:mb-16"
           >
-            <Badge className="mb-4">Neden NK Beauty?</Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <Badge className="mb-3 sm:mb-4 bg-white/20 text-white border-white/30 text-xs sm:text-sm">Neden NK Beauty?</Badge>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-white">
               Güvenilir Hizmet Kalitesi
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg lg:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
               Yıllarca tecrübemiz ve müşteri memnuniyeti odaklı yaklaşımımızla size en iyi hizmeti sunuyoruz
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {whyChooseUs.map((item, index) => (
               <motion.div
                 key={item.title}
@@ -333,58 +377,16 @@ export default function ServicesPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
-                  <item.icon className="w-10 h-10 text-primary" />
+                <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-3 sm:mb-4 rounded-full bg-white/20 flex items-center justify-center">
+                  <item.icon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3 text-white">{item.title}</h3>
+                <p className="text-white/80 text-sm sm:text-base leading-relaxed">
                   {item.description}
                 </p>
               </motion.div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 px-6 beauty-gradient">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <Flower2 className="w-16 h-16 mx-auto mb-6 text-white/80" />
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Size Uygun Hizmeti Keşfedin
-            </h2>
-            <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
-              Hangi hizmeti seçeceğiniz konusunda kararsız mısınız? Uzman ekibimiz size en uygun paketleri önerebilir.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
-                className="bg-white text-primary hover:bg-white/90 beauty-transition"
-                asChild
-              >
-                <Link href="https://wa.me/905358726752" target="_blank">
-                  <MessageCircle className="mr-2 h-5 w-5" />
-                  WhatsApp ile Danış
-                </Link>
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-primary beauty-transition"
-                asChild
-              >
-                <Link href="/">
-                  Ana Sayfaya Dön
-                </Link>
-              </Button>
-            </div>
-          </motion.div>
         </div>
       </section>
     </div>
