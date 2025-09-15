@@ -2515,870 +2515,6 @@
       "images_downloaded": 0
     },
     {
-      "url": "https://www.nurederm.com/urun/theraderm-salicylic-wash",
-      "product_id": "theraderm-salicylic-wash",
-      "name": "Salicylic Wash",
-      "description": "Salicylic acid cleanser for acne-prone skin",
-      "price": "",
-      "currency": "TRY",
-      "category": "Cleansers",
-      "brand": "Theraderm",
-      "size": "140 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-salicylic-wash-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-salicylic-wash-main.jpg"
-      ],
-      "meta_title": "Salicylic Wash | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Salicylic acid cleanser for acne-prone skin",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-lotus-cleanser",
-      "product_id": "theraderm-lotus-cleanser",
-      "name": "Lotus Cleanser",
-      "description": "Lotus-based gentle cleanser",
-      "price": "",
-      "currency": "TRY",
-      "category": "Cleansers",
-      "brand": "Theraderm",
-      "size": "140 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-lotus-cleanser-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-lotus-cleanser-main.jpg"
-      ],
-      "meta_title": "Lotus Cleanser | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Lotus-based gentle cleanser",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-lotus-cleanser",
-      "product_id": "theraderm-lotus-cleanser",
-      "name": "Lotus Cleanser",
-      "description": "Lotus-based gentle cleanser professional size",
-      "price": "",
-      "currency": "TRY",
-      "category": "Cleansers",
-      "brand": "Theraderm",
-      "size": "480 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-lotus-cleanser-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-lotus-cleanser-main.jpg"
-      ],
-      "meta_title": "Lotus Cleanser | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Lotus-based gentle cleanser professional size",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-black-sebo-acne-cleanser",
-      "product_id": "theraderm-black-sebo-acne-cleanser",
-      "name": "Black Sebo Acne Cleanser",
-      "description": "Deep cleansing formula for acne and sebum control",
-      "price": "",
-      "currency": "TRY",
-      "category": "Cleansers",
-      "brand": "Theraderm",
-      "size": "140 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-black-sebo-acne-cleanser-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-black-sebo-acne-cleanser-main.jpg"
-      ],
-      "meta_title": "Black Sebo Acne Cleanser | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Deep cleansing formula for acne and sebum control",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-lotus-toner",
-      "product_id": "theraderm-lotus-toner",
-      "name": "Lotus Toner",
-      "description": "Lotus-based balancing toner professional size",
-      "price": "",
-      "currency": "TRY",
-      "category": "Toners",
-      "brand": "Theraderm",
-      "size": "1000 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-lotus-toner-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-lotus-toner-main.jpg"
-      ],
-      "meta_title": "Lotus Toner | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Lotus-based balancing toner professional size",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-lotus-toner-plus-ectoin",
-      "product_id": "theraderm-lotus-toner-plus-ectoin",
-      "name": "Lotus Toner Plus Ectoin",
-      "description": "Lotus toner enhanced with Ectoin",
-      "price": "",
-      "currency": "TRY",
-      "category": "Toners",
-      "brand": "Theraderm",
-      "size": "140 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-lotus-toner-plus-ectoin-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-lotus-toner-plus-ectoin-main.jpg"
-      ],
-      "meta_title": "Lotus Toner Plus Ectoin | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Lotus toner enhanced with Ectoin",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-black-sebo-control-toner",
-      "product_id": "theraderm-black-sebo-control-toner",
-      "name": "Black Sebo Control Toner",
-      "description": "Sebum control toner for oily skin",
-      "price": "",
-      "currency": "TRY",
-      "category": "Toners",
-      "brand": "Theraderm",
-      "size": "140 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-black-sebo-control-toner-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-black-sebo-control-toner-main.jpg"
-      ],
-      "meta_title": "Black Sebo Control Toner | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Sebum control toner for oily skin",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-green-tea-neutralizer",
-      "product_id": "theraderm-green-tea-neutralizer",
-      "name": "Green Tea Neutralizer",
-      "description": "Green tea-based neutralizing toner",
-      "price": "",
-      "currency": "TRY",
-      "category": "Toners",
-      "brand": "Theraderm",
-      "size": "250 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-green-tea-neutralizer-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-green-tea-neutralizer-main.jpg"
-      ],
-      "meta_title": "Green Tea Neutralizer | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Green tea-based neutralizing toner",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-cc-exo-ampoule-serum",
-      "product_id": "theraderm-cc-exo-ampoule-serum",
-      "name": "CC Exo Ampoule Serum",
-      "description": "CC Exosome ampoule serum for skin rejuvenation",
-      "price": "",
-      "currency": "TRY",
-      "category": "Serums",
-      "brand": "Theraderm",
-      "size": "50 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-cc-exo-ampoule-serum-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-cc-exo-ampoule-serum-main.jpg"
-      ],
-      "meta_title": "CC Exo Ampoule Serum | Theraderm | Nurederm Kozmetik",
-      "meta_description": "CC Exosome ampoule serum for skin rejuvenation",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-azul-ampoule-serum",
-      "product_id": "theraderm-azul-ampoule-serum",
-      "name": "Azul Ampoule Serum",
-      "description": "Azulene-based calming ampoule serum",
-      "price": "",
-      "currency": "TRY",
-      "category": "Serums",
-      "brand": "Theraderm",
-      "size": "30 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-azul-ampoule-serum-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-azul-ampoule-serum-main.jpg"
-      ],
-      "meta_title": "Azul Ampoule Serum | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Azulene-based calming ampoule serum",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-retinol-care-serum",
-      "product_id": "theraderm-retinol-care-serum",
-      "name": "Retinol Care Serum",
-      "description": "Retinol-based anti-aging serum",
-      "price": "",
-      "currency": "TRY",
-      "category": "Serums",
-      "brand": "Theraderm",
-      "size": "30 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-retinol-care-serum-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-retinol-care-serum-main.jpg"
-      ],
-      "meta_title": "Retinol Care Serum | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Retinol-based anti-aging serum",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-zinc-gluconate-serum",
-      "product_id": "theraderm-zinc-gluconate-serum",
-      "name": "Zinc Gluconate Serum",
-      "description": "Zinc gluconate serum for problematic skin",
-      "price": "",
-      "currency": "TRY",
-      "category": "Serums",
-      "brand": "Theraderm",
-      "size": "70 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-zinc-gluconate-serum-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-zinc-gluconate-serum-main.jpg"
-      ],
-      "meta_title": "Zinc Gluconate Serum | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Zinc gluconate serum for problematic skin",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-lightening-serum",
-      "product_id": "theraderm-lightening-serum",
-      "name": "Lightening Serum",
-      "description": "Skin lightening and brightening serum",
-      "price": "",
-      "currency": "TRY",
-      "category": "Serums",
-      "brand": "Theraderm",
-      "size": "70 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-lightening-serum-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-lightening-serum-main.jpg"
-      ],
-      "meta_title": "Lightening Serum | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Skin lightening and brightening serum",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-pure-c-tx-serum",
-      "product_id": "theraderm-pure-c-tx-serum",
-      "name": "Pure C TX Serum",
-      "description": "Pure Vitamin C serum with TX formula",
-      "price": "",
-      "currency": "TRY",
-      "category": "Serums",
-      "brand": "Theraderm",
-      "size": "30 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-pure-c-tx-serum-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-pure-c-tx-serum-main.jpg"
-      ],
-      "meta_title": "Pure C TX Serum | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Pure Vitamin C serum with TX formula",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-cc-exo-couple-cream",
-      "product_id": "theraderm-cc-exo-couple-cream",
-      "name": "CC Exo Couple Cream",
-      "description": "CC Exosome couple cream for comprehensive care",
-      "price": "",
-      "currency": "TRY",
-      "category": "Face Creams",
-      "brand": "Theraderm",
-      "size": "50 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-cc-exo-couple-cream-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-cc-exo-couple-cream-main.jpg"
-      ],
-      "meta_title": "CC Exo Couple Cream | Theraderm | Nurederm Kozmetik",
-      "meta_description": "CC Exosome couple cream for comprehensive care",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-dna-rejuvenation-cream",
-      "product_id": "theraderm-dna-rejuvenation-cream",
-      "name": "DNA Rejuvenation Cream",
-      "description": "DNA-based rejuvenation cream professional size",
-      "price": "",
-      "currency": "TRY",
-      "category": "Face Creams",
-      "brand": "Theraderm",
-      "size": "250 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-dna-rejuvenation-cream-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-dna-rejuvenation-cream-main.jpg"
-      ],
-      "meta_title": "DNA Rejuvenation Cream | Theraderm | Nurederm Kozmetik",
-      "meta_description": "DNA-based rejuvenation cream professional size",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-dna-rejuvenation-cream",
-      "product_id": "theraderm-dna-rejuvenation-cream",
-      "name": "DNA Rejuvenation Cream",
-      "description": "DNA-based rejuvenation cream",
-      "price": "",
-      "currency": "TRY",
-      "category": "Face Creams",
-      "brand": "Theraderm",
-      "size": "50 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-dna-rejuvenation-cream-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-dna-rejuvenation-cream-main.jpg"
-      ],
-      "meta_title": "DNA Rejuvenation Cream | Theraderm | Nurederm Kozmetik",
-      "meta_description": "DNA-based rejuvenation cream",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-ultra-lite-moisture-dew-cream",
-      "product_id": "theraderm-ultra-lite-moisture-dew-cream",
-      "name": "Ultra-Lite Moisture Dew Cream",
-      "description": "Ultra-light moisturizing dew cream professional size",
-      "price": "",
-      "currency": "TRY",
-      "category": "Face Creams",
-      "brand": "Theraderm",
-      "size": "250 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-ultra-lite-moisture-dew-cream-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-ultra-lite-moisture-dew-cream-main.jpg"
-      ],
-      "meta_title": "Ultra-Lite Moisture Dew Cream | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Ultra-light moisturizing dew cream professional size",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-ultra-lite-moisture-dew-cream",
-      "product_id": "theraderm-ultra-lite-moisture-dew-cream",
-      "name": "Ultra-Lite Moisture Dew Cream",
-      "description": "Ultra-light moisturizing dew cream",
-      "price": "",
-      "currency": "TRY",
-      "category": "Face Creams",
-      "brand": "Theraderm",
-      "size": "50 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-ultra-lite-moisture-dew-cream-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-ultra-lite-moisture-dew-cream-main.jpg"
-      ],
-      "meta_title": "Ultra-Lite Moisture Dew Cream | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Ultra-light moisturizing dew cream",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-de-mela-lightening-cream",
-      "product_id": "theraderm-de-mela-lightening-cream",
-      "name": "De Mela Lightening Cream",
-      "description": "Melanin-reducing lightening cream",
-      "price": "",
-      "currency": "TRY",
-      "category": "Face Creams",
-      "brand": "Theraderm",
-      "size": "50 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-de-mela-lightening-cream-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-de-mela-lightening-cream-main.jpg"
-      ],
-      "meta_title": "De Mela Lightening Cream | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Melanin-reducing lightening cream",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-pink-magic-cream",
-      "product_id": "theraderm-pink-magic-cream",
-      "name": "Pink Magic Cream",
-      "description": "Pink magic formula for skin enhancement",
-      "price": "",
-      "currency": "TRY",
-      "category": "Face Creams",
-      "brand": "Theraderm",
-      "size": "50 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-pink-magic-cream-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-pink-magic-cream-main.jpg"
-      ],
-      "meta_title": "Pink Magic Cream | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Pink magic formula for skin enhancement",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-sebo-hydra-infused-mask",
-      "product_id": "theraderm-sebo-hydra-infused-mask",
-      "name": "Sebo Hydra Infused Mask",
-      "description": "Sebum control and hydration mask",
-      "price": "",
-      "currency": "TRY",
-      "category": "Masks",
-      "brand": "Theraderm",
-      "size": "50 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-sebo-hydra-infused-mask-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-sebo-hydra-infused-mask-main.jpg"
-      ],
-      "meta_title": "Sebo Hydra Infused Mask | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Sebum control and hydration mask",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-sulfur-therapeutic-mask",
-      "product_id": "theraderm-sulfur-therapeutic-mask",
-      "name": "Sulfur Therapeutic Mask",
-      "description": "Therapeutic sulfur mask for problematic skin",
-      "price": "",
-      "currency": "TRY",
-      "category": "Masks",
-      "brand": "Theraderm",
-      "size": "330 gr",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-sulfur-therapeutic-mask-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-sulfur-therapeutic-mask-main.jpg"
-      ],
-      "meta_title": "Sulfur Therapeutic Mask | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Therapeutic sulfur mask for problematic skin",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-acerola-mask",
-      "product_id": "theraderm-acerola-mask",
-      "name": "Acerola Mask",
-      "description": "Vitamin C rich acerola mask",
-      "price": "",
-      "currency": "TRY",
-      "category": "Masks",
-      "brand": "Theraderm",
-      "size": "250 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-acerola-mask-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-acerola-mask-main.jpg"
-      ],
-      "meta_title": "Acerola Mask | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Vitamin C rich acerola mask",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-collagen-dry-skin-mask",
-      "product_id": "theraderm-collagen-dry-skin-mask",
-      "name": "Collagen Dry Skin Mask",
-      "description": "Collagen mask for dry skin hydration",
-      "price": "",
-      "currency": "TRY",
-      "category": "Masks",
-      "brand": "Theraderm",
-      "size": "250 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-collagen-dry-skin-mask-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-collagen-dry-skin-mask-main.jpg"
-      ],
-      "meta_title": "Collagen Dry Skin Mask | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Collagen mask for dry skin hydration",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-seaweed-mask",
-      "product_id": "theraderm-seaweed-mask",
-      "name": "Seaweed Mask",
-      "description": "Marine seaweed nourishing mask",
-      "price": "",
-      "currency": "TRY",
-      "category": "Masks",
-      "brand": "Theraderm",
-      "size": "250 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-seaweed-mask-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-seaweed-mask-main.jpg"
-      ],
-      "meta_title": "Seaweed Mask | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Marine seaweed nourishing mask",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
-      "url": "https://www.nurederm.com/urun/theraderm-azul-mask",
-      "product_id": "theraderm-azul-mask",
-      "name": "Azul Mask",
-      "description": "Azulene-based soothing mask",
-      "price": "",
-      "currency": "TRY",
-      "category": "Masks",
-      "brand": "Theraderm",
-      "size": "250 ml",
-      "ingredients": [],
-      "usage_instructions": "",
-      "features": [
-        "Profesyonel formülasyon",
-        "Klinik test edilmiş",
-        "Dermatolog onaylı"
-      ],
-      "benefits": [
-        "Etkili sonuçlar",
-        "Güvenli kullanım",
-        "Uzman tarafından önerilen"
-      ],
-      "images": [],
-      "image_paths": [
-        "/public/images/products/theraderm-azul-mask-main.jpg",
-        "/Volumes/SSD/Docs/Products/images/theraderm-azul-mask-main.jpg"
-      ],
-      "meta_title": "Azul Mask | Theraderm | Nurederm Kozmetik",
-      "meta_description": "Azulene-based soothing mask",
-      "scraped_at": "2025-09-15 12:20:08",
-      "images_downloaded": 0
-    },
-    {
       "url": "product-48",
       "product_id": "product-48",
       "name": "GENOSYS HR³ MATRIX SCALP BRUSH",
@@ -4863,6 +3999,1308 @@
       "image_paths": [],
       "meta_title": "CVS (Cytokine Vitamin Solution) - NK Beauty",
       "meta_description": "CVS, peptitlerle zenginleştirilmiş içeriğiyle yüksek hidrasyon sağlamaya yardımcı olur. Cildin onarılmasına, nemlenmesine ve beslenmesine destek olarak cilt yen",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-108",
+      "product_id": "product-108",
+      "name": "CC Exo Ampoule Serum 50 ml",
+      "description": "Dünyada ilk ve tek %22 Saf & Susuz C Vitamini ve Vitamin Ağacı Eksozomları ile zenginleştirilmiş yeni CC Exo Ampoule Serum; cildi derinlemesine aydınlatmaya ve cilt tonunda eşitlik sağlamaya yardımcı olur. Aynı zamanda kolajen üretimini de uyararak sıkılaştırıcı etki sunar, kırışıklık görünümünü azaltır. Ampul kısmında bulunan saf C vitamini susuz formüldedir; bu sayede oksidasyon riski minimuma iner, renk değişimi ve bozulma yapmaz. Serum Kısmı:Üçlü Su KolajenleriVitamin Ağacı Meyvesinden Türetilmiş Eksozomlar Ampul Kısmı:%22 Susuz C Vitamini L-Askorbik Asit Kullanım Şekli: Ürün kullanıma hazır gelmektedir. 2'li hortum sistemiyle hem saf ve susuz C Vitamini hem de serum kokteyli aynı anda transfer olmaktadır. Ampul serumu tüm yüzünüze eşit miktarda uygulayın.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Vitamin enriched",
+        "Brightening"
+      ],
+      "benefits": [
+        "Reduces wrinkles",
+        "Brightens skin",
+        "Firms skin",
+        "Stimulates collagen"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "CC Exo Ampoule Serum 50 ml - NK Beauty",
+      "meta_description": "Dünyada ilk ve tek %22 Saf & Susuz C Vitamini ve Vitamin Ağacı Eksozomları ile zenginleştirilmiş yeni CC Exo Ampoule Serum; cildi derinlemesine aydınlatmaya ve ",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-109",
+      "product_id": "product-109",
+      "name": "CC Exo Couple Cream 50 ml",
+      "description": "Dünyada ilk ve tek %22 Saf & Susuz C Vitamini ve Vitamin Ağacı Eksozomları ile zenginleştirilmiş yeni CC Exo Couple Cream, cilt bariyerini güçlendiren, yoğun nem ve yaşlanma karşıtı etkileriyle öne çıkan bir tamamlayıcı kremdir. Özellikle hassas ciltlerde yatıştırıcı ve onarıcı bir bakım etkisi sunar. Airless pompa teknolojisi sayesinde içerik son kullanıma kadar tazeliğini korur. Yenilikçi Aktif İçerikler:L-Askorbik Asit (C Vitamini)Üçlü Kolajen MolekülleriVitamin Ağacı Meyvesinden Elde Edilen EksozomlarNemlendirici İçeriklerShea YağıMikrobiyomlarSoya ve çavdar tanelerinden fermente edilmiş LactobacillusAdenozin, Niasinamid Kullanım Şekli: Tüm yüze yeterli miktarda uygulayın ve tamamen emilmesi için hafif dokunuşlarla yukarı yönlü masaj uygulayarak cilde yedirin.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [],
+      "usage_instructions": "",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Vitamin enriched",
+        "Anti-aging",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration",
+        "Stimulates collagen"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "CC Exo Couple Cream 50 ml - NK Beauty",
+      "meta_description": "Dünyada ilk ve tek %22 Saf & Susuz C Vitamini ve Vitamin Ağacı Eksozomları ile zenginleştirilmiş yeni CC Exo Couple Cream, cilt bariyerini güçlendiren, yoğun ne",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-110",
+      "product_id": "product-110",
+      "name": "Salicylic Wash 140 ml",
+      "description": "Salicylic Wash 140 ml Cilt yüzeyinde biriken yağ fazlasını ciltten uzaklaştırmak, genişlemiş gözenekleri temizlemek ve lekeyi önlemek için kullanılır. Genişlemiş gözeneklerin sıkılaştırılmasına, temizlenmesine ve siyah nokta oluşumunun önlenmesine yardımcı olur. Salicylic Wash Kullanımı Bir miktar ürün ele alınır ve kuru cilde yedirildikten sonra ıslatılmış parmaklarla dairesel hareketlerle masaj yapılarak köpürtülür. Daha sonra ılık su ile ıslatılmış sünger yardımı ile ciltten uzaklaştırılır. Başlangıçta günde tek sefer uygulanması önerilir. Eğer ciltte aşırı kuruma ve hassasiyet olmazsa günde 2 kere uygulanabilir. Hassasiyet oluşması durumunda daha seyrek kullanılmalıdır.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Skincare",
+      "brand": "Theraderm",
+      "size": "140 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Bir miktar ürün ele alınır ve kuru cilde yedirildikten sonra ıslatılmış parmaklarla dairesel hareketlerle masaj yapılarak köpürtülür. Daha sonra ılık su ile ıslatılmış sünger yardımı ile ciltten uzaklaştırılır. Başlangıçta günde tek sefer uygulanması önerilir. Eğer ciltte aşırı kuruma ve hassasiyet olmazsa günde 2 kere uygulanabilir. Hassasiyet oluşması durumunda daha seyrek kullanılmalıdır.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [
+        "Firms skin"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Salicylic Wash 140 ml - NK Beauty",
+      "meta_description": "Salicylic Wash 140 ml Cilt yüzeyinde biriken yağ fazlasını ciltten uzaklaştırmak, genişlemiş gözenekleri temizlemek ve lekeyi önlemek için kullanılır. Genişlemi",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-111",
+      "product_id": "product-111",
+      "name": "Lotus Cleanser 480 ml",
+      "description": "Lotus Cleanser 480 ml Profesyonel kullanım için uygundur. Hassas ve nemsiz ciltler için hindistan cevizinden elde edilen doğal bir temizleyicidir. Naturel mikro köpüklü ajanlar, cildinizde bulunan kiri ve makyaj kalıntılarını mükemmel bir şekilde ciltten arındırmaya yardımcı olur. Lotus Cleanser İçerikler Allantoin Hyaluronik Asit Hint Lotus Çiçeği Suffruticosa Şakayığı Bitki Özütü Lotus Cleanser Kullanımı Bir miktar ürün ele alınır ve kuru cilde yedirildikten sonra ıslatılmış parmaklarla dairesel hareketlerle masaj yapılarak köpürtülür. Daha sonra ılık su ile ıslatılmış sünger yardımı ile ciltten uzaklaştırılır. Tüm cilt tipleri için uygundur.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Cleansers",
+      "brand": "Theraderm",
+      "size": "480 ml",
+      "ingredients": [
+        "Allantoin Hyaluronik Asit Hint Lotus Çiçeği Suffruticosa Şakayığı Bitki Özütü"
+      ],
+      "usage_instructions": "Hassas ve nemsiz ciltler için hindistan cevizinden elde edilen doğal bir temizleyicidir. Naturel mikro köpüklü ajanlar, cildinizde bulunan kiri ve makyaj kalıntılarını mükemmel bir şekilde ciltten arındırmaya yardımcı olur.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Lotus Cleanser 480 ml - NK Beauty",
+      "meta_description": "Lotus Cleanser 480 ml Profesyonel kullanım için uygundur. Hassas ve nemsiz ciltler için hindistan cevizinden elde edilen doğal bir temizleyicidir. Naturel mikro",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-112",
+      "product_id": "product-112",
+      "name": "Lotus Cleanser 140 ml",
+      "description": "Lotus Cleanser 140 ml Hassas ve nemsiz ciltler için temizleyici hindistan cevizinden elde edilen doğal bir temizleyicidir. Doğal mikro köpüklü ajanlar, cildinizde bulunan kiri ve makyaj kalıntılarını mükemmel bir şekilde ciltten arındırmaya yardımcı olur. Lotus Cleanser İçerikler Allantoin Hyaluronik Asit Hint Lotus Çiçeği Suffruticosa Şakayığı Bitki Özütü Lotus Cleanser Kullanımı Bir miktar ürün ele alınır ve kuru cilde yedirildikten sonra ıslatılmış parmaklarla dairesel hareketlerle masaj yapılarak köpürtülür. Daha sonra ılık su ile ıslatılmış sünger yardımı ile ciltten uzaklaştırılır. Tüm cilt tipleri için uygundur.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Cleansers",
+      "brand": "Theraderm",
+      "size": "140 ml",
+      "ingredients": [
+        "Allantoin Hyaluronik Asit Hint Lotus Çiçeği Suffruticosa Şakayığı Bitki Özütü"
+      ],
+      "usage_instructions": "Bir miktar ürün ele alınır ve kuru cilde yedirildikten sonra ıslatılmış parmaklarla dairesel hareketlerle masaj yapılarak köpürtülür. Daha sonra ılık su ile ıslatılmış sünger yardımı ile ciltten uzaklaştırılır.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Lotus Cleanser 140 ml - NK Beauty",
+      "meta_description": "Lotus Cleanser 140 ml Hassas ve nemsiz ciltler için temizleyici hindistan cevizinden elde edilen doğal bir temizleyicidir. Doğal mikro köpüklü ajanlar, cildiniz",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-113",
+      "product_id": "product-113",
+      "name": "Lotus Toner 1000 ml",
+      "description": "Lotus Toner 1000 ml Profesyonel kullanım için uygundur. Hassas ve nemsiz ciltler için toniktir. Nemlendirici ve ferah bir his oluşturucu etkiye sahiptir. Bu inovatif tonik, cilt pH’ınızın uyumlanmasına ve canlanmasına yardımcı olur. Lotus Toner İçerikler Hint Lotus Çiçeği Niasinamid Adenozin Lavanta Yağı",
+      "price": "",
+      "currency": "TRY",
+      "category": "Toners",
+      "brand": "Theraderm",
+      "size": "1000 ml",
+      "ingredients": [
+        "Hint Lotus Çiçeği Niasinamid Adenozin Lavanta Yağı"
+      ],
+      "usage_instructions": "Hassas ve nemsiz ciltler için toniktir. Nemlendirici ve ferah bir his oluşturucu etkiye sahiptir. Bu inovatif tonik, cilt pH’ınızın uyumlanmasına ve canlanmasına yardımcı olur.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Lotus Toner 1000 ml - NK Beauty",
+      "meta_description": "Lotus Toner 1000 ml Profesyonel kullanım için uygundur. Hassas ve nemsiz ciltler için toniktir. Nemlendirici ve ferah bir his oluşturucu etkiye sahiptir. Bu ino",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-114",
+      "product_id": "product-114",
+      "name": "Black Sebo Acne Cleanser 140 ml",
+      "description": "Black Sebo Acne Cleanser 140 ml Yağlı ve Akneye Eğilimli Ciltler Black Sebo Akne Temizleyici, yağlı ve akneye yatkın ciltler için tasarlanmıştır. Ciltteki yağı azaltır. Black Sebo Thera, Anti Sebum ve Sebo Biome olmak üzere patentli içerikler barındırır. Black Sebo Acne Cleanser İçerikler Black Sebo THERA ™ Anti Sebum & P™ SEBO BIOME™ ​ KI (Potasyum İyodür) Salisilik Asit Black Sebo Acne Cleanser Kullanımı Az miktarda temizleyiciyi cilde sürün ve tüm yüze masaj yaparak yedirin. Ilık suyla iyice durulayın.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Cleansers",
+      "brand": "Theraderm",
+      "size": "140 ml",
+      "ingredients": [
+        "Black Sebo Acne Cleanser İçerikler"
+      ],
+      "usage_instructions": "Az miktarda temizleyiciyi cilde sürün ve tüm yüze masaj yaparak yedirin. Ilık suyla iyice durulayın.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Acne treatment"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Black Sebo Acne Cleanser 140 ml - NK Beauty",
+      "meta_description": "Black Sebo Acne Cleanser 140 ml Yağlı ve Akneye Eğilimli Ciltler Black Sebo Akne Temizleyici, yağlı ve akneye yatkın ciltler için tasarlanmıştır. Ciltteki yağı ",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-115",
+      "product_id": "product-115",
+      "name": "Lotus Toner Plus Ectoin 140 ml",
+      "description": "Lotus Toner Plus Ectoin 140 ml Nemlendirici ve ferah bir his oluşturucu etkiye sahip bu sprey tonik, özellikle dış ortamlarda bulunduğunuz zamanlarda cilde ve makyaj üzerine sıklıkla püskürtülebilir. Bu inovatif tonik cilt pH’ınızın uyumlanmasına canlanmasına yardımcı olacaktır. Hassas ve nemsiz ciltler için uygundur. Lotus Toner Plus Ectoin Tonik Kullanımı Temizlenmiş cilde ister cilde püskürterek ister pamuk yardımı ile uygulayın.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Toners",
+      "brand": "Theraderm",
+      "size": "140 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Temizlenmiş cilde ister cilde püskürterek ister pamuk yardımı ile uygulayın.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Lotus Toner Plus Ectoin 140 ml - NK Beauty",
+      "meta_description": "Lotus Toner Plus Ectoin 140 ml Nemlendirici ve ferah bir his oluşturucu etkiye sahip bu sprey tonik, özellikle dış ortamlarda bulunduğunuz zamanlarda cilde ve m",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-116",
+      "product_id": "product-116",
+      "name": "Black Sebo Control Toner 140 ml",
+      "description": "Black Sebo Control Toner 140 ml Yağlı ve Akneye Yatkın Ciltler Black Sebo Kontrol Toniği cildi nemlendirme etkisine sahiptir ve fazla sebumu kontrol altına alır. Aynı zamanda patentli içerikler olan black sebo thera, anti sebum ve sebo biome içerir. Hidrasyonu arttırır ve yağlı bir his bırakmaz. Black Sebo Control Toner İçerikler Black Sebo THERA ™ Anti Sebum & P™ SEBO BIOME™ ​ KI (Potasyum İyodür) Dereotu Ekstraktı Adaçayı Ekstraktı Black Sebo Control Toner Kullanımı Cildinizi Black sebo akne temizleyici ile temizleyin ve tüm cildinize Black Sebo Kontrol Toniğini püskürterek uygulayın. Tamamen emilmesi için hafif dokunuşlarla yedirin.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Toners",
+      "brand": "Theraderm",
+      "size": "140 ml",
+      "ingredients": [
+        "Black Sebo Control Toner İçerikler"
+      ],
+      "usage_instructions": "Cildinizi Black sebo akne temizleyici ile temizleyin ve tüm cildinize Black Sebo Kontrol Toniğini püskürterek uygulayın. Tamamen emilmesi için hafif dokunuşlarla yedirin.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Acne treatment"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Black Sebo Control Toner 140 ml - NK Beauty",
+      "meta_description": "Black Sebo Control Toner 140 ml Yağlı ve Akneye Yatkın Ciltler Black Sebo Kontrol Toniği cildi nemlendirme etkisine sahiptir ve fazla sebumu kontrol altına alır",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-117",
+      "product_id": "product-117",
+      "name": "Gentle Peeling Cream 250 ml",
+      "description": "Gentle Peeling Cream 250 ml Profesyonel kullanım için uygundur. Kuru ve hassas ciltler dahil tüm ciltler için kullanılabilir. İçeriğindeki mikronize küresel kaolin sayesinde yumuşak temizlik sağlar. Hızlı bir şekilde cildi ölü deriden arındırmaya yardımcı olur. Hafif soyma ve canlandırma sağlar. Cilde taze bir görünüm kazandırır. Gentle Peeling Krem İçerikler Kaolin Steraik Asit",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "Kaolin Steraik Asit"
+      ],
+      "usage_instructions": "Kuru ve hassas ciltler dahil tüm ciltler için kullanılabilir. İçeriğindeki mikronize küresel kaolin sayesinde yumuşak temizlik sağlar. Hızlı bir şekilde cildi ölü deriden arındırmaya yardımcı olur. Hafif soyma ve canlandırma sağlar. Cilde taze bir görünüm kazandırır.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Exfoliating"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Gentle Peeling Cream 250 ml - NK Beauty",
+      "meta_description": "Gentle Peeling Cream 250 ml Profesyonel kullanım için uygundur. Kuru ve hassas ciltler dahil tüm ciltler için kullanılabilir. İçeriğindeki mikronize küresel kao",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-118",
+      "product_id": "product-118",
+      "name": "Azul Ampoule Serum 30 ml",
+      "description": "Azul Ampoule Serum 30 ml Cildi korumak, nemlendirmek ve güzel bir görünüm kazanmasına yardımcı olmak amacıyla kullanılır. Azul Ampoule Serum Kullanımı 1 damlalık dolusu serum temizlenmiş cilde cilt bakım cihazı yardımıyla ile yedirilir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "30 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "1 damlalık dolusu serum temizlenmiş cilde cilt bakım cihazı yardımıyla ile yedirilir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Azul Ampoule Serum 30 ml - NK Beauty",
+      "meta_description": "Azul Ampoule Serum 30 ml Cildi korumak, nemlendirmek ve güzel bir görünüm kazanmasına yardımcı olmak amacıyla kullanılır. Azul Ampoule Serum Kullanımı 1 damlalı",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-119",
+      "product_id": "product-119",
+      "name": "Retinol Care Serum 30 ml",
+      "description": "Retinol Care Serum 30 ml Anti aging ve onarma amaçlı olarak ihtiyacı olan ciltlerin bakımında kullanılır. Peeling işlemi görmüş ciltlerde cildin yenilenmesine yardımcı olur. Retinol Care Serum Kullanımı 1 damlalık dolusu serum, temizlenmiş cilde cilt bakım cihazı yardımı ile yedirilir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "30 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "1 damlalık dolusu serum, temizlenmiş cilde cilt bakım cihazı yardımı ile yedirilir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Retinol Care Serum 30 ml - NK Beauty",
+      "meta_description": "Retinol Care Serum 30 ml Anti aging ve onarma amaçlı olarak ihtiyacı olan ciltlerin bakımında kullanılır. Peeling işlemi görmüş ciltlerde cildin yenilenmesine y",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-120",
+      "product_id": "product-120",
+      "name": "Zinc Gluconate Serum 70 ml",
+      "description": "Zinc Gluconate Serum 70 ml Yağlı cilt dengelemeye yardımcı serumdur. Akneye meyilli ciltleri dengelemek ve bakımını yapmak için kullanılır. İçeriğindeki maddeler ile cildi kurutmadan yardımcı olur. Zinc Gluconate Serum İçerikler Çinko Glukonat Camphor",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "70 ml",
+      "ingredients": [
+        "Çinko Glukonat Camphor"
+      ],
+      "usage_instructions": "KVKK ve Gizlilik Politikası",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Acne treatment"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Zinc Gluconate Serum 70 ml - NK Beauty",
+      "meta_description": "Zinc Gluconate Serum 70 ml Yağlı cilt dengelemeye yardımcı serumdur. Akneye meyilli ciltleri dengelemek ve bakımını yapmak için kullanılır. İçeriğindeki maddele",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-121",
+      "product_id": "product-121",
+      "name": "Lightening Serum 70 ml",
+      "description": "Lightening Serum 70 ml Lekeyi önlemeye yardımcı olmak ve cildi aydınlatmak için kullanılır. İçeriğindeki nemlendirici ajanlar cildi nemlendirir. Bitkisel kaynaklı ekstratlarla cildi nemlendirmeye ve beslemeye yardımcı olur. Kojik asit ile leke oluşumunu önler. Lightening Serum İçerikler Kojik Asit Morus Alba (Dut) Kök Ekstraktı Scutellaria Baicalensis (Takke Çiçeği) Kök Ekstraktı Glycyrrhiza Glabra (Meyan Kökü) Kök Ekstraktı",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "70 ml",
+      "ingredients": [
+        "Kojik Asit Morus Alba (Dut) Kök Ekstraktı Scutellaria Baicalensis (Takke Çiçeği) Kök Ekstraktı Glycyrrhiza Glabra (Meyan Kökü) Kök Ekstraktı"
+      ],
+      "usage_instructions": "KVKK ve Gizlilik Politikası",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Brightening"
+      ],
+      "benefits": [
+        "Brightens skin",
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Lightening Serum 70 ml - NK Beauty",
+      "meta_description": "Lightening Serum 70 ml Lekeyi önlemeye yardımcı olmak ve cildi aydınlatmak için kullanılır. İçeriğindeki nemlendirici ajanlar cildi nemlendirir. Bitkisel kaynak",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-122",
+      "product_id": "product-122",
+      "name": "Lypoaran Exo Ampoule Serum",
+      "description": "Lypoaran Exo Ampoule Serum, 50 ml Bitkisel östrojen içeren patentli Kudzu eksozomlar ve %100 saf ampül form alfa lipoik asit içeren Lypoaran Synergy Ampoule Serum; cildi beyazlatırken aynı zamanda güçlü antioksidan içeriği ile derinlemesine nemlendirir, kırışıklıkları önlemeye yardımcı olur ve cilde canlılık katar. Lypoaran Exo Ampoule Serum İçerikler · Ampul KısmıSüper Antioksidan ·(100% Saf Alfa Lipoik Asit) Serum KısmıFitoöstrojen Kudzu Eksozom Etkileri:Cilt Dolgunluğu - Sodyum Hyalüronat - Hidrolize Elastin - Hyalüronik Asit - Çözünebilir Kolajen Cilt Yenilenmesi & Penetrasyon - Alfa-lipoik Asit - Suda & Yağda Çözülebilir Ton Eşitleme Etkisi - Traneksamik Asit - Niasinamid Uzun Süreli Etki - Cilt Pigmentasyonunu Düzenleme - Cilt Elastikiyetini Artırma - Cilt Pürüzsüzlüğünü Sağlama Lypoaran Exo Ampoule Serum KullanımıÜrün kullanıma hazır gelmektedir. 2'li hortum sistemiyle hem Alfa lipoik asit hem de serum kokteyli aynı anda transfer olmaktadır. Ampul serumu tüm yüzünüze eşit miktarda uygulayın.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "· Ampul KısmıSüper Antioksidan"
+      ],
+      "usage_instructions": "",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Reduces wrinkles",
+        "Provides hydration",
+        "Stimulates collagen"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Lypoaran Exo Ampoule Serum - NK Beauty",
+      "meta_description": "Lypoaran Exo Ampoule Serum, 50 ml Bitkisel östrojen içeren patentli Kudzu eksozomlar ve %100 saf ampül form alfa lipoik asit içeren Lypoaran Synergy Ampoule Ser",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-123",
+      "product_id": "product-123",
+      "name": "Pure C TX Serum 30 ml",
+      "description": "Pure C TX Serum 30 ml Üstün antioksidan içeriği olan bu serum, %13 L -Askorbik Asit içeriği ile uzun süreli etkiye sahiptir. Sarımsı rengini yoğun antioksidan içeriklerden alır. Cilt kuruluğunu giderme, elastikiyeti artırma, lekeleri görünümünü geriletme ve kırışıklıkların görünümünü azaltmaya yardımcı olur. Pure C TX Serum İçerikler L-Askorbik Asit %13 Traneksamik Asit Glutatyon DeksaPantenol Alfa Bisabolol Tokoferol Beta Glukan Pure C TX Serum Kullanımı Tüm yüze yeteri miktarda uygulayın ve tamamen emilmesi için hafif dokunuşlarla yedirin.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "30 ml",
+      "ingredients": [
+        "Pure C TX Serum İçerikler"
+      ],
+      "usage_instructions": "Tüm yüze yeteri miktarda uygulayın ve tamamen emilmesi için hafif dokunuşlarla yedirin.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [
+        "Reduces wrinkles"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Pure C TX Serum 30 ml - NK Beauty",
+      "meta_description": "Pure C TX Serum 30 ml Üstün antioksidan içeriği olan bu serum, %13 L -Askorbik Asit içeriği ile uzun süreli etkiye sahiptir. Sarımsı rengini yoğun antioksidan i",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-124",
+      "product_id": "product-124",
+      "name": "Ha Serum Azulene Care Kit",
+      "description": "Ha Serum Azulene Care Kit İçeriğindeki hyaluronik asit ve kolajen sayesinde mükemmel bir nem takviyesi olup cildin doğal yumuşaklığına kavuşmasını sağlar. HA Serum Azulene Care Kullanımı Yeterli miktarda azulen solüsyonu, HA serum içerisine boşaltın. İyice karışana kadar çalkalayın. Kullanım miktarı uzman tarafından önerilmelidir. Normal kullanımı: 3 - 4 ml Azulene solüsyonunu HA serum içerisine boşaltın. Profesyonel bakım sonrası kullanımı: 5 ml Azulene solüsyonu ilk şişeye, 3 ml Azuleni diğer şişede karıştırın. Uzman tarafından önerildiği şekilde kullanılmalıdır.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Serums",
+      "brand": "Theraderm",
+      "size": "4 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Yeterli miktarda azulen solüsyonu, HA serum içerisine boşaltın. İyice karışana kadar çalkalayın. Kullanım miktarı uzman tarafından önerilmelidir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration",
+        "Stimulates collagen"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Ha Serum Azulene Care Kit - NK Beauty",
+      "meta_description": "Ha Serum Azulene Care Kit İçeriğindeki hyaluronik asit ve kolajen sayesinde mükemmel bir nem takviyesi olup cildin doğal yumuşaklığına kavuşmasını sağlar. HA Se",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-125",
+      "product_id": "product-125",
+      "name": "DNA Rejuvenation Cream 250 ml",
+      "description": "DNA Rejuvenation Cream 250 ml Profesyonel kullanım için uygundur. Tüm cilt tiplerini derinlemesine nemlendirmeye yardımcı olarak cildin onarılmasını sağlar. Peeling sonrası oluşabilecek kuruluğu önler. Cilt tonunu aydınlatmaya yardımcı olur. Derin nemlendirme ve onarma sağlayan cilt geliştirici güçlü bakım kremidir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Tüm cilt tiplerini derinlemesine nemlendirmeye yardımcı olarak cildin onarılmasını sağlar. Peeling sonrası oluşabilecek kuruluğu önler. Cilt tonunu aydınlatmaya yardımcı olur. Derin nemlendirme ve onarma sağlayan cilt geliştirici güçlü bakım kremidir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Brightening"
+      ],
+      "benefits": [
+        "Brightens skin",
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "DNA Rejuvenation Cream 250 ml - NK Beauty",
+      "meta_description": "DNA Rejuvenation Cream 250 ml Profesyonel kullanım için uygundur. Tüm cilt tiplerini derinlemesine nemlendirmeye yardımcı olarak cildin onarılmasını sağlar. Pee",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-126",
+      "product_id": "product-126",
+      "name": "Black Peel Acne Spot 10 ml",
+      "description": "Black Peel Acne Spot 10 ml Black Peel Akne Spot Solüsyon, gece boyunca cilde bakım yapar ve akne oluşumunun önüne geçmeye çalışır. Yenilikçi formül sayesinde akneye meyilli ciltlerde kullanıma uygundur. Siyah pirincin fermantasyonuyla oluşan siyah asetik asit, potasyum iodide ve salisilik asite iyi bir alternatif olan yasemin asiti de formülde yer almaktadır.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "10 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Pink Magic Lifting Cream 250 ml Yes Peel & Fill Peel Kit AE Strogn Lifting Peel 120 ml De Mela Oksijen Peeling Kit Vital C Set Meso Alginate Mask 750 gr",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Acne treatment",
+        "Exfoliating"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Black Peel Acne Spot 10 ml - NK Beauty",
+      "meta_description": "Black Peel Acne Spot 10 ml Black Peel Akne Spot Solüsyon, gece boyunca cilde bakım yapar ve akne oluşumunun önüne geçmeye çalışır. Yenilikçi formül sayesinde ak",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-127",
+      "product_id": "product-127",
+      "name": "Ultra-Lite Moistrure Dew Cream 250 ml",
+      "description": "Ultra-Lite Moistrure Dew Cream 250 ml Profesyonel kullanım için uygundur. Yağlı ve karma ciltler için ultra hafif nemlendiricidir. Ultra-Lite Moisture Dew cildin sebum dengesini korur ve nemlendirme sağlar. Tüm ciltlerde kullanılabilir. Aleo vera içeriğine dayanan bu formül hassas ciltlerde de kullanılabilir. Ultra-Lite Moistrure Dew Krem İçerik Aloe Barbadensis Yaprağı Ekstraktı",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "Aloe Barbadensis Yaprağı Ekstraktı"
+      ],
+      "usage_instructions": "Yağlı ve karma ciltler için ultra hafif nemlendiricidir. Ultra-Lite Moisture Dew cildin sebum dengesini korur ve nemlendirme sağlar. Tüm ciltlerde kullanılabilir. Aleo vera içeriğine dayanan bu formül hassas ciltlerde de kullanılabilir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Ultra-Lite Moistrure Dew Cream 250 ml - NK Beauty",
+      "meta_description": "Ultra-Lite Moistrure Dew Cream 250 ml Profesyonel kullanım için uygundur. Yağlı ve karma ciltler için ultra hafif nemlendiricidir. Ultra-Lite Moisture Dew cildi",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-128",
+      "product_id": "product-128",
+      "name": "Lypoaran Exo Cream 50 ml",
+      "description": "Lypoaran Exo Cream, 50 ml Cildin gençlik hafızasını tazelemeye yardımcı olmak amacıyla patentli Kudzu eksozomları içeren Lypoaran Exo Cream, bitkisel östrojen desteği sunar. % 100 saf alfa lipoik asit ile formüle edilmiş bu krem, cildinizi beyazlatarak aynı zamanda güçlü içeriği ile derinlemesine nemlendirir ve kırışıklıkları önlemeye yardımcı olan üstün antioksidan özellikler taşır. Cilde ışıltılı ve canlı bir görünüm kazandıran Lypoaran, seramidlerle zenginleştirilmiş antioksidan kompleksinin cilde nüfuz etmesine yardımcı olmanın yanı sıra cilt bariyerini korumada da etkilidir. Lypoaran Exo İçerikler Cilt Gençleştirme- Fitoöstrojen, Kudzu Eksozom -Süper Antioksidan, (100% Saf Alfa-Lipoik Asit) Doku Sağlığı- Adenozin Cilt Yenileme & Penetrasyon- Alfa-lipoik asit- Su & Yağda Çözünebilir Ton Eşitleme - Traneksamik Asit- Niasinamid Nemlendirme- Seramid Lypoaran Exo Kullanımı Tüm yüze yeterli miktarda uygulayın ve tamamen emilmesi için hafif dokunuşlarla yukarı yönlü masaj uygulayarak cilde yedirin.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "Cilt Gençleştirme- Fitoöstrojen",
+        "Kudzu Eksozom"
+      ],
+      "usage_instructions": "Tüm yüze yeterli miktarda uygulayın ve tamamen emilmesi için hafif dokunuşlarla yukarı yönlü masaj uygulayarak cilde yedirin.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Reduces wrinkles",
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Lypoaran Exo Cream 50 ml - NK Beauty",
+      "meta_description": "Lypoaran Exo Cream, 50 ml Cildin gençlik hafızasını tazelemeye yardımcı olmak amacıyla patentli Kudzu eksozomları içeren Lypoaran Exo Cream, bitkisel östrojen d",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-129",
+      "product_id": "product-129",
+      "name": "Ultra-Lite Moisture Dew Cream 50 ml",
+      "description": "Ultra-Lite Moisture Dew Cream 50 ml Cildin sebum dengesini korurken aynı anda nemlendirme sağlayan akneye eğilimli ciltler dahil tüm ciltlerde kullanılabilen nemlendiricidir. Aleo vera içeriğine dayanan bu formül siyah nokta oluşturmaz ve hassas ciltlerde kullanılabilir. Ultra-Lite Moisture Dew İçerikler Aloe Barbadensis Yaprağı Ekstraktı Ultra-Lite Moisture Dew Kullanımı: Sabah akşam temiz cilde dairesel hareketlerle masaj yaparak yedirilir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "Aloe Barbadensis Yaprağı Ekstraktı Ultra-Lite Moisture Dew Kullanımı: Sabah akşam temiz cilde dairesel hareketlerle masaj yaparak yedirilir."
+      ],
+      "usage_instructions": "Pink Magic Lifting Cream 250 ml Yes Peel & Fill Peel Kit AE Strogn Lifting Peel 120 ml De Mela Oksijen Peeling Kit Vital C Set Meso Alginate Mask 750 gr",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Acne treatment"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Ultra-Lite Moisture Dew Cream 50 ml - NK Beauty",
+      "meta_description": "Ultra-Lite Moisture Dew Cream 50 ml Cildin sebum dengesini korurken aynı anda nemlendirme sağlayan akneye eğilimli ciltler dahil tüm ciltlerde kullanılabilen ne",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-130",
+      "product_id": "product-130",
+      "name": "DNA Rejuvenation Cream 50 ml",
+      "description": "DNA Rejuvenation Cream 50 ml Tüm cilt tiplerini derin nemlendirme saÄlayarak cildin onarÄḟlmasÄḟnÄḟ saÄlar. Peeling sonrasÄḟ oluÅabilecek kuruluk ve cilt tonu aydÄḟnlatmaya yardÄḟmcÄḟ olur. Derin nemlendirme ve onarma saÄlayan cilt geliÅtirici güçlü bakÄḟm kremidir. DNA Rejuvenation Cream KullanÄḟmÄḟ Sabah ve akÅam temizlenmiÅ cilde dairesel hareketlerle masaj yaparak yedirilir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "DNA Rejuvenation Cream 50 ml - NK Beauty",
+      "meta_description": "DNA Rejuvenation Cream 50 ml Tüm cilt tiplerini derin nemlendirme saÄlayarak cildin onarÄḟlmasÄḟnÄḟ saÄlar. Peeling sonrasÄḟ oluÅabilecek kuruluk ve cilt ton",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-131",
+      "product_id": "product-131",
+      "name": "De Mela Lightening Cream 50 ml",
+      "description": "De Mela Lightening Cream 50 ml Traneksamik asit içeren güçlü leke kremidir. Cilt aydınlatıcı ve lekeleri önlemeye yardımcıdır. Nemlendirme sağlayan bu krem düzenli kullanıldığında daha parlak ve aydınlık bir görünüme yardımcı olur. De Mela Lighening Krem Kullanımı Ortalama 1 pompa cildinize uygulayınız.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Ortalama 1 pompa cildinize uygulayınız.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Brightening"
+      ],
+      "benefits": [
+        "Brightens skin",
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "De Mela Lightening Cream 50 ml - NK Beauty",
+      "meta_description": "De Mela Lightening Cream 50 ml Traneksamik asit içeren güçlü leke kremidir. Cilt aydınlatıcı ve lekeleri önlemeye yardımcıdır. Nemlendirme sağlayan bu krem düze",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-132",
+      "product_id": "product-132",
+      "name": "YES Cream",
+      "description": "YES Cream Hassas ciltlerde kalkan görevi görerek dış etkenlerden korur. İçerdiği %20 Lacto Post, probiyotikler sağlar. Probiyotik ve prebiyotik dengesini sağlamaya yardımcı olur.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "KVKK ve Gizlilik Politikası",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "YES Cream - NK Beauty",
+      "meta_description": "YES Cream Hassas ciltlerde kalkan görevi görerek dış etkenlerden korur. İçerdiği %20 Lacto Post, probiyotikler sağlar. Probiyotik ve prebiyotik dengesini sağlam",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-133",
+      "product_id": "product-133",
+      "name": "Pink Magic Cream 50 ml",
+      "description": "Pink Magic Cream 50 ml Güçlü ve lifting etkili kremdir. Bitkisel kaynaklı hafif dokusu olan krem, gelişmiş biyoteknoloji sayesinde cildin nemlendirilmesine destek olurken aynı zamanda cildin daha canlı görünmesine yardımcı olur. Pink Magic Krem içerikler Kudzu Kökü Özü Soya İzoflavonları Niasinamid Süt Proteini Asetil Hekzapeptit - 8 Meyan Kökü Hidrolize Glikozaminoglikanlar Soya Proteini Pink Magic Lifting Krem Kullanımı Her gün düzenli olarak yüz ve boyun bölgesine dilediğiniz miktarda uygulayın. Kremin cilt tarafından emilebilmesi için hafif masaj yaparak yayın.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Creams",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "Kudzu Kökü Özü Soya İzoflavonları Niasinamid Süt Proteini Asetil Hekzapeptit - 8 Meyan Kökü Hidrolize Glikozaminoglikanlar Soya Proteini"
+      ],
+      "usage_instructions": "Her gün düzenli olarak yüz ve boyun bölgesine dilediğiniz miktarda uygulayın. Kremin cilt tarafından emilebilmesi için hafif masaj yaparak yayın.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Pink Magic Cream 50 ml - NK Beauty",
+      "meta_description": "Pink Magic Cream 50 ml Güçlü ve lifting etkili kremdir. Bitkisel kaynaklı hafif dokusu olan krem, gelişmiş biyoteknoloji sayesinde cildin nemlendirilmesine dest",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-134",
+      "product_id": "product-134",
+      "name": "Sebo Hydra Infused Mask 50 ml",
+      "description": "Sebo Hydra Infused Mask 50 ml Profesyonel kullanım için uygundur. Nemlendirici, onarıcı, sebum dengeleyici ve aydınlatıcı maskedir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Nemlendirici, onarıcı, sebum dengeleyici ve aydınlatıcı maskedir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Brightening"
+      ],
+      "benefits": [
+        "Brightens skin",
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Sebo Hydra Infused Mask 50 ml - NK Beauty",
+      "meta_description": "Sebo Hydra Infused Mask 50 ml Profesyonel kullanım için uygundur. Nemlendirici, onarıcı, sebum dengeleyici ve aydınlatıcı maskedir.",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-135",
+      "product_id": "product-135",
+      "name": "Pink Peel DD Smart Lifting Patch",
+      "description": "Pink Peel DD Smart Lifting Patch Gelişmiş biyoteknoloji sayesinde, cildin nemlendirilmesine destek olurken aynı zamanda cildin daha canlı görünmesine yardımcı olur. Şeffaf - nefes alabilen maske, yüzünüze ve boynunuza iyi tutunur. AE Strogn DD Smart Lifting Patch İçerikler Kudzu Kökü Özütü Hyaluronik Asit Anthemis Nobilis Çiçeği Ekstraktı Camellia Sinensis (Çay) Yaprağı Ekstraktı Pink Peel DD Smart Lifting Patch Kullanımı Lifting maskeyi paketinden çıkartıp alttaki koruma bandını çıkartıp tüm yüze dikkatlice uygulayın. Yerleştirdikten sonra üst yüzeydeki bandı dikkatlice çıkartın. 30 dakika ciltte bekletin. Süre bitiminde maskeyi ciltten alın.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "",
+      "ingredients": [
+        "Kudzu Kökü Özütü Hyaluronik Asit Anthemis Nobilis Çiçeği Ekstraktı Camellia Sinensis (Çay) Yaprağı Ekstraktı"
+      ],
+      "usage_instructions": "Lifting maskeyi paketinden çıkartıp alttaki koruma bandını çıkartıp tüm yüze dikkatlice uygulayın. Yerleştirdikten sonra üst yüzeydeki bandı dikkatlice çıkartın. 30 dakika ciltte bekletin. Süre bitiminde maskeyi ciltten alın.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Exfoliating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Pink Peel DD Smart Lifting Patch - NK Beauty",
+      "meta_description": "Pink Peel DD Smart Lifting Patch Gelişmiş biyoteknoloji sayesinde, cildin nemlendirilmesine destek olurken aynı zamanda cildin daha canlı görünmesine yardımcı o",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-136",
+      "product_id": "product-136",
+      "name": "Sulfur Therapeutic Mask 330 gr",
+      "description": "Sulfur Therapeutic Mask 330 gr Profesyonel kullanım için uygundur. Yağlı, karma ve akneli ciltler için maske, aloe vera özlü, sülfür, kil ve aromatik özler ile yağlı cildin bakımını sağlar. Yağlı cilt görünümünü azaltır ve cildin nefes almasına yardımcı olur. Yüzde olduğu kadar göğüs ve sırt bölgesinde de kullanılabilir. Yağlı ve karma ciltlerde yağ dengesinin kurulmasına yardımcı olur.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "330 gr",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Yağlı, karma ve akneli ciltler için maske, aloe vera özlü, sülfür, kil ve aromatik özler ile yağlı cildin bakımını sağlar. Yağlı cilt görünümünü azaltır ve cildin nefes almasına yardımcı olur. Yüzde olduğu kadar göğüs ve sırt bölgesinde de kullanılabilir. Yağlı ve karma ciltlerde yağ dengesinin kurulmasına yardımcı olur.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Acne treatment"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Sulfur Therapeutic Mask 330 gr - NK Beauty",
+      "meta_description": "Sulfur Therapeutic Mask 330 gr Profesyonel kullanım için uygundur. Yağlı, karma ve akneli ciltler için maske, aloe vera özlü, sülfür, kil ve aromatik özler ile ",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-137",
+      "product_id": "product-137",
+      "name": "Acerola Mask 250 ml",
+      "description": "Acerola Mask 250 ml Profesyonel kullanım için uygundur. Aydınlatıcı ve yenileyici maskenin, içeriğindeki C vitamini cildin daha sağlıklı görünmesine ve eşitsiz cilt tonunu dengelemeye yardımcı olur.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Aydınlatıcı ve yenileyici maskenin, içeriğindeki C vitamini cildin daha sağlıklı görünmesine ve eşitsiz cilt tonunu dengelemeye yardımcı olur.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Vitamin enriched",
+        "Brightening"
+      ],
+      "benefits": [
+        "Brightens skin"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Acerola Mask 250 ml - NK Beauty",
+      "meta_description": "Acerola Mask 250 ml Profesyonel kullanım için uygundur. Aydınlatıcı ve yenileyici maskenin, içeriğindeki C vitamini cildin daha sağlıklı görünmesine ve eşitsiz ",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-138",
+      "product_id": "product-138",
+      "name": "Collagen Dry Skin Mask 250 ml",
+      "description": "Collagen Dry Skin Mask 250 ml Profesyonel kullanım ürünüdür. Kolajen içerikli maske, içeriğindeki kolajen ve özel yağlar ile olgun ciltlerin beslenmesini sağlar. Yağlanmaya meyilli ciltlere ikinci bir maske olarak ya da kuru ciltleri bir sonraki maskeye hazırlamak için kullanılabilir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "Pink Magic Lifting Cream 250 ml Yes Peel & Fill Peel Kit AE Strogn Lifting Peel 120 ml De Mela Oksijen Peeling Kit Vital C Set Meso Alginate Mask 750 gr"
+      ],
+      "usage_instructions": "Kolajen içerikli maske, içeriğindeki kolajen ve özel yağlar ile olgun ciltlerin beslenmesini sağlar. Yağlanmaya meyilli ciltlere ikinci bir maske olarak ya da kuru ciltleri bir sonraki maskeye hazırlamak için kullanılabilir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [
+        "Stimulates collagen"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Collagen Dry Skin Mask 250 ml - NK Beauty",
+      "meta_description": "Collagen Dry Skin Mask 250 ml Profesyonel kullanım ürünüdür. Kolajen içerikli maske, içeriğindeki kolajen ve özel yağlar ile olgun ciltlerin beslenmesini sağlar",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-139",
+      "product_id": "product-139",
+      "name": "Seaweed Mask 250 ml",
+      "description": "Seaweed Mask 250 ml Profesyonel kullanım için uygundur. Mineral içerikli besleyici maske, zengin marina mineral içeriği ile cildi besler. Mat görünümlü kuru ciltler için idealdir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "Pink Magic Lifting Cream 250 ml Yes Peel & Fill Peel Kit AE Strogn Lifting Peel 120 ml De Mela Oksijen Peeling Kit Vital C Set Meso Alginate Mask 750 gr"
+      ],
+      "usage_instructions": "Mineral içerikli besleyici maske, zengin marina mineral içeriği ile cildi besler. Mat görünümlü kuru ciltler için idealdir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Seaweed Mask 250 ml - NK Beauty",
+      "meta_description": "Seaweed Mask 250 ml Profesyonel kullanım için uygundur. Mineral içerikli besleyici maske, zengin marina mineral içeriği ile cildi besler. Mat görünümlü kuru cil",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-140",
+      "product_id": "product-140",
+      "name": "Azul Mask 250 ml",
+      "description": "Azul Mask 250 ml Profesyonel kullanım için uygundur. Yumuşatıcı ve nemlendirici maskedir. Azul içeriği ile cildi nemlendirir. Kuru ve karma ciltlerde cildi nemlendirmeyi ve korumayı sağlar.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Yumuşatıcı ve nemlendirici maskedir. Azul içeriği ile cildi nemlendirir. Kuru ve karma ciltlerde cildi nemlendirmeyi ve korumayı sağlar.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Azul Mask 250 ml - NK Beauty",
+      "meta_description": "Azul Mask 250 ml Profesyonel kullanım için uygundur. Yumuşatıcı ve nemlendirici maskedir. Azul içeriği ile cildi nemlendirir. Kuru ve karma ciltlerde cildi neml",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-141",
+      "product_id": "product-141",
+      "name": "BB White SPF 50+ 40 ml",
+      "description": "BB White SPF 50+ 40 ml Güneş ışınlarına karşı maksimum koruma sağlarken içerdiği maddeler sayesinde renk açıcı ve onarıcı etkisi görülür. 50+ SPF değeri ile maksimum koruma sağlar. Korumanın yanı sıra renk açıcı ve onarıcı içeriklerle de cildi güçlendirmeye yardımcı olur. BB White SPF 50+ Kullanımı Yüz ve vücuda uygulayın. Güneş'in en yoğun olduğu zamanlardan sağlığınız için Güneş'ten korunun",
+      "price": "",
+      "currency": "TRY",
+      "category": "Sun Protection",
+      "brand": "Theraderm",
+      "size": "40 ml",
+      "ingredients": [
+        "BB White SPF 50+ Kullanımı"
+      ],
+      "usage_instructions": "Yüz ve vücuda uygulayın. Güneş'in en yoğun olduğu zamanlardan sağlığınız için Güneş'ten korunun",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "BB White SPF 50+ 40 ml - NK Beauty",
+      "meta_description": "BB White SPF 50+ 40 ml Güneş ışınlarına karşı maksimum koruma sağlarken içerdiği maddeler sayesinde renk açıcı ve onarıcı etkisi görülür. 50+ SPF değeri ile mak",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-142",
+      "product_id": "product-142",
+      "name": "Tea Tree Cooling Marine Mask 750 gr",
+      "description": "Tea Tree Cooling Marine Mask 750 gr Profesyonel kullanım için uygundur. Akneye meyilli ve yağlı ciltler için çay ağacı içerikli yosun maskesidir. Cildin güzelliğini korur. Anında gözlemlenebilen etkisi sayesinde cilt temizlenir ve gözenekler sıkılaşır. İçeriğindeki yosun özleriyle cildi besler.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "750 gr",
+      "ingredients": [
+        "Pink Magic Lifting Cream 250 ml Yes Peel & Fill Peel Kit AE Strogn Lifting Peel 120 ml De Mela Oksijen Peeling Kit Vital C Set Meso Alginate Mask 750 gr"
+      ],
+      "usage_instructions": "Akneye meyilli ve yağlı ciltler için çay ağacı içerikli yosun maskesidir. Cildin güzelliğini korur. Anında gözlemlenebilen etkisi sayesinde cilt temizlenir ve gözenekler sıkılaşır. İçeriğindeki yosun özleriyle cildi besler.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Acne treatment"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Tea Tree Cooling Marine Mask 750 gr - NK Beauty",
+      "meta_description": "Tea Tree Cooling Marine Mask 750 gr Profesyonel kullanım için uygundur. Akneye meyilli ve yağlı ciltler için çay ağacı içerikli yosun maskesidir. Cildin güzelli",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-143",
+      "product_id": "product-143",
+      "name": "Omega 3 Marine Mask 750 gr",
+      "description": "Omega 3 Marine Mask 750 gr Profesyonel kullanım için uygundur. Besleyici ve anti aging etkili yosun maskesi, Omega-3 ile sebum dengesini sağlar. Kuruluk sorunu, ince çizgi ve kırışık görünümü olan ciltlerin daha güzel bir görüntüye kavuşmasını sağlar. Zeytinyağı ve deniz yosunu ile zenginleştirilmiş maskedir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "750 gr",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Besleyici ve anti aging etkili yosun maskesi, Omega-3 ile sebum dengesini sağlar. Kuruluk sorunu, ince çizgi ve kırışık görünümü olan ciltlerin daha güzel bir görüntüye kavuşmasını sağlar. Zeytinyağı ve deniz yosunu ile zenginleştirilmiş maskedir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Omega 3 Marine Mask 750 gr - NK Beauty",
+      "meta_description": "Omega 3 Marine Mask 750 gr Profesyonel kullanım için uygundur. Besleyici ve anti aging etkili yosun maskesi, Omega-3 ile sebum dengesini sağlar. Kuruluk sorunu,",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-144",
+      "product_id": "product-144",
+      "name": "Spirulina Cooling Mask 750 gr",
+      "description": "Spirulina Cooling Mask 750 gr Profesyonel kullanım için uygundur. Ferahlatıcı yosun maskesidir. Spirulina yosunu içerir ve nemlendiricidir. Elastik ve daha yumuşak bir cilt için nemlendirici özelliklidir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Masks",
+      "brand": "Theraderm",
+      "size": "750 gr",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Ferahlatıcı yosun maskesidir. Spirulina yosunu içerir ve nemlendiricidir. Elastik ve daha yumuşak bir cilt için nemlendirici özelliklidir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Spirulina Cooling Mask 750 gr - NK Beauty",
+      "meta_description": "Spirulina Cooling Mask 750 gr Profesyonel kullanım için uygundur. Ferahlatıcı yosun maskesidir. Spirulina yosunu içerir ve nemlendiricidir. Elastik ve daha yumu",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-145",
+      "product_id": "product-145",
+      "name": "Green Tea Neutralizer 250 ml",
+      "description": "Green Tea Neutralizer 250 ml Profesyonel kullanım için uygundur. Uygulanan peeling solüsyonlarını temizlemek için kullanılır. Asidik peelingleri nötralize etmekte kullanılır.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Skincare",
+      "brand": "Theraderm",
+      "size": "250 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Uygulanan peeling solüsyonlarını temizlemek için kullanılır. Asidik peelingleri nötralize etmekte kullanılır.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Green Tea Neutralizer 250 ml - NK Beauty",
+      "meta_description": "Green Tea Neutralizer 250 ml Profesyonel kullanım için uygundur. Uygulanan peeling solüsyonlarını temizlemek için kullanılır. Asidik peelingleri nötralize etmek",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-146",
+      "product_id": "product-146",
+      "name": "AHA Kojic Peel 120 ml",
+      "description": "AHA Kojic Peel 120 ml Profesyonel kullanım için uygundur. Cilt tonunu eşitlemeye ve cildi aydınlatmaya yardımcı olur. AHA peeling, cilt tonu eşitsizliklerini düzenlemek için kullanılır. Kojic peel diğer uygulamalar ile birlikte yapılabilir. Aydınlatma ve yumuşatma özellikleri vardır.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "120 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Cilt tonunu eşitlemeye ve cildi aydınlatmaya yardımcı olur. AHA peeling, cilt tonu eşitsizliklerini düzenlemek için kullanılır. Kojic peel diğer uygulamalar ile birlikte yapılabilir. Aydınlatma ve yumuşatma özellikleri vardır.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Brightening",
+        "Exfoliating"
+      ],
+      "benefits": [
+        "Brightens skin"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "AHA Kojic Peel 120 ml - NK Beauty",
+      "meta_description": "AHA Kojic Peel 120 ml Profesyonel kullanım için uygundur. Cilt tonunu eşitlemeye ve cildi aydınlatmaya yardımcı olur. AHA peeling, cilt tonu eşitsizliklerini dü",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-147",
+      "product_id": "product-147",
+      "name": "Black Peel Clear 50 ml",
+      "description": "Black Peel Clear 50 ml Akneye meyilli ciltlerdeki sebum dengesini kontrol altına alır. Cilt yüzeyindeki ölü derinin atılımı ve yağlı cildin dengelenmesine katkıda bulunur. Cildin daha temiz ve aydınlık görünmesini sağlar. Derinden nemlendirir. Siyah pirinçten fermante edilen değerli bir sirkedir. Çok yüksek miktarda mineraller ile yüksek konsantrasyonda esansiyel amino asitler içerir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "KVKK ve Gizlilik Politikası",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Hydrating",
+        "Acne treatment",
+        "Brightening",
+        "Exfoliating"
+      ],
+      "benefits": [
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Black Peel Clear 50 ml - NK Beauty",
+      "meta_description": "Black Peel Clear 50 ml Akneye meyilli ciltlerdeki sebum dengesini kontrol altına alır. Cilt yüzeyindeki ölü derinin atılımı ve yağlı cildin dengelenmesine katkı",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-148",
+      "product_id": "product-148",
+      "name": "Black Peel Resurfacing 50 ml",
+      "description": "Black Peel Resurfacing 50 ml Cilt yenileme, anti aging ve kontrollü peeling Cilt yüzeyinin temizlenmesi ve ölü derinin giderilmesi için kullanılır. Güçlü cilt aydınlatma, cilt temizleyici ve aydınlatıcı etkiler sunar.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "50 ml",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "KVKK ve Gizlilik Politikası",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Brightening",
+        "Exfoliating"
+      ],
+      "benefits": [
+        "Brightens skin"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Black Peel Resurfacing 50 ml - NK Beauty",
+      "meta_description": "Black Peel Resurfacing 50 ml Cilt yenileme, anti aging ve kontrollü peeling Cilt yüzeyinin temizlenmesi ve ölü derinin giderilmesi için kullanılır. Güçlü cilt a",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-149",
+      "product_id": "product-149",
+      "name": "Pumpkin Peel Set",
+      "description": "Pumpkin Peel Set Profesyonel kullanım için uygundur. Balkabağı Peeling'i Olgun, lekeli, akneye meyilli, kuru ve hassas ciltler için bakım setidir. Pumkin Peel Pumpkin peel kuruluk, ince çizgi, kırışıklık vb. belirtileri önleyen ve cildin yenilenmesini sağlayan doğal bal kabağı içerir. Geniş Spektrumlu Vitamin A türevleri Mayalanmış Enzimler Salisilik Asit Fitosteroller Steroid Saponin Beta Sitosterol Omega Yağ Asiti (Vitamin F) Flavonoidler (Vitamin P) Mineraller Pumpkin Activator Pumpkin aktivatör Cellular C Matrix sheeti aktive eder. İçeriğindeki maddeler, C vitamini ve yosun özleri ile kullanılır. Antioksidan, besleyici ve cilt güçlendirici içeriklerle cildin beslenmesini sağlar. Hyaluronic Tabs C Yosun polisakkaritler, amino asitler, vitaminler ve mineraller açısından zengindir. Cildin beslenmesi ve nemliliğinin artmasını sağlar. Vitamin C ve kurutulmuş yosun içeren ürün aynı zamanda cildi canlandıran ve besleyen çok değerli içeriklere de sahiptir. Green Tea Neutralizer Uygulanan peeling solüsyonlarını temizlemek için kullanılır. Asidik peeling'leri nötralize etmekte kullanılır. Pumpkin Peel Set İçerik Pumpkin Peel Pumpkin Activator Hyaluronıc Tabs C Green Tea Neutralizer",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "",
+      "ingredients": [
+        "Hyaluronic Tabs C"
+      ],
+      "usage_instructions": "Balkabağı Peeling'i",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Vitamin enriched",
+        "Hydrating",
+        "Acne treatment",
+        "Exfoliating"
+      ],
+      "benefits": [
+        "Reduces wrinkles",
+        "Provides hydration"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Pumpkin Peel Set - NK Beauty",
+      "meta_description": "Pumpkin Peel Set Profesyonel kullanım için uygundur. Balkabağı Peeling'i Olgun, lekeli, akneye meyilli, kuru ve hassas ciltler için bakım setidir. Pumkin Peel P",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-150",
+      "product_id": "product-150",
+      "name": "Pink Peel Small Kit",
+      "description": "Pink Peel Small Kit Profesyonel kullanım içindir. 12 Uygulamalık Kittir. Pink Peel Small Kit İçerik Lifting Peel (30 ml) Concentrated Lifting (45 ml) Lifting Cream Mask ( 30 ml) DD Smart Lifting Patch (12 Adet)",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "30 ml",
+      "ingredients": [
+        "Lifting Peel (30 ml) Concentrated Lifting (45 ml) Lifting Cream Mask ( 30 ml) DD Smart Lifting Patch (12 Adet)"
+      ],
+      "usage_instructions": "12 Uygulamalık Kittir.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Exfoliating"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Pink Peel Small Kit - NK Beauty",
+      "meta_description": "Pink Peel Small Kit Profesyonel kullanım içindir. 12 Uygulamalık Kittir. Pink Peel Small Kit İçerik Lifting Peel (30 ml) Concentrated Lifting (45 ml) Lifting Cr",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-151",
+      "product_id": "product-151",
+      "name": "De Mela Oksijen Peeling Kit",
+      "description": "De Mela Oksijen Peeling Kit Profesyonel kullanım içindir. Theraderm De Mela, yenilikçi formülasyonuyla leke önleme ve anti aging bakımlar için etkin rol almaktadır. 12 uygulamalık yeni serisi ile traneksamik asit, 3 çeşit AHA & BHA & PHA, glutatyon, askorbik asit, arbutin, oksijen, 4 çeşit hyalüronik asit, kolajen, A ve C vitamininden daha güçlü bir antioksidan olan deniz iğdesi gibi leke önlemeye yardımcı bakımların en güçlü elementlerine sahiptir. Leke önleme, cilt beyazlatma, ışıltı verme ve yaşlanma karşıtı gibi cilt ihtiyaçlarına aynı anda yanıt vermeye yardımcı olup bakımla eş zamanlı olarak cilt bariyerini de korumaktadır. Bu özellikler Theraderm De Mela'ya 4 mevsim uygulanabilme imkânı verir. Theraderm De Mela, güçlendirilmiş formülasyonuyla uzun yıllardır kullanılan Theraderm Vital C serisinin geliştirilmiş halidir.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "Theraderm De Mela, yenilikçi formülasyonuyla leke önleme ve anti aging bakımlar için etkin rol almaktadır.",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Vitamin enriched",
+        "Anti-aging",
+        "Exfoliating"
+      ],
+      "benefits": [
+        "Stimulates collagen"
+      ],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "De Mela Oksijen Peeling Kit - NK Beauty",
+      "meta_description": "De Mela Oksijen Peeling Kit Profesyonel kullanım içindir. Theraderm De Mela, yenilikçi formülasyonuyla leke önleme ve anti aging bakımlar için etkin rol almakta",
+      "scraped_at": "2024-01-15"
+    },
+    {
+      "url": "product-152",
+      "product_id": "product-152",
+      "name": "Yes Peel & Fill Peel Kit",
+      "description": "Yes Peel & Fill Peel Kit (25 Uygulama) Organik Peeling ailesinin yeni üyesi, hassas ciltlerde de uygulanabilmektedir. Shea yağının fermantasyonu sonucu ortaya çıkan bileşiklerden oluşan bakım setimizdir. %20 Shea Butter Sirkesi, %20 Shea Butter, Probiyotik içerir. Hassas ciltlerde cildin bozulmuş dengesini sağlamaya ve cildin savunma mekanizmasını güçlendirmeye yardımcı olur.",
+      "price": "",
+      "currency": "TRY",
+      "category": "Peeling",
+      "brand": "Theraderm",
+      "size": "",
+      "ingredients": [
+        "MeLine"
+      ],
+      "usage_instructions": "KVKK ve Gizlilik Politikası",
+      "features": [
+        "Professional grade",
+        "Dermatologically tested",
+        "Clinical efficacy",
+        "Exfoliating"
+      ],
+      "benefits": [],
+      "images": [],
+      "image_paths": [],
+      "meta_title": "Yes Peel & Fill Peel Kit - NK Beauty",
+      "meta_description": "Yes Peel & Fill Peel Kit (25 Uygulama) Organik Peeling ailesinin yeni üyesi, hassas ciltlerde de uygulanabilmektedir. Shea yağının fermantasyonu sonucu ortaya ç",
       "scraped_at": "2024-01-15"
     }
   ]
