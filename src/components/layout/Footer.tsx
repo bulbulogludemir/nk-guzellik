@@ -16,7 +16,6 @@ import {
   ArrowUp
 } from 'lucide-react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 
 const navigation = {
   main: [
@@ -54,38 +53,6 @@ export default function Footer() {
 
   return (
     <footer className="relative">
-      {/* Newsletter Section */}
-      <section className="py-16 px-6 beauty-gradient">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <Heart className="w-12 h-12 mx-auto mb-6 text-white/80" />
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Güzellik Dünyamıza Katılın
-            </h3>
-            <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-              Yeni hizmetlerimiz, özel kampanyalarımız ve güzellik ipuçlarımızdan haberdar olun
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-              <Button 
-                size="lg" 
-                className="bg-white text-primary hover:bg-white/90 beauty-transition flex-1"
-                asChild
-              >
-                <Link href="https://wa.me/905358726752" target="_blank">
-                  <MessageCircle className="mr-2 h-5 w-5" />
-                  WhatsApp&apos;tan Takip Et
-                </Link>
-              </Button>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Main Footer */}
       <div className="bg-card border-t">
         <div className="max-w-6xl mx-auto px-6 py-16">
