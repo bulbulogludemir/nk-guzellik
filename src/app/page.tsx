@@ -34,16 +34,22 @@ const services = [
     color: 'beauty-rose'
   },
   {
+    icon: Heart,
+    title: 'Cilt Bakım',
+    description: 'Hydrafacial, Meline, Greenpeel, pHformula, Genosys ve Theraderm ile cilt yenileme sanatı',
+    color: 'beauty-lavender'
+  },
+  {
     icon: Sparkles,
     title: 'Lazer Epilasyon',
     description: 'Soprano ICE Platinum ile ağrısız ve etkili kalıcı tüy azaltma',
     color: 'beauty-gold'
   },
   {
-    icon: Heart,
-    title: 'Cilt Bakım',
-    description: 'Hydrafacial, Meline, Greenpeel, pHformula, Genosys ve Theraderm ile cilt yenileme sanatı',
-    color: 'beauty-lavender'
+    icon: Crown,
+    title: 'My Lamination',
+    description: 'Kirpiklerinizi besleyerek uzatan ve kıvrımlı bir görünüm kazandıran özel işlem',
+    color: 'beauty-pink'
   }
 ];
 
@@ -195,7 +201,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-6xl mx-auto">
             {services.map((service, index) => (
               <motion.div
                 key={service.title}
@@ -210,6 +216,7 @@ export default function Home() {
                       service.color === 'beauty-rose' ? 'bg-amber-700' :
                       service.color === 'beauty-gold' ? 'bg-orange-700' :
                       service.color === 'beauty-lavender' ? 'bg-stone-600' :
+                      service.color === 'beauty-pink' ? 'bg-pink-600' :
                       service.color === 'beauty-sage' ? 'bg-yellow-700' : 'bg-gray-600'
                     }`}>
                       <service.icon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />

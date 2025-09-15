@@ -4,17 +4,17 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { 
-  Crown, 
-  Menu, 
-  X, 
-  Phone, 
-  MapPin, 
+import {
+  Crown,
+  Menu,
+  X,
+  Phone,
+  MapPin,
   Instagram,
   MessageCircle,
   Calendar,
   Home,
-  Scissors,
+  Sparkles,
   ShoppingBag,
   Mail
 } from 'lucide-react';
@@ -23,7 +23,7 @@ import { usePathname } from 'next/navigation';
 
 const navigation = [
   { name: 'Ana Sayfa', href: '/', icon: Home },
-  { name: 'Hizmetler', href: '/services', icon: Scissors },
+  { name: 'Hizmetler', href: '/services', icon: Sparkles },
   { name: 'Ürünler', href: '/products', icon: ShoppingBag },
   { name: 'İletişim', href: '/contact', icon: Mail }
 ];
@@ -138,7 +138,7 @@ export default function Header() {
             <div className="hidden lg:flex items-center space-x-3">
               <Button variant="outline" size="sm" asChild>
                 <Link href="/services">
-                  <Scissors className="mr-1 h-3 w-3" />
+                  <Sparkles className="mr-1 h-3 w-3" />
                   Hizmetler
                 </Link>
               </Button>
@@ -218,7 +218,7 @@ export default function Header() {
                   </Button>
                   <Button variant="outline" className="w-full" asChild>
                     <Link href="/services">
-                      <Scissors className="mr-2 h-4 w-4" />
+                      <Sparkles className="mr-2 h-4 w-4" />
                       Hizmetlerimizi İncele
                     </Link>
                   </Button>
