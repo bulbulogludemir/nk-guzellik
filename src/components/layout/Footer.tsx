@@ -1,16 +1,15 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { 
-  Crown, 
-  Phone, 
-  MapPin, 
+import {
+  Crown,
+  Phone,
+  MapPin,
   Mail,
   Instagram,
   MessageCircle,
   Clock,
   Heart,
-  Scissors,
   ShoppingBag,
   Star,
   Calendar,

@@ -4,19 +4,18 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Sparkles, 
-  Heart, 
-  Star, 
-  Calendar, 
-  Phone, 
-  MapPin, 
+import {
+  Sparkles,
+  Heart,
+  Star,
+  Calendar,
+  Phone,
+  MapPin,
   Instagram,
   MessageCircle,
   Clock,
   Award,
   Users,
-  Scissors,
   Palette,
   Crown,
   Trophy,
