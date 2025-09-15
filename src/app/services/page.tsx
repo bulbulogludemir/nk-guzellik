@@ -309,7 +309,7 @@ export default function ServicesPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <Badge className="mb-4">Neden NK Güzellik?</Badge>
+            <Badge className="mb-4">Neden NK Beauty?</Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Güvenilir Hizmet Kalitesi
             </h2>

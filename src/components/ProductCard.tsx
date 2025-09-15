@@ -1,4 +1,4 @@
-// components/ProductCard.tsx - NK Estetik için özelleştirilmiş ürün kartı
+// components/ProductCard.tsx - NK Beauty için özelleştirilmiş ürün kartı
 'use client'
 
 import React, { useState } from 'react'

@@ -218,7 +218,7 @@ export default function Footer() {
           <div className="max-w-6xl mx-auto px-6 py-6">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="flex items-center space-x-6 text-sm text-muted-foreground">
-                <p>&copy; 2024 NK Güzellik Salonu. Tüm hakları saklıdır.</p>
+                <p>&copy; 2024 NK Beauty. Tüm hakları saklıdır.</p>
               </div>
               
               <div className="flex items-center space-x-4">

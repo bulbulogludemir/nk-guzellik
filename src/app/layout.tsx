@@ -15,28 +15,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NK Güzellik Salonu | Premium Beauty Salon Ankara",
+  title: "NK Beauty | Premium Beauty Salon Ankara",
   description: "Ankara'nın en kaliteli güzellik salonu. Profesyonel saç tasarımı, cilt bakımı, makyaj ve gelin paketi hizmetleri. Uzman kadro, kaliteli ürünler ve hijyenik ortam.",
   keywords: "güzellik salonu, kuaför, Ankara, saç tasarımı, cilt bakımı, makyaj, gelin paketi, NK güzellik",
-  authors: [{ name: "NK Güzellik Salonu" }],
-  creator: "NK Güzellik Salonu",
-  publisher: "NK Güzellik Salonu",
+  authors: [{ name: "NK Beauty" }],
+  creator: "NK Beauty",
+  publisher: "NK Beauty",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "NK Güzellik Salonu | Premium Beauty Salon",
+    title: "NK Beauty | Premium Beauty Salon",
     description: "Profesyonel güzellik hizmetleri ile doğal güzelliğinizi ortaya çıkarın.",
     url: "https://nkguzellik.com",
-    siteName: "NK Güzellik Salonu",
+    siteName: "NK Beauty",
     locale: "tr_TR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NK Güzellik Salonu",
+    title: "NK Beauty",
     description: "Profesyonel güzellik hizmetleri ile doğal güzelliğinizi ortaya çıkarın.",
   },
   robots: {

@@ -237,7 +237,7 @@ export default function Home() {
           >
             <Badge className="mb-4">Hakkımızda</Badge>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-              NK Güzellik
+              NK Beauty
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
               Ankara Çankaya&apos;da, uzman kadromuz ve modern teknolojimizle size en kaliteli güzellik hizmetini sunuyoruz. 
