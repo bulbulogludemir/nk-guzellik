@@ -1,0 +1,31 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#brandGradient)"/>
+  <rect x="30" y="30" width="340" height="340" rx="20" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- Brand name -->
+  <text x="200" y="160" text-anchor="middle" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="bold">
+    Genosys
+  </text>
+
+  <!-- Product name -->
+  <text x="200" y="200" text-anchor="middle" fill="#451a03" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500">
+    <tspan x="200" dy="0">Intensive Problem Co</tspan>
+    <tspan x="200" dy="20">ntrol...</tspan>
+  </text>
+
+  <!-- NK Beauty branding -->
+  <text x="200" y="260" text-anchor="middle" fill="#92400e" font-family="system-ui, -apple-system, sans-serif" font-size="12" opacity="0.8">
+    NK Beauty
+  </text>
+
+  <!-- Decorative elements -->
+  <circle cx="100" cy="320" r="15" fill="#f59e0b" fill-opacity="0.3"/>
+  <circle cx="300" cy="80" r="10" fill="#f59e0b" fill-opacity="0.2"/>
+  <circle cx="350" cy="350" r="8" fill="#f59e0b" fill-opacity="0.4"/>
+</svg>

@@ -121,7 +121,13 @@ export default function ProductDetailPage({ params }: ProductDetailPageProps) {
                   className="object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement
-                    target.src = '/images/products/placeholder.svg'
+                    // Try SVG version first, then fallback to general placeholder
+                    const svgPath = `/images/products/${product.product_id}-main.svg`
+                    if (target.src !== svgPath) {
+                      target.src = svgPath
+                    } else {
+                      target.src = '/images/products/placeholder.svg'
+                    }
                   }}
                 />
                 
@@ -316,7 +322,13 @@ export default function ProductDetailPage({ params }: ProductDetailPageProps) {
                           className="object-cover group-hover:scale-105 transition-transform duration-300"
                           onError={(e) => {
                             const target = e.target as HTMLImageElement
-                            target.src = '/images/products/placeholder.svg'
+                            // Try SVG version first, then fallback to general placeholder
+                            const svgPath = `/images/products/${relatedProduct.product_id}-main.svg`
+                            if (target.src !== svgPath) {
+                              target.src = svgPath
+                            } else {
+                              target.src = '/images/products/placeholder.svg'
+                            }
                           }}
                         />
                       </Link>

@@ -21,11 +21,27 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
   // Ana görsel için .jpg kullan
   const mainImageUrl = `/images/products/${product.product_id}-main.jpg`
+  const svgImageUrl = `/images/products/${product.product_id}-main.svg`
   const fallbackImageUrl = `/images/products/${product.product_id}-1.png`
   const excerpt = getExcerpt(product.description, 120)
 
+  const [imageAttempt, setImageAttempt] = useState(0)
+
   const handleImageError = () => {
-    setImageError(true)
+    if (imageAttempt === 0) {
+      setImageAttempt(1) // Try SVG
+    } else if (imageAttempt === 1) {
+      setImageAttempt(2) // Try fallback PNG
+    } else {
+      setImageError(true) // Final fallback
+    }
+  }
+
+  const getCurrentImageUrl = () => {
+    if (imageError) return '/images/products/placeholder.svg'
+    if (imageAttempt === 0) return mainImageUrl
+    if (imageAttempt === 1) return svgImageUrl
+    return fallbackImageUrl
   }
 
   // WhatsApp mesajı oluştur
@@ -49,7 +65,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             <Link href={`/products/${product.product_id}`}>
               <div className="relative w-full h-full overflow-hidden rounded-l-lg">
                 <Image
-                  src={imageError ? fallbackImageUrl : mainImageUrl}
+                  src={getCurrentImageUrl()}
                   alt={product.name}
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -129,7 +145,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       <div className="relative aspect-square overflow-hidden">
         <Link href={`/products/${product.product_id}`}>
           <Image
-            src={imageError ? fallbackImageUrl : mainImageUrl}
+            src={getCurrentImageUrl()}
             alt={product.name}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
