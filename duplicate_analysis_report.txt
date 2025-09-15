@@ -1,0 +1,367 @@
+PRODUCT DUPLICATE ANALYSIS REPORT
+==================================================
+
+GENOSYS DUPLICATES (82 products):
+----------------------------------------
+
+EXACT DUPLICATES:
+  • Skin Defender Lip & Eye Make Up Remover vs Skin Defender Lip & Eye Make Up Remover
+    Reason: Exact name match (normalized): 'Skin Defender Lip & Eye Make Up Remover' vs 'Skin Defender Lip & Eye Make Up Remover'
+
+SIMILAR DUPLICATES:
+  • Skin Caring Blemish Balm Cushion / Ivory vs Skin Caring Blemish Balm Cushion / Beige
+    Reason: Similar names: 'Skin Caring Blemish Balm Cushion / Ivory' vs 'Skin Caring Blemish Balm Cushion / Beige' - Similarity: 0.89
+  • HR³ Matrix Scalp Shampoo α 300 ml vs HR3 Matrix Scalp Shampoo α
+    Reason: Similar names: 'HR³ Matrix Scalp Shampoo α 300 ml' vs 'HR3 Matrix Scalp Shampoo α' - Similarity: 0.96
+  • Skin Caring BB Cushion (Ivory) vs Skin Caring BB Cushion (Beige)
+    Reason: Similar names: 'Skin Caring BB Cushion (Ivory)' vs 'Skin Caring BB Cushion (Beige)' - Similarity: 0.86
+
+RECOMMENDATIONS:
+  • Skin Defender Lip & Eye Make Up Remover vs Skin Defender Lip & Eye Make Up Remover
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 41 vs 12)
+  • Skin Caring Blemish Balm Cushion / Ivory vs Skin Caring Blemish Balm Cushion / Beige
+    Action: 👁️ Manual review needed
+    Detail: Similar names - manual review required
+  • HR³ Matrix Scalp Shampoo α 300 ml vs HR3 Matrix Scalp Shampoo α
+    Action: ✅ Keep both (different variants)
+    Detail: Different sizes - legitimate product variants
+  • Skin Caring BB Cushion (Ivory) vs Skin Caring BB Cushion (Beige)
+    Action: 👁️ Manual review needed
+    Detail: Similar names - manual review required
+
+Estimated count after cleanup: 81
+
+THERADERM DUPLICATES (71 products):
+----------------------------------------
+
+EXACT DUPLICATES:
+  • Lotus Cleanser vs Lotus Cleanser
+    Reason: Exact name match (normalized): 'Lotus Cleanser' vs 'Lotus Cleanser'
+  • DNA Rejuvenation Cream vs DNA Rejuvenation Cream
+    Reason: Exact name match (normalized): 'DNA Rejuvenation Cream' vs 'DNA Rejuvenation Cream'
+
+SIMILAR DUPLICATES:
+  • Ultra-Lite Moistrure Dew Cream 250 ml vs Ultra-Lite Moisture Dew Cream 50 ml
+    Reason: Similar names with different sizes - likely variants: 'Ultra-Lite Moistrure Dew Cream 250 ml' (250ml) vs 'Ultra-Lite Moisture Dew Cream 50 ml' (50ml) - Similarity: 0.98
+  • Ultra-Lite Moistrure Dew Cream 250 ml vs Ultra-Lite Moisture Dew Cream
+    Reason: Similar names with different sizes - likely variants: 'Ultra-Lite Moistrure Dew Cream 250 ml' (250ml) vs 'Ultra-Lite Moisture Dew Cream' (50 ml) - Similarity: 0.98
+  • Sulfur Therapeutic Mask 330 gr vs Sulfur Therapeutic Mask
+    Reason: Similar names with different sizes - likely variants: 'Sulfur Therapeutic Mask 330 gr' (330g) vs 'Sulfur Therapeutic Mask' (330 gr) - Similarity: 0.96
+
+RECOMMENDATIONS:
+  • Lotus Cleanser vs Lotus Cleanser
+    Action: 🔄 Merge or remove duplicate
+    Detail: Both products have similar completeness - manual review needed
+  • DNA Rejuvenation Cream vs DNA Rejuvenation Cream
+    Action: 🔄 Merge or remove duplicate
+    Detail: Both products have similar completeness - manual review needed
+  • Ultra-Lite Moistrure Dew Cream 250 ml vs Ultra-Lite Moisture Dew Cream 50 ml
+    Action: ✅ Keep both (different variants)
+    Detail: Different sizes - legitimate product variants
+  • Ultra-Lite Moistrure Dew Cream 250 ml vs Ultra-Lite Moisture Dew Cream
+    Action: ✅ Keep both (different variants)
+    Detail: Different sizes - legitimate product variants
+  • Sulfur Therapeutic Mask 330 gr vs Sulfur Therapeutic Mask
+    Action: 👁️ Manual review needed
+    Detail: Similar names - manual review required
+
+Estimated count after cleanup: 70
+
+MELINE DUPLICATES (33 products):
+----------------------------------------
+
+EXACT DUPLICATES:
+  • Gentle Foam vs Gentle Foam
+    Reason: Exact name match (normalized): 'Gentle Foam' vs 'Gentle Foam'
+  • Caucasian Skin Day vs Caucasian Skin Day
+    Reason: Exact name match (normalized): 'Caucasian Skin Day' vs 'Caucasian Skin Day'
+  • Caucasian Skin vs Caucasian Skin
+    Reason: Exact name match (normalized): 'Caucasian Skin' vs 'Caucasian Skin'
+  • Caucasian Skin Night vs Caucasian Skin Night
+    Reason: Exact name match (normalized): 'Caucasian Skin Night' vs 'Caucasian Skin Night'
+  • Ethnic Skin vs Ethnic Skin
+    Reason: Exact name match (normalized): 'Ethnic Skin' vs 'Ethnic Skin'
+  • Ethnic Skin Day vs Ethnic Skin Day
+    Reason: Exact name match (normalized): 'Ethnic Skin Day' vs 'Ethnic Skin Day'
+  • Ethnic Skin Night vs Ethnic Skin Night
+    Reason: Exact name match (normalized): 'Ethnic Skin Night' vs 'Ethnic Skin Night'
+  • Moist vs Moist
+    Reason: Exact name match (normalized): 'Moist' vs 'Moist'
+  • Moist vs Moist
+    Reason: Exact name match (normalized): 'Moist' vs 'Moist'
+  • Restore vs Restore
+    Reason: Exact name match (normalized): 'Restore' vs 'Restore'
+  • Restore vs Restore
+    Reason: Exact name match (normalized): 'Restore' vs 'Restore'
+  • Spots vs Spots
+    Reason: Exact name match (normalized): 'Spots' vs 'Spots'
+  • Dark Circles vs Dark Circles
+    Reason: Exact name match (normalized): 'Dark Circles' vs 'Dark Circles'
+  • Intimate vs Intimate
+    Reason: Exact name match (normalized): 'Intimate' vs 'Intimate'
+  • Pigment Home Mask vs Pigment Home Mask
+    Reason: Exact name match (normalized): 'Pigment Home Mask' vs 'Pigment Home Mask'
+  • BB Cream Light vs BB Cream Light
+    Reason: Exact name match (normalized): 'BB Cream Light' vs 'BB Cream Light'
+  • BB Cream Medium vs BB Cream Medium
+    Reason: Exact name match (normalized): 'BB Cream Medium' vs 'BB Cream Medium'
+
+RECOMMENDATIONS:
+  • Gentle Foam vs Gentle Foam
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 15)
+  • Caucasian Skin Day vs Caucasian Skin Day
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 15)
+  • Caucasian Skin vs Caucasian Skin
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+  • Caucasian Skin Night vs Caucasian Skin Night
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+  • Ethnic Skin vs Ethnic Skin
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+  • Ethnic Skin Day vs Ethnic Skin Day
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+  • Ethnic Skin Night vs Ethnic Skin Night
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+  • Moist vs Moist
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 14 vs 12)
+  • Moist vs Moist
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 14 vs 12)
+  • Restore vs Restore
+    Action: 🔄 Merge or remove duplicate
+    Detail: Both products have similar completeness - manual review needed
+  • Restore vs Restore
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 14 vs 12)
+  • Spots vs Spots
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 14 vs 12)
+  • Dark Circles vs Dark Circles
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+  • Intimate vs Intimate
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 14 vs 12)
+  • Pigment Home Mask vs Pigment Home Mask
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 14 vs 13)
+  • BB Cream Light vs BB Cream Light
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+  • BB Cream Medium vs BB Cream Medium
+    Action: ❌ Remove second product
+    Detail: Product 1 has more complete data (score: 16 vs 13)
+
+Estimated count after cleanup: 17
+
+SUMMARY:
+--------------------
+• Genosys: 82 → 81
+• Theraderm: 71 → 70
+• MeLine: 33 → 17
+
+Total: 186 → ~168
+Expected reduction: ~18 products
+
+==================================================
+DETAILED RECOMMENDATIONS FOR CLEANUP:
+==================================================
+
+GENOSYS CLEANUP ACTIONS:
+------------------------------
+
+1. DUPLICATE PAIR:
+   Product A: Skin Defender Lip & Eye Make Up Remover (ID: skin-defender-lip-eye-makeup-remover)
+   Product B: Skin Defender Lip & Eye Make Up Remover (ID: skin-defender-makeup-remover)
+   Issue: Exact name match (normalized): 'Skin Defender Lip & Eye Make Up Remover' vs 'Skin Defender Lip & Eye Make Up Remover'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 41 vs 12)
+
+2. DUPLICATE PAIR:
+   Product A: Skin Caring Blemish Balm Cushion / Ivory (ID: product-77)
+   Product B: Skin Caring Blemish Balm Cushion / Beige (ID: product-78)
+   Issue: Similar names: 'Skin Caring Blemish Balm Cushion / Ivory' vs 'Skin Caring Blemish Balm Cushion / Beige' - Similarity: 0.89
+   Recommended Action: REVIEW_NEEDED
+   Details: Similar names - manual review required
+
+3. DUPLICATE PAIR:
+   Product A: HR³ Matrix Scalp Shampoo α 300 ml (ID: product-96)
+   Product B: HR3 Matrix Scalp Shampoo α (ID: hr3-matrix-scalp-shampoo-alpha)
+   Issue: Similar names: 'HR³ Matrix Scalp Shampoo α 300 ml' vs 'HR3 Matrix Scalp Shampoo α' - Similarity: 0.96
+   Recommended Action: KEEP_BOTH
+   Details: Different sizes - legitimate product variants
+
+4. DUPLICATE PAIR:
+   Product A: Skin Caring BB Cushion (Ivory) (ID: skin-caring-bb-cushion-ivory)
+   Product B: Skin Caring BB Cushion (Beige) (ID: skin-caring-bb-cushion-beige)
+   Issue: Similar names: 'Skin Caring BB Cushion (Ivory)' vs 'Skin Caring BB Cushion (Beige)' - Similarity: 0.86
+   Recommended Action: REVIEW_NEEDED
+   Details: Similar names - manual review required
+
+THERADERM CLEANUP ACTIONS:
+------------------------------
+
+1. DUPLICATE PAIR:
+   Product A: Lotus Cleanser (ID: lotus-cleanser-140ml)
+   Product B: Lotus Cleanser (ID: lotus-cleanser-480ml)
+   Issue: Exact name match (normalized): 'Lotus Cleanser' vs 'Lotus Cleanser'
+   Recommended Action: MERGE_OR_REMOVE
+   Details: Both products have similar completeness - manual review needed
+
+2. DUPLICATE PAIR:
+   Product A: DNA Rejuvenation Cream (ID: dna-rejuvenation-cream-50ml)
+   Product B: DNA Rejuvenation Cream (ID: dna-rejuvenation-cream-250ml)
+   Issue: Exact name match (normalized): 'DNA Rejuvenation Cream' vs 'DNA Rejuvenation Cream'
+   Recommended Action: MERGE_OR_REMOVE
+   Details: Both products have similar completeness - manual review needed
+
+3. DUPLICATE PAIR:
+   Product A: Ultra-Lite Moistrure Dew Cream 250 ml (ID: product-127)
+   Product B: Ultra-Lite Moisture Dew Cream 50 ml (ID: product-129)
+   Issue: Similar names with different sizes - likely variants: 'Ultra-Lite Moistrure Dew Cream 250 ml' (250ml) vs 'Ultra-Lite Moisture Dew Cream 50 ml' (50ml) - Similarity: 0.98
+   Recommended Action: KEEP_BOTH
+   Details: Different sizes - legitimate product variants
+
+4. DUPLICATE PAIR:
+   Product A: Ultra-Lite Moistrure Dew Cream 250 ml (ID: product-127)
+   Product B: Ultra-Lite Moisture Dew Cream (ID: ultra-lite-moisture-dew-cream)
+   Issue: Similar names with different sizes - likely variants: 'Ultra-Lite Moistrure Dew Cream 250 ml' (250ml) vs 'Ultra-Lite Moisture Dew Cream' (50 ml) - Similarity: 0.98
+   Recommended Action: KEEP_BOTH
+   Details: Different sizes - legitimate product variants
+
+5. DUPLICATE PAIR:
+   Product A: Sulfur Therapeutic Mask 330 gr (ID: product-136)
+   Product B: Sulfur Therapeutic Mask (ID: sulfur-therapeutic-mask)
+   Issue: Similar names with different sizes - likely variants: 'Sulfur Therapeutic Mask 330 gr' (330g) vs 'Sulfur Therapeutic Mask' (330 gr) - Similarity: 0.96
+   Recommended Action: REVIEW_NEEDED
+   Details: Similar names - manual review required
+
+MELINE CLEANUP ACTIONS:
+------------------------------
+
+1. DUPLICATE PAIR:
+   Product A: Gentle Foam (ID: meline-gentle-foam)
+   Product B: Gentle Foam (ID: gentle-foam)
+   Issue: Exact name match (normalized): 'Gentle Foam' vs 'Gentle Foam'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 15)
+
+2. DUPLICATE PAIR:
+   Product A: Caucasian Skin Day (ID: meline-caucasian-skin-day)
+   Product B: Caucasian Skin Day (ID: caucasian-skin-day)
+   Issue: Exact name match (normalized): 'Caucasian Skin Day' vs 'Caucasian Skin Day'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 15)
+
+3. DUPLICATE PAIR:
+   Product A: Caucasian Skin (ID: meline-caucasian-skin)
+   Product B: Caucasian Skin (ID: caucasian-skin)
+   Issue: Exact name match (normalized): 'Caucasian Skin' vs 'Caucasian Skin'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)
+
+4. DUPLICATE PAIR:
+   Product A: Caucasian Skin Night (ID: meline-caucasian-skin-night)
+   Product B: Caucasian Skin Night (ID: caucasian-skin-night)
+   Issue: Exact name match (normalized): 'Caucasian Skin Night' vs 'Caucasian Skin Night'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)
+
+5. DUPLICATE PAIR:
+   Product A: Ethnic Skin (ID: meline-ethnic-skin)
+   Product B: Ethnic Skin (ID: ethnic-skin)
+   Issue: Exact name match (normalized): 'Ethnic Skin' vs 'Ethnic Skin'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)
+
+6. DUPLICATE PAIR:
+   Product A: Ethnic Skin Day (ID: meline-ethnic-skin-day)
+   Product B: Ethnic Skin Day (ID: ethnic-skin-day)
+   Issue: Exact name match (normalized): 'Ethnic Skin Day' vs 'Ethnic Skin Day'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)
+
+7. DUPLICATE PAIR:
+   Product A: Ethnic Skin Night (ID: meline-ethnic-skin-night)
+   Product B: Ethnic Skin Night (ID: ethnic-skin-night)
+   Issue: Exact name match (normalized): 'Ethnic Skin Night' vs 'Ethnic Skin Night'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)
+
+8. DUPLICATE PAIR:
+   Product A: Moist (ID: meline-moist)
+   Product B: Moist (ID: moist-30ml)
+   Issue: Exact name match (normalized): 'Moist' vs 'Moist'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 14 vs 12)
+
+9. DUPLICATE PAIR:
+   Product A: Moist (ID: meline-moist)
+   Product B: Moist (ID: moist-250ml)
+   Issue: Exact name match (normalized): 'Moist' vs 'Moist'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 14 vs 12)
+
+10. DUPLICATE PAIR:
+   Product A: Restore (ID: meline-restore)
+   Product B: Restore (ID: restore-30gr)
+   Issue: Exact name match (normalized): 'Restore' vs 'Restore'
+   Recommended Action: MERGE_OR_REMOVE
+   Details: Both products have similar completeness - manual review needed
+
+11. DUPLICATE PAIR:
+   Product A: Restore (ID: meline-restore)
+   Product B: Restore (ID: restore-250ml)
+   Issue: Exact name match (normalized): 'Restore' vs 'Restore'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 14 vs 12)
+
+12. DUPLICATE PAIR:
+   Product A: Spots (ID: meline-spots)
+   Product B: Spots (ID: spots)
+   Issue: Exact name match (normalized): 'Spots' vs 'Spots'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 14 vs 12)
+
+13. DUPLICATE PAIR:
+   Product A: Dark Circles (ID: meline-dark-circles)
+   Product B: Dark Circles (ID: dark-circles)
+   Issue: Exact name match (normalized): 'Dark Circles' vs 'Dark Circles'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)
+
+14. DUPLICATE PAIR:
+   Product A: Intimate (ID: meline-intimate)
+   Product B: Intimate (ID: intimate)
+   Issue: Exact name match (normalized): 'Intimate' vs 'Intimate'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 14 vs 12)
+
+15. DUPLICATE PAIR:
+   Product A: Pigment Home Mask (ID: meline-pigment-home-mask)
+   Product B: Pigment Home Mask (ID: pigment-home-mask)
+   Issue: Exact name match (normalized): 'Pigment Home Mask' vs 'Pigment Home Mask'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 14 vs 13)
+
+16. DUPLICATE PAIR:
+   Product A: BB Cream Light (ID: meline-bb-cream-light)
+   Product B: BB Cream Light (ID: bb-cream-light)
+   Issue: Exact name match (normalized): 'BB Cream Light' vs 'BB Cream Light'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)
+
+17. DUPLICATE PAIR:
+   Product A: BB Cream Medium (ID: meline-bb-cream-medium)
+   Product B: BB Cream Medium (ID: bb-cream-medium)
+   Issue: Exact name match (normalized): 'BB Cream Medium' vs 'BB Cream Medium'
+   Recommended Action: REMOVE_PRODUCT2
+   Details: Product 1 has more complete data (score: 16 vs 13)

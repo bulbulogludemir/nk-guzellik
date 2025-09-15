@@ -1,0 +1,492 @@
+{
+  "analysis_timestamp": "2025-09-15",
+  "total_products": 250,
+  "brands": {
+    "Genosys": {
+      "current_count": 82,
+      "duplicates_found": 4,
+      "recommendations": [
+        {
+          "product1": {
+            "id": "skin-defender-lip-eye-makeup-remover",
+            "name": "Skin Defender Lip & Eye Make Up Remover",
+            "size": "",
+            "url": "https://nurederm.com/urunler/genosys/all"
+          },
+          "product2": {
+            "id": "skin-defender-makeup-remover",
+            "name": "Skin Defender Lip & Eye Make Up Remover",
+            "size": "",
+            "url": "https://www.nurederm.com/urun/skin-defender-makeup-remover"
+          },
+          "reason": "Exact name match (normalized): 'Skin Defender Lip & Eye Make Up Remover' vs 'Skin Defender Lip & Eye Make Up Remover'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 41 vs 12)"
+        },
+        {
+          "product1": {
+            "id": "product-77",
+            "name": "Skin Caring Blemish Balm Cushion / Ivory",
+            "size": "15 g",
+            "url": "product-77"
+          },
+          "product2": {
+            "id": "product-78",
+            "name": "Skin Caring Blemish Balm Cushion / Beige",
+            "size": "15 g",
+            "url": "product-78"
+          },
+          "reason": "Similar names: 'Skin Caring Blemish Balm Cushion / Ivory' vs 'Skin Caring Blemish Balm Cushion / Beige' - Similarity: 0.89",
+          "type": "similar",
+          "action": "REVIEW_NEEDED",
+          "reason_detail": "Similar names - manual review required"
+        },
+        {
+          "product1": {
+            "id": "product-96",
+            "name": "HR³ Matrix Scalp Shampoo α 300 ml",
+            "size": "300 ml",
+            "url": "product-96"
+          },
+          "product2": {
+            "id": "hr3-matrix-scalp-shampoo-alpha",
+            "name": "HR3 Matrix Scalp Shampoo α",
+            "size": "300ml",
+            "url": "https://nurederm.com/urunler/genosys/all"
+          },
+          "reason": "Similar names: 'HR³ Matrix Scalp Shampoo α 300 ml' vs 'HR3 Matrix Scalp Shampoo α' - Similarity: 0.96",
+          "type": "similar",
+          "action": "KEEP_BOTH",
+          "reason_detail": "Different sizes - legitimate product variants"
+        },
+        {
+          "product1": {
+            "id": "skin-caring-bb-cushion-ivory",
+            "name": "Skin Caring BB Cushion (Ivory)",
+            "size": "",
+            "url": "https://nurederm.com/urunler/genosys/all"
+          },
+          "product2": {
+            "id": "skin-caring-bb-cushion-beige",
+            "name": "Skin Caring BB Cushion (Beige)",
+            "size": "",
+            "url": "https://nurederm.com/urunler/genosys/all"
+          },
+          "reason": "Similar names: 'Skin Caring BB Cushion (Ivory)' vs 'Skin Caring BB Cushion (Beige)' - Similarity: 0.86",
+          "type": "similar",
+          "action": "REVIEW_NEEDED",
+          "reason_detail": "Similar names - manual review required"
+        }
+      ]
+    },
+    "Theraderm": {
+      "current_count": 71,
+      "duplicates_found": 5,
+      "recommendations": [
+        {
+          "product1": {
+            "id": "lotus-cleanser-140ml",
+            "name": "Lotus Cleanser",
+            "size": "140 ml",
+            "url": "https://www.nurederm.com/urun/lotus-cleanser-140ml"
+          },
+          "product2": {
+            "id": "lotus-cleanser-480ml",
+            "name": "Lotus Cleanser",
+            "size": "480 ml",
+            "url": "https://www.nurederm.com/urun/lotus-cleanser-480ml"
+          },
+          "reason": "Exact name match (normalized): 'Lotus Cleanser' vs 'Lotus Cleanser'",
+          "type": "exact",
+          "action": "MERGE_OR_REMOVE",
+          "reason_detail": "Both products have similar completeness - manual review needed"
+        },
+        {
+          "product1": {
+            "id": "dna-rejuvenation-cream-50ml",
+            "name": "DNA Rejuvenation Cream",
+            "size": "50 ml",
+            "url": "https://www.nurederm.com/urun/dna-rejuvenation-cream-50ml"
+          },
+          "product2": {
+            "id": "dna-rejuvenation-cream-250ml",
+            "name": "DNA Rejuvenation Cream",
+            "size": "250 ml",
+            "url": "https://www.nurederm.com/urun/dna-rejuvenation-cream-250ml"
+          },
+          "reason": "Exact name match (normalized): 'DNA Rejuvenation Cream' vs 'DNA Rejuvenation Cream'",
+          "type": "exact",
+          "action": "MERGE_OR_REMOVE",
+          "reason_detail": "Both products have similar completeness - manual review needed"
+        },
+        {
+          "product1": {
+            "id": "product-127",
+            "name": "Ultra-Lite Moistrure Dew Cream 250 ml",
+            "size": "250 ml",
+            "url": "product-127"
+          },
+          "product2": {
+            "id": "product-129",
+            "name": "Ultra-Lite Moisture Dew Cream 50 ml",
+            "size": "50 ml",
+            "url": "product-129"
+          },
+          "reason": "Similar names with different sizes - likely variants: 'Ultra-Lite Moistrure Dew Cream 250 ml' (250ml) vs 'Ultra-Lite Moisture Dew Cream 50 ml' (50ml) - Similarity: 0.98",
+          "type": "similar",
+          "action": "KEEP_BOTH",
+          "reason_detail": "Different sizes - legitimate product variants"
+        },
+        {
+          "product1": {
+            "id": "product-127",
+            "name": "Ultra-Lite Moistrure Dew Cream 250 ml",
+            "size": "250 ml",
+            "url": "product-127"
+          },
+          "product2": {
+            "id": "ultra-lite-moisture-dew-cream",
+            "name": "Ultra-Lite Moisture Dew Cream",
+            "size": "50 ml",
+            "url": "https://www.nurederm.com/urun/ultra-lite-moisture-dew-cream"
+          },
+          "reason": "Similar names with different sizes - likely variants: 'Ultra-Lite Moistrure Dew Cream 250 ml' (250ml) vs 'Ultra-Lite Moisture Dew Cream' (50 ml) - Similarity: 0.98",
+          "type": "similar",
+          "action": "KEEP_BOTH",
+          "reason_detail": "Different sizes - legitimate product variants"
+        },
+        {
+          "product1": {
+            "id": "product-136",
+            "name": "Sulfur Therapeutic Mask 330 gr",
+            "size": "330 gr",
+            "url": "product-136"
+          },
+          "product2": {
+            "id": "sulfur-therapeutic-mask",
+            "name": "Sulfur Therapeutic Mask",
+            "size": "330 gr",
+            "url": "https://www.nurederm.com/urun/sulfur-therapeutic-mask"
+          },
+          "reason": "Similar names with different sizes - likely variants: 'Sulfur Therapeutic Mask 330 gr' (330g) vs 'Sulfur Therapeutic Mask' (330 gr) - Similarity: 0.96",
+          "type": "similar",
+          "action": "REVIEW_NEEDED",
+          "reason_detail": "Similar names - manual review required"
+        }
+      ]
+    },
+    "MeLine": {
+      "current_count": 33,
+      "duplicates_found": 17,
+      "recommendations": [
+        {
+          "product1": {
+            "id": "meline-gentle-foam",
+            "name": "Gentle Foam",
+            "size": "150 ml",
+            "url": "https://www.nurederm.com/urun/meline-gentle-foam"
+          },
+          "product2": {
+            "id": "gentle-foam",
+            "name": "Gentle Foam",
+            "size": "150 ml",
+            "url": "https://www.nurederm.com/urun/gentle-foam"
+          },
+          "reason": "Exact name match (normalized): 'Gentle Foam' vs 'Gentle Foam'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 15)"
+        },
+        {
+          "product1": {
+            "id": "meline-caucasian-skin-day",
+            "name": "Caucasian Skin Day",
+            "size": "30 ml",
+            "url": "https://www.nurederm.com/urun/meline-caucasian-skin-day"
+          },
+          "product2": {
+            "id": "caucasian-skin-day",
+            "name": "Caucasian Skin Day",
+            "size": "30 ml",
+            "url": "https://www.nurederm.com/urun/caucasian-skin-day"
+          },
+          "reason": "Exact name match (normalized): 'Caucasian Skin Day' vs 'Caucasian Skin Day'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 15)"
+        },
+        {
+          "product1": {
+            "id": "meline-caucasian-skin",
+            "name": "Caucasian Skin",
+            "size": "15 gr",
+            "url": "https://www.nurederm.com/urun/meline-caucasian-skin"
+          },
+          "product2": {
+            "id": "caucasian-skin",
+            "name": "Caucasian Skin",
+            "size": "15 gr",
+            "url": "https://www.nurederm.com/urun/caucasian-skin"
+          },
+          "reason": "Exact name match (normalized): 'Caucasian Skin' vs 'Caucasian Skin'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-caucasian-skin-night",
+            "name": "Caucasian Skin Night",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/meline-caucasian-skin-night"
+          },
+          "product2": {
+            "id": "caucasian-skin-night",
+            "name": "Caucasian Skin Night",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/caucasian-skin-night"
+          },
+          "reason": "Exact name match (normalized): 'Caucasian Skin Night' vs 'Caucasian Skin Night'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-ethnic-skin",
+            "name": "Ethnic Skin",
+            "size": "15 gr",
+            "url": "https://www.nurederm.com/urun/meline-ethnic-skin"
+          },
+          "product2": {
+            "id": "ethnic-skin",
+            "name": "Ethnic Skin",
+            "size": "15 gr",
+            "url": "https://www.nurederm.com/urun/ethnic-skin"
+          },
+          "reason": "Exact name match (normalized): 'Ethnic Skin' vs 'Ethnic Skin'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-ethnic-skin-day",
+            "name": "Ethnic Skin Day",
+            "size": "30 ml",
+            "url": "https://www.nurederm.com/urun/meline-ethnic-skin-day"
+          },
+          "product2": {
+            "id": "ethnic-skin-day",
+            "name": "Ethnic Skin Day",
+            "size": "30 ml",
+            "url": "https://www.nurederm.com/urun/ethnic-skin-day"
+          },
+          "reason": "Exact name match (normalized): 'Ethnic Skin Day' vs 'Ethnic Skin Day'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-ethnic-skin-night",
+            "name": "Ethnic Skin Night",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/meline-ethnic-skin-night"
+          },
+          "product2": {
+            "id": "ethnic-skin-night",
+            "name": "Ethnic Skin Night",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/ethnic-skin-night"
+          },
+          "reason": "Exact name match (normalized): 'Ethnic Skin Night' vs 'Ethnic Skin Night'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-moist",
+            "name": "Moist",
+            "size": "250 ml",
+            "url": "https://www.nurederm.com/urun/meline-moist"
+          },
+          "product2": {
+            "id": "moist-30ml",
+            "name": "Moist",
+            "size": "30 ml",
+            "url": "https://www.nurederm.com/urun/moist-30ml"
+          },
+          "reason": "Exact name match (normalized): 'Moist' vs 'Moist'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 14 vs 12)"
+        },
+        {
+          "product1": {
+            "id": "meline-moist",
+            "name": "Moist",
+            "size": "250 ml",
+            "url": "https://www.nurederm.com/urun/meline-moist"
+          },
+          "product2": {
+            "id": "moist-250ml",
+            "name": "Moist",
+            "size": "250 ml",
+            "url": "https://www.nurederm.com/urun/moist-250ml"
+          },
+          "reason": "Exact name match (normalized): 'Moist' vs 'Moist'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 14 vs 12)"
+        },
+        {
+          "product1": {
+            "id": "meline-restore",
+            "name": "Restore",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/meline-restore"
+          },
+          "product2": {
+            "id": "restore-30gr",
+            "name": "Restore",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/restore-30gr"
+          },
+          "reason": "Exact name match (normalized): 'Restore' vs 'Restore'",
+          "type": "exact",
+          "action": "MERGE_OR_REMOVE",
+          "reason_detail": "Both products have similar completeness - manual review needed"
+        },
+        {
+          "product1": {
+            "id": "meline-restore",
+            "name": "Restore",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/meline-restore"
+          },
+          "product2": {
+            "id": "restore-250ml",
+            "name": "Restore",
+            "size": "250 ml",
+            "url": "https://www.nurederm.com/urun/restore-250ml"
+          },
+          "reason": "Exact name match (normalized): 'Restore' vs 'Restore'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 14 vs 12)"
+        },
+        {
+          "product1": {
+            "id": "meline-spots",
+            "name": "Spots",
+            "size": "10 ml",
+            "url": "https://www.nurederm.com/urun/meline-spots"
+          },
+          "product2": {
+            "id": "spots",
+            "name": "Spots",
+            "size": "10 ml",
+            "url": "https://www.nurederm.com/urun/spots"
+          },
+          "reason": "Exact name match (normalized): 'Spots' vs 'Spots'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 14 vs 12)"
+        },
+        {
+          "product1": {
+            "id": "meline-dark-circles",
+            "name": "Dark Circles",
+            "size": "10 ml",
+            "url": "https://www.nurederm.com/urun/meline-dark-circles"
+          },
+          "product2": {
+            "id": "dark-circles",
+            "name": "Dark Circles",
+            "size": "10 ml",
+            "url": "https://www.nurederm.com/urun/dark-circles"
+          },
+          "reason": "Exact name match (normalized): 'Dark Circles' vs 'Dark Circles'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-intimate",
+            "name": "Intimate",
+            "size": "20 ml",
+            "url": "https://www.nurederm.com/urun/meline-intimate"
+          },
+          "product2": {
+            "id": "intimate",
+            "name": "Intimate",
+            "size": "20 ml",
+            "url": "https://www.nurederm.com/urun/intimate"
+          },
+          "reason": "Exact name match (normalized): 'Intimate' vs 'Intimate'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 14 vs 12)"
+        },
+        {
+          "product1": {
+            "id": "meline-pigment-home-mask",
+            "name": "Pigment Home Mask",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/meline-pigment-home-mask"
+          },
+          "product2": {
+            "id": "pigment-home-mask",
+            "name": "Pigment Home Mask",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/pigment-home-mask"
+          },
+          "reason": "Exact name match (normalized): 'Pigment Home Mask' vs 'Pigment Home Mask'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 14 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-bb-cream-light",
+            "name": "BB Cream Light",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/meline-bb-cream-light"
+          },
+          "product2": {
+            "id": "bb-cream-light",
+            "name": "BB Cream Light",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/bb-cream-light"
+          },
+          "reason": "Exact name match (normalized): 'BB Cream Light' vs 'BB Cream Light'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        },
+        {
+          "product1": {
+            "id": "meline-bb-cream-medium",
+            "name": "BB Cream Medium",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/meline-bb-cream-medium"
+          },
+          "product2": {
+            "id": "bb-cream-medium",
+            "name": "BB Cream Medium",
+            "size": "30 gr",
+            "url": "https://www.nurederm.com/urun/bb-cream-medium"
+          },
+          "reason": "Exact name match (normalized): 'BB Cream Medium' vs 'BB Cream Medium'",
+          "type": "exact",
+          "action": "REMOVE_PRODUCT2",
+          "reason_detail": "Product 1 has more complete data (score: 16 vs 13)"
+        }
+      ]
+    }
+  }
+}
