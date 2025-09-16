@@ -1,345 +1,167 @@
-'use client';
+'use client'
 
-import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { motion } from 'framer-motion'
+import Link from 'next/link'
 import {
-  Sparkles,
-  Palette,
+  Calendar,
   Crown,
-  Clock,
-  Star,
-  CheckCircle,
-  MessageCircle,
   Heart,
-  Zap,
-  Gem,
-  Flower2,
-  Eye,
-  Sun,
-  Waves,
-  ArrowRight
-} from 'lucide-react';
-import Link from 'next/link';
+  MessageCircle,
+  Palette,
+  Search,
+  ShieldCheck,
+  Sparkles,
+  Wand2,
+} from 'lucide-react'
 
-const services = [
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+
+const serviceCategories = [
   {
-    id: 'kalici-makyaj',
+    id: 'permanent-makeup',
     icon: Palette,
-    title: 'Kalıcı Makyaj (Phibrows)',
-    subtitle: 'Profesyonel kalıcı makyaj uygulamaları',
-    description: 'Phibrows tekniği ile doğal ve estetik kalıcı kaş, eyeliner ve dudak uygulamaları',
-    color: 'beauty-rose',
-    duration: '2-3 saat',
-    services: [
-      'Phibrows Kalıcı Kaş',
-      'Kalıcı Eyeliner',
-      'Kalıcı Dudak Renklendirme',
-      'Microblading Tekniği',
-      'Ombre Kaş Tekniği',
-      'Kaş Düzeltme ve Yenileme'
+    title: 'Kalıcı Makyaj',
+    lead: 'PhiBrows Master Farzaneh Naderali ile doğal ve yüz hatlarına uygun sonuçlar.',
+    treatments: [
+      'PhiBrows microblading & pudra kaş kombinasyonları',
+      'Kalıcı eyeliner ve dipliner uygulamaları',
+      'Renk dengeli kalıcı dudak renklendirme',
     ],
-    benefits: [
-      '12-18 ay dayanım',
-      'Doğal görünüm',
-      'FDA onaylı pigmentler',
-      'Kontrol randevuları dahil'
-    ]
+    highlights: [
+      'Altın oran analiziyle kişiye özel tasarım',
+      '12-18 ay kalıcılık ve kontrol randevuları',
+    ],
   },
   {
-    id: 'cilt-bakim',
+    id: 'skin-health',
     icon: Heart,
-    title: 'Cilt Bakım Tedavileri',
-    subtitle: 'Gelişmiş cilt bakım sistemleri',
-    description: 'Hydrafacial, Meline, Greenpeel, pHformula, Genosys ve Theraderm ile cilt yenileme sanatı',
-    color: 'beauty-lavender',
-    duration: '45-90 dk',
-    services: [
-      'Hydrafacial Tedavisi',
-      'Meline Peeling',
-      'Greenpeel Bitkisel Peeling',
-      'pHformula Kimyasal Peeling',
-      'Genosys Cilt Bakımı',
-      'Theraderm Tedavileri',
-      'Göz Çevresi Özel Bakım',
-      'Cilt Analizi ve Tanı',
-      'Anti-aging Tedaviler',
-      'Akne ve Leke Tedavisi'
+    title: 'Cilt Sağlığı Protokolleri',
+    lead: 'Hydrafacial, pHformula, Genosys ve Theraderm protokolleri ile klinik cilt bakımı.',
+    treatments: [
+      'Leke, akne ve hassasiyet odaklı özel bakım seansları',
+      'MeLine ve pHformula kimyasal peeling uygulamaları',
+      'Genosys nano iğneleme ve Theraderm onarım protokolleri',
     ],
-    benefits: [
-      'Anında görülebilir sonuç',
-      'Kişiye özel program',
-      'Klinik ortamda uygulama',
-      'Uzman denetiminde'
-    ]
+    highlights: [
+      'Visia destekli cilt analizi ve takip planı',
+      'Ev bakımı için profesyonel ürün yönlendirmesi',
+    ],
   },
   {
-    id: 'lazer-epilasyon',
+    id: 'laser',
     icon: Sparkles,
-    title: 'Lazer Epilasyon (Soprano ICE)',
-    subtitle: 'Kalıcı tüy azaltma sistemi',
-    description: 'Soprano ICE Platinum teknolojisi ile ağrısız ve etkili kalıcı epilasyon',
-    color: 'beauty-gold',
-    duration: '30-90 dk',
-    services: [
-      'Yüz bölgesi epilasyon',
-      'Bacak epilasyonu',
-      'Kol epilasyonu',
-      'Bikini bölgesi epilasyon',
-      'Koltukaltı epilasyonu',
-      'Erkekler için epilasyon'
+    title: 'Lazer Epilasyon',
+    lead: 'Soprano ICE Platinum teknolojisi ile dört mevsim konforlu epilasyon.',
+    treatments: [
+      'Kadın ve erkek tüm vücut epilasyon programları',
+      'Hassas bölgeler için düşük ısı kontrollü uygulamalar',
+      'Seans başına 3 dalga boyu ile farklı kıl tiplerinde etkinlik',
     ],
-    benefits: [
-      'Ağrısız uygulama',
-      'Tüm cilt tiplerine uygun',
-      '6-8 seansda %90 azalma',
-      'FDA onaylı teknoloji'
-    ]
+    highlights: [
+      'Buz başlıkla ağrısız deneyim',
+      'Tüm cilt tiplerine uygun FDA onaylı cihaz',
+    ],
   },
   {
-    id: 'my-lamination',
+    id: 'lamination',
     icon: Crown,
     title: 'My Lamination',
-    subtitle: 'Kirpik laminasyon ve bakım',
-    description: 'Kirpiklerinizi besleyerek uzatan ve kıvrımlı bir görünüm kazandıran özel işlem',
-    color: 'beauty-pink',
-    duration: '60-90 dk',
-    services: [
-      'MY Lamination Sistemi',
-      'Kirpik Lifting',
-      'Kirpik Boyama',
-      'Kaş Laminasyonu',
-      'Kaş ve Kirpik Bakımı',
-      'Besleyici Serum Uygulaması'
+    lead: 'Kirpik ve kaş laminasyonunda İtalya menşeli My Lamination sistemleri.',
+    treatments: [
+      'Kirpik lifting ve yoğun besleyici bakım',
+      'Kaş laminasyonu ve şekillendirme',
+      'Serum destekli bakım protokolü',
     ],
-    benefits: [
-      '6-8 hafta dayanım',
-      'Doğal görünüm',
-      'Maskara ihtiyacını azaltır',
-      'Kirpikleri besler'
-    ]
+    highlights: [
+      '6-8 hafta kalıcı sonuç',
+      'Keratin ve vitamin kompleksli bakım ürünleri',
+    ],
   },
-  {
-    id: 'medikal-estetik',
-    icon: Zap,
-    title: 'Medikal Estetik',
-    subtitle: 'Tıbbi estetik uygulamalar',
-    description: 'Doktor kontrolünde uygulanan tıbbi estetik prosedürler',
-    color: 'beauty-sage',
-    duration: '30-60 dk',
-    services: [
-      'Botoks Uygulamaları',
-      'Dolgu Uygulamaları',
-      'Mezoterapi',
-      'PRP (Plazma Tedavisi)',
-      'İplikli Yüz Germe',
-      'Cilt Gençleştirme'
-    ],
-    benefits: [
-      'Doktor kontrolünde',
-      'Orijinal ürün garantisi',
-      'Güvenli uygulama',
-      'Doğal sonuçlar'
-    ]
-  },
-  {
-    id: 'ozel-bakim',
-    icon: Gem,
-    title: 'Özel Bakım Paketleri',
-    subtitle: 'Gelin ve özel gün paketleri',
-    description: 'Özel günleriniz için tasarlanmış komple güzellik paketleri',
-    color: 'beauty-gold',
-    duration: '3-5 saat',
-    services: [
-      'Gelin Güzellik Paketi',
-      'Özel Gün Makyajı',
-      'Cilt Hazırlık Programı',
-      'Saç Şekillendirme',
-      'Manikür-Pedikür',
-      'Prova Randevuları'
-    ],
-    benefits: [
-      'Komple hizmet paketi',
-      'Prova dahil',
-      'Fotoğraf uyumlu sonuç',
-      'Gün boyu dayanıklılık'
-    ]
-  }
-];
+]
 
-const whyChooseUs = [
+const workflow = [
   {
-    icon: Star,
-    title: 'Uzman Kadro',
-    description: 'Alanında uzman, sertifikalı güzellik profesyonelleri'
+    icon: Search,
+    title: 'Keşif & Analiz',
+    description:
+      'İlk görüşmede cilt analizi ve beklentilerinizi dinleyerek kişiye özel plan oluşturuyoruz.',
   },
+  {
+    icon: Wand2,
+    title: 'Uygulama & Protokol',
+    description:
+      'Her işlem öncesi hijyen protokolü uygulanır, seans boyunca adımları birlikte takip ederiz.',
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Takip & Destek',
+    description:
+      'İşlem sonrası bakım önerileri, kontrol randevuları ve WhatsApp desteği sunuyoruz.',
+  },
+]
+
+const studioHighlights = [
   {
     icon: Heart,
-    title: 'Hijyenik Ortam',
-    description: 'Sterilizasyon kurallarına uygun, temiz ve güvenli ortam'
+    title: 'Uzman Dokunuşu',
+    description: 'Deneyimli PhiBrows master ve lazer uzmanlarından oluşan seçkin ekip.',
   },
   {
-    icon: Gem,
-    title: 'Premium Ürünler',
-    description: 'Sadece tanınmış markaların kaliteli ürünlerini kullanıyoruz'
+    icon: ShieldCheck,
+    title: 'Güvenli Teknoloji',
+    description: 'FDA onaylı cihazlar ve orijinal ürünlerle hijyenik uygulama alanı.',
   },
   {
-    icon: Clock,
-    title: 'Randevu Sistemi',
-    description: 'Esnek saatler ve hızlı randevu alma imkanı'
-  }
-];
+    icon: Sparkles,
+    title: 'Kişiye Özel Yaklaşım',
+    description: 'Her hizmet öncesi ücretsiz danışma ve ev bakımı yönlendirmesi.',
+  },
+]
+
+const whatsappUrl = 'https://wa.me/905358726752'
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative py-12 sm:py-16 lg:py-24 px-3 sm:px-4 lg:px-6 beauty-gradient">
-        <div className="absolute inset-0 bg-black/20" />
-        <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
+    <div className="min-h-screen bg-muted/10">
+      <section className="relative overflow-hidden py-20 sm:py-24">
+        <div className="absolute inset-0 beauty-gradient opacity-80" />
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="relative z-10 mx-auto max-w-4xl px-4 text-center text-white">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            className="space-y-6"
           >
-            <Badge className="mb-3 sm:mb-4 lg:mb-6 bg-white/20 text-white border-white/30 text-xs sm:text-sm">
-              Hizmetlerimiz
+            <Badge className="bg-white/20 px-4 py-1 text-sm text-white shadow-sm backdrop-blur">
+              NK Beauty Hizmetleri
             </Badge>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 lg:mb-6 leading-tight">
-              Güzellik Hizmetleri
+            <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">
+              Klinik Standartlarında Güzellik Deneyimi
             </h1>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-              Size özel tasarlanmış profesyonel güzellik hizmetlerimizi keşfedin
+            <p className="mx-auto max-w-2xl text-lg text-white/90 sm:text-xl">
+              Kalıcı makyajdan gelişmiş cilt protokollerine kadar tüm uygulamalarımızı uzman ekibimiz ve
+              premium ürünlerle gerçekleştiriyoruz.
             </p>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Services Grid */}
-      <section className="relative py-8 sm:py-12 lg:py-20 px-3 sm:px-4 lg:px-6 beauty-gradient">
-        <div className="absolute inset-0 bg-black/10" />
-        <div className="relative z-10 max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-            {services.map((service, index) => (
-              <motion.div
-                key={service.id}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card className="h-full beauty-transition hover:beauty-shadow group">
-                  <CardHeader className="p-4 sm:p-6">
-                    <div className="flex flex-col items-center text-center space-y-4 sm:flex-row sm:items-start sm:text-left sm:space-y-0 sm:space-x-4">
-                      <div className={`w-16 h-16 sm:w-18 sm:h-18 rounded-2xl flex items-center justify-center group-hover:scale-110 beauty-transition flex-shrink-0 shadow-lg ${
-                        service.color === 'beauty-rose' ? 'bg-amber-700' :
-                        service.color === 'beauty-lavender' ? 'bg-stone-600' :
-                        service.color === 'beauty-gold' ? 'bg-orange-700' :
-                        service.color === 'beauty-pink' ? 'bg-pink-600' :
-                        service.color === 'beauty-sage' ? 'bg-green-600' : 'bg-gray-600'
-                      }`}>
-                        <service.icon className="w-8 h-8 sm:w-9 sm:h-9 text-white" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <CardTitle className="text-lg sm:text-xl lg:text-2xl mb-2 leading-tight">{service.title}</CardTitle>
-                        <p className="text-sm sm:text-base text-muted-foreground mb-2">{service.subtitle}</p>
-                        <div className="flex items-center justify-center sm:justify-start gap-2">
-                          <Clock className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-                          <span className="text-xs sm:text-sm text-muted-foreground">{service.duration}</span>
-                        </div>
-                      </div>
-                    </div>
-                  </CardHeader>
-
-                  <CardContent className="space-y-3 sm:space-y-4 lg:space-y-6 p-4 sm:p-6 pt-0">
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                      {service.description}
-                    </p>
-
-                    {/* Services List */}
-                    <div>
-                      <h4 className="font-semibold mb-2 sm:mb-3 text-sm sm:text-base flex items-center gap-2">
-                        <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-primary flex-shrink-0" />
-                        Hizmet Detayları
-                      </h4>
-                      <div className="space-y-1.5 sm:space-y-2">
-                        {service.services.map((item, idx) => (
-                          <div key={idx} className="flex items-start gap-2 text-xs sm:text-sm">
-                            <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                            <span className="text-muted-foreground leading-tight">{item}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* Benefits */}
-                    <div>
-                      <h4 className="font-semibold mb-2 sm:mb-3 text-sm sm:text-base flex items-center gap-2">
-                        <Star className="w-3 h-3 sm:w-4 sm:h-4 text-primary flex-shrink-0" />
-                        Avantajları
-                      </h4>
-                      <div className="space-y-1.5 sm:space-y-2">
-                        {service.benefits.map((benefit, idx) => (
-                          <div key={idx} className="flex items-start gap-2 text-xs sm:text-sm">
-                            <Zap className="w-3 h-3 sm:w-4 sm:h-4 text-yellow-500 mt-0.5 flex-shrink-0" />
-                            <span className="text-muted-foreground leading-tight">{benefit}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* CTA Button */}
-                    <Button className="w-full beauty-transition text-sm sm:text-base py-2 sm:py-3" asChild>
-                      <Link href="https://wa.me/905358726752" target="_blank">
-                        <MessageCircle className="mr-2 h-4 w-4" />
-                        Bu Hizmet İçin Randevu Al
-                        <ArrowRight className="ml-2 h-4 w-4" />
-                      </Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Service Discovery Section */}
-      <section className="py-12 sm:py-16 lg:py-20 px-3 sm:px-4 lg:px-6 bg-background">
-        <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <Flower2 className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-4 sm:mb-6 text-primary" />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-              Size Uygun Hizmeti Keşfedin
-            </h2>
-            <p className="text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Hangi hizmeti seçeceğiniz konusunda kararsız mısınız? Uzman ekibimiz size en uygun paketleri önerebilir.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-              <Button
-                size="lg"
-                className="beauty-transition text-sm sm:text-base"
-                asChild
-              >
-                <Link href="https://wa.me/905358726752" target="_blank">
-                  <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+            <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+              <Button size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
+                <Link href={whatsappUrl} target="_blank" rel="noreferrer">
+                  <MessageCircle className="mr-2 h-5 w-5" />
                   WhatsApp ile Danış
                 </Link>
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="beauty-transition text-sm sm:text-base"
-                asChild
-              >
-                <Link href="/">
-                  Ana Sayfaya Dön
+              <Button size="lg" variant="outline" className="border-white/60 bg-white/10 text-white" asChild>
+                <Link href="/contact">
+                  <Calendar className="mr-2 h-4 w-4" />
+                  Randevu Talep Et
                 </Link>
               </Button>
             </div>
@@ -347,48 +169,227 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="relative py-12 sm:py-16 lg:py-20 px-3 sm:px-4 lg:px-6 beauty-gradient">
-        <div className="absolute inset-0 bg-black/10" />
-        <div className="relative z-10 max-w-6xl mx-auto">
+      <section className="relative -mt-12 pb-20">
+        <div className="mx-auto max-w-6xl px-4">
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-8 sm:mb-12 lg:mb-16"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="rounded-3xl border bg-card/90 p-6 shadow-xl shadow-primary/5 backdrop-blur"
           >
-            <Badge className="mb-3 sm:mb-4 bg-white/20 text-white border-white/30 text-xs sm:text-sm">Neden NK Beauty?</Badge>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-white">
-              Güvenilir Hizmet Kalitesi
+            <div className="mb-10 space-y-3 text-center">
+              <h2 className="text-2xl font-semibold text-foreground sm:text-3xl">
+                Uzmanlık Alanlarımız
+              </h2>
+              <p className="mx-auto max-w-3xl text-sm text-muted-foreground sm:text-base">
+                Her kategori için önce cilt ve beklenti analizi yapıyor, ardından kişiye özel seans planı
+                oluşturuyoruz. Tüm uygulamalar kalite standartlarımıza uygun olarak aynı gün içinde kayıt altına alınır.
+              </p>
+            </div>
+
+            <div className="grid gap-6 sm:grid-cols-2">
+              {serviceCategories.map((service, index) => (
+                <motion.div
+                  key={service.id}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.05, duration: 0.4 }}
+                  viewport={{ once: true }}
+                >
+                  <Card className="h-full overflow-hidden rounded-3xl border border-border/70 bg-background/70 p-0 shadow-md shadow-primary/10">
+                    <CardHeader className="flex flex-col gap-4 px-6 pt-6">
+                      <div className="flex items-center gap-3">
+                        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+                          <service.icon className="h-6 w-6" />
+                        </div>
+                        <div>
+                          <CardTitle className="text-xl font-semibold text-foreground">
+                            {service.title}
+                          </CardTitle>
+                          <CardDescription className="text-sm text-muted-foreground">
+                            {service.lead}
+                          </CardDescription>
+                        </div>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4 px-6 pb-6">
+                      <div className="space-y-2">
+                        {service.treatments.map((item) => (
+                          <div key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Sparkles className="mt-0.5 h-4 w-4 text-primary/70" />
+                            <span>{item}</span>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="flex flex-wrap gap-2 pt-1">
+                        {service.highlights.map((highlight) => (
+                          <Badge
+                            key={highlight}
+                            variant="outline"
+                            className="rounded-full border-dashed border-primary/40 text-xs text-primary"
+                          >
+                            {highlight}
+                          </Badge>
+                        ))}
+                      </div>
+                      <div className="pt-4">
+                        <Button variant="ghost" size="sm" className="text-sm font-semibold" asChild>
+                          <Link href={whatsappUrl} target="_blank" rel="noreferrer">
+                            Bu hizmet için danışın
+                          </Link>
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="py-16 sm:py-20">
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 lg:flex-row">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="w-full rounded-3xl border bg-card p-6 shadow-md shadow-primary/5 lg:w-2/5"
+          >
+            <Badge variant="secondary" className="rounded-full">
+              Adım Adım Deneyim
+            </Badge>
+            <h2 className="mt-4 text-2xl font-semibold text-foreground">
+              NK Beauty süreci nasıl ilerliyor?
             </h2>
-            <p className="text-base sm:text-lg lg:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-              Yıllarca tecrübemiz ve müşteri memnuniyeti odaklı yaklaşımımızla size en iyi hizmeti sunuyoruz
+            <p className="mt-3 text-sm text-muted-foreground">
+              İlk danışmadan bakım sonrası desteğe kadar her aşamayı şeffaf şekilde planlıyor, sizi yalnız
+              bırakmıyoruz.
             </p>
+            <div className="mt-6 space-y-6">
+              {workflow.map((step, index) => (
+                <div key={step.title} className="flex gap-4">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                    <step.icon className="h-5 w-5" />
+                  </div>
+                  <div className="space-y-1">
+                    <h3 className="text-sm font-semibold text-foreground">
+                      {index + 1}. {step.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground">{step.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
-            {whyChooseUs.map((item, index) => (
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="text-center"
-              >
-                <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-3 sm:mb-4 rounded-full bg-white/20 flex items-center justify-center">
-                  <item.icon className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
-                </div>
-                <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3 text-white">{item.title}</h3>
-                <p className="text-white/80 text-sm sm:text-base leading-relaxed">
-                  {item.description}
-                </p>
-              </motion.div>
-            ))}
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            viewport={{ once: true }}
+            className="w-full rounded-3xl border bg-muted/30 p-6 shadow-inner lg:w-3/5"
+          >
+            <h2 className="text-2xl font-semibold text-foreground">
+              Sık tercih edilen kombinasyon paketleri
+            </h2>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Seans programınızı birlikte oluşturuyor, işlem günleri arasında ev bakımı desteği veriyoruz.
+            </p>
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              <Card className="rounded-2xl border border-primary/30 bg-background/80 p-0 shadow-sm">
+                <CardHeader className="space-y-2 px-5 pt-5">
+                  <Badge variant="outline" className="w-fit rounded-full border-primary/40 text-primary">
+                    Profesyonel Bakım
+                  </Badge>
+                  <CardTitle className="text-lg font-semibold text-foreground">
+                    Leke & Işıltı Programı
+                  </CardTitle>
+                  <CardDescription className="text-sm text-muted-foreground">
+                    MeLine peeling + Genosys bakım + ev ürünü seti
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="px-5 pb-5 text-sm text-muted-foreground">
+                  3 seanslık protokol; her seans öncesi cilt analizi ve ürün yönlendirmesi dahildir.
+                </CardContent>
+              </Card>
+
+              <Card className="rounded-2xl border border-primary/30 bg-background/80 p-0 shadow-sm">
+                <CardHeader className="space-y-2 px-5 pt-5">
+                  <Badge variant="outline" className="w-fit rounded-full border-primary/40 text-primary">
+                    Kombine Hizmet
+                  </Badge>
+                  <CardTitle className="text-lg font-semibold text-foreground">
+                    Kalıcı Kaş & Kirpik Bakımı
+                  </CardTitle>
+                  <CardDescription className="text-sm text-muted-foreground">
+                    PhiBrows kalıcı kaş tasarımı + My Lamination bakım seansı
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="px-5 pb-5 text-sm text-muted-foreground">
+                  Aynı gün prova, 6 hafta sonra kontrol randevusu ve bakım seti önerisi içerir.
+                </CardContent>
+              </Card>
+            </div>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Badge variant="outline" className="rounded-full border-dashed">
+                Uzman danışmanlık
+              </Badge>
+              <Badge variant="outline" className="rounded-full border-dashed">
+                Kişiye özel planlama
+              </Badge>
+              <Badge variant="outline" className="rounded-full border-dashed">
+                Ev bakımı ürün desteği
+              </Badge>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="pb-20">
+        <div className="mx-auto max-w-6xl px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="rounded-3xl border bg-card/90 p-8 text-center shadow-xl shadow-primary/5"
+          >
+            <div className="flex flex-col items-center gap-4">
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                {studioHighlights.map((item) => (
+                  <div
+                    key={item.title}
+                    className="flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm text-primary"
+                  >
+                    <item.icon className="h-4 w-4" />
+                    <span>{item.title}</span>
+                  </div>
+                ))}
+              </div>
+              <h2 className="text-2xl font-semibold text-foreground sm:text-3xl">
+                Tüm işlemlerimizde güven, deneyim ve kaliteyi bir arada sunuyoruz.
+              </h2>
+              <p className="max-w-3xl text-sm text-muted-foreground sm:text-base">
+                Ankara Çankaya&apos;daki merkezimizde; sterilizasyon protokollerine bağlı, kişiye özel bakım anlayışıyla
+                çalışıyoruz. Randevu planlamak veya hizmetler hakkında detaylı bilgi almak için bizimle iletişime
+                geçebilirsiniz.
+              </p>
+              <div className="flex flex-col items-center gap-3 sm:flex-row">
+                <Button className="beauty-gradient border-none text-white" asChild>
+                  <Link href={whatsappUrl} target="_blank" rel="noreferrer">
+                    WhatsApp üzerinden sor
+                  </Link>
+                </Button>
+                <Button variant="outline" className="text-sm" asChild>
+                  <Link href="/products">Profesyonel ürünlerimizi keşfedin</Link>
+                </Button>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
     </div>
-  );
+  )
 }
