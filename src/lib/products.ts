@@ -1,18 +1,94 @@
 import rawProducts from "@/data/products.enriched.json"
 
-export type Product = {
-  name: string
-  brand: string
-  category: string
-  description: string
-  slug: string
-  summary: string
-  tags: string[]
-  image: string | null
-  gallery: string[]
+type RawProduct = (typeof rawProducts)[number]
+
+const categoryGroupMap: Record<string, string> = {
+  "Temizleyici ve Tonikler": "Temizleme & Hazırlık",
+  "Temizleyici, Tonikler & Peeling": "Temizleme & Hazırlık",
+  Temizleyici: "Temizleme & Hazırlık",
+  Hazırlayıcılar: "Temizleme & Hazırlık",
+  Neutralizer: "Temizleme & Hazırlık",
+
+  "Organik Peelingler": "Peeling & Klinik Protokoller",
+  Peeling: "Peeling & Klinik Protokoller",
+  "Profesyonel Peelingler": "Peeling & Klinik Protokoller",
+  "Dermaterapi Solüsyonları": "Peeling & Klinik Protokoller",
+  Snowcell: "Peeling & Klinik Protokoller",
+
+  Maskeler: "Maskeler & Spa",
+  "Profesyonel Maskeler": "Maskeler & Spa",
+  "Krem Maskeler": "Maskeler & Spa",
+  Maske: "Maskeler & Spa",
+  "Yosun Özlü Peel off Maskeler": "Maskeler & Spa",
+
+  "Günlük Bakım Serumları": "Serum & Ampuller",
+  Serumlar: "Serum & Ampuller",
+  "Serum Serisi": "Serum & Ampuller",
+  "Vitamin Serisi": "Serum & Ampuller",
+  "Vita C Serisi": "Serum & Ampuller",
+  "Cilt Yapılandırıcı Gece Serumu": "Serum & Ampuller",
+  "Anti-Aging Serisi": "Serum & Ampuller",
+  "Rozasea Serisi": "Serum & Ampuller",
+  "Point Serisi": "Serum & Ampuller",
+  "Akne Serisi": "Serum & Ampuller",
+  Leke: "Serum & Ampuller",
+  "Leke Serisi": "Serum & Ampuller",
+  "SOS Serisi": "Serum & Ampuller",
+  "VDR Serisi": "Serum & Ampuller",
+  "Güneş Çili": "Serum & Ampuller",
+  "Aydınlatma Ürünleri": "Serum & Ampuller",
+
+  "Günlük Bakım Kremleri": "Nemlendirme & Bariyer",
+  "Nemlendirici ve Onarıcı Kremler": "Nemlendirme & Bariyer",
+  "Onarıcı ve Nemlendirici": "Nemlendirme & Bariyer",
+  "Onarıcı Kremler": "Nemlendirme & Bariyer",
+  "İşlem Sonrası Bakım Kremleri": "Nemlendirme & Bariyer",
+  "Profesyonel Bakım Sonrası Ürünler": "Nemlendirme & Bariyer",
+
+  "Güneş Koruyucular": "Güneş Koruması",
+  "Güneş Kremleri": "Güneş Koruması",
+  "Güneş Kremleri Serisi": "Güneş Koruması",
+
+  "Saç Bakım Ürünleri": "Saç & Vücut Bakımı",
+  "Vücut El ,Boyun ve Dudak Serisi": "Saç & Vücut Bakımı",
+  "İntim Bölge": "Saç & Vücut Bakımı",
+
+  "Göz Bakım Ürünleri": "Göz & Bölgesel Bakım",
+  "Göz Serisi": "Göz & Bölgesel Bakım",
+  "Gözaltı Koyu Halkaları": "Göz & Bölgesel Bakım",
+  "Boyun ve Dekolte Bakım Ürünleri": "Göz & Bölgesel Bakım",
+
+  "Ev Bakım Kitleri": "Profesyonel Kitler & Setler",
+  "Dermal Kitler": "Profesyonel Kitler & Setler",
 }
 
-export const products: Product[] = rawProducts satisfies Product[]
+const fallbackCategory = "Diğer Profesyonel Ürünler"
+
+const mapCategory = (category: string) => categoryGroupMap[category] ?? fallbackCategory
+
+export type Product = Omit<RawProduct, "category"> & {
+  category: string
+  originalCategory: string
+}
+
+export const products: Product[] = rawProducts.map((product) => {
+  const originalCategory = product.category
+  const category = mapCategory(originalCategory)
+  const tags = Array.from(
+    new Set(
+      [category, product.brand, ...product.tags.filter((tag) => tag !== originalCategory)].filter(
+        Boolean
+      )
+    )
+  )
+
+  return {
+    ...product,
+    category,
+    originalCategory,
+    tags,
+  }
+})
 
 export const productBrands = Array.from(new Set(products.map((product) => product.brand))).sort()
 

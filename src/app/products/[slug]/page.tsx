@@ -161,6 +161,9 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                 <CardDescription className="text-base leading-7 text-muted-foreground">
                   {product.summary}
                 </CardDescription>
+                <p className="text-xs text-muted-foreground">
+                  Katalog etiketi: {product.originalCategory}
+                </p>
               </CardHeader>
               <CardContent className="space-y-6 px-8 pb-10 text-sm leading-7 text-muted-foreground">
                 {descriptionBlocks.map((block, index) => {

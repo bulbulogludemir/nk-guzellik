@@ -357,7 +357,7 @@ function ProductCard({ product }: ProductCardProps) {
       </CardHeader>
       <CardContent className="space-y-4 pb-6">
         <div className="flex flex-wrap gap-2">
-          {product.tags.map((tag) => (
+          {product.tags.slice(0, 5).map((tag) => (
             <Badge key={tag} variant="outline" className="rounded-full border-dashed text-xs">
               {tag}
             </Badge>
