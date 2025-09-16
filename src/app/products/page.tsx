@@ -109,7 +109,7 @@ export default function ProductsPage() {
 
   return (
     <div className="min-h-screen bg-muted/10">
-      <section className="relative overflow-hidden py-20 sm:py-24">
+      <section className="relative overflow-hidden py-16 sm:py-24">
         <div className="absolute inset-0 beauty-gradient opacity-80" />
         <div className="absolute inset-0 bg-black/30" />
         <div className="relative z-10 mx-auto max-w-5xl px-4 text-center text-white">
@@ -152,7 +152,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className="relative -mt-12 pb-20">
+      <section className="relative -mt-8 pb-16 sm:-mt-12 sm:pb-20">
         <div className="mx-auto max-w-6xl px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -296,7 +296,7 @@ export default function ProductsPage() {
                 </div>
               </div>
             ) : (
-              <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
                 {filteredProducts.map((product, index) => (
                   <motion.div
                     key={product.slug}
@@ -322,15 +322,15 @@ type ProductCardProps = {
 
 function ProductCard({ product }: ProductCardProps) {
   return (
-    <Card className="group h-full overflow-hidden gap-0 rounded-3xl border border-border/70 bg-background/80 p-0 shadow-lg shadow-primary/5 transition hover:-translate-y-1 hover:shadow-xl">
-      <div className="relative aspect-[4/5] w-full overflow-hidden bg-gradient-to-br from-muted to-muted/50">
+    <Card className="group h-full overflow-hidden rounded-2xl border border-border/60 bg-background p-0 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
+      <div className="relative aspect-[3/4] w-full overflow-hidden bg-background">
         {product.image ? (
           <Image
             src={product.image}
             alt={product.name}
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-            className="object-contain p-8 transition duration-500 group-hover:scale-105"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-contain p-4 transition duration-500 group-hover:scale-105 sm:p-6"
             priority={false}
           />
         ) : (
@@ -338,24 +338,24 @@ function ProductCard({ product }: ProductCardProps) {
             Görsel bulunamadı
           </div>
         )}
-        <div className="absolute left-5 top-5 flex flex-wrap gap-2">
+        <div className="absolute left-4 top-4 flex flex-wrap gap-2">
           <Badge variant="secondary" className="rounded-full bg-white/90 text-foreground">
             {product.brand}
           </Badge>
         </div>
       </div>
-      <CardHeader className="space-y-3 px-6 pt-6">
+      <CardHeader className="space-y-3 px-4 pt-4 sm:px-6 sm:pt-6">
         <Badge variant="outline" className="w-fit rounded-full border-primary/40 text-xs font-semibold text-primary">
           {product.category}
         </Badge>
-        <CardTitle className="text-lg font-semibold leading-snug text-foreground">
+        <CardTitle className="text-base font-semibold leading-snug text-foreground sm:text-lg">
           {product.name}
         </CardTitle>
         <CardDescription className="text-sm leading-6 text-muted-foreground">
           {product.summary}
         </CardDescription>
       </CardHeader>
-      <CardContent className="space-y-4 pb-6">
+      <CardContent className="space-y-4 px-4 pb-4 sm:px-6 sm:pb-6">
         <div className="flex flex-wrap gap-2">
           {product.tags.slice(0, 5).map((tag) => (
             <Badge key={tag} variant="outline" className="rounded-full border-dashed text-xs">
@@ -363,14 +363,14 @@ function ProductCard({ product }: ProductCardProps) {
             </Badge>
           ))}
         </div>
-        <div className="flex justify-between pt-2">
-          <Button variant="ghost" asChild className="text-sm font-semibold">
+        <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
+          <Button variant="ghost" asChild className="px-0 text-sm font-semibold">
             <Link href={`/products/${product.slug}`}>Detayları Gör</Link>
           </Button>
           <Button
             variant="outline"
             asChild
-            className="rounded-full border-primary/40 text-xs font-semibold text-primary shadow-sm"
+            className="rounded-full border-primary/40 px-4 text-xs font-semibold text-primary shadow-sm"
           >
             <a href="https://wa.me/905358726752" target="_blank" rel="noreferrer">
               WhatsApp
