@@ -22,9 +22,9 @@ import {
 const whatsappUrl = 'https://wa.me/905358726752'
 
 type ProductPageProps = {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 type DescriptionBlock =
@@ -35,8 +35,9 @@ export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }))
 }
 
-export function generateMetadata({ params }: ProductPageProps): Metadata {
-  const product = getProductBySlug(params.slug)
+export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
+  const { slug } = await params
+  const product = getProductBySlug(slug)
   if (!product) {
     return {
       title: 'Ürün bulunamadı | NK Beauty',
@@ -54,8 +55,9 @@ export function generateMetadata({ params }: ProductPageProps): Metadata {
   }
 }
 
-export default function ProductDetailPage({ params }: ProductPageProps) {
-  const product = getProductBySlug(params.slug)
+export default async function ProductDetailPage({ params }: ProductPageProps) {
+  const { slug } = await params
+  const product = getProductBySlug(slug)
 
   if (!product) {
     notFound()

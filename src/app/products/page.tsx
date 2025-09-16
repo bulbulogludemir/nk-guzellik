@@ -30,12 +30,13 @@ const brandStats = productBrands.map((brand) => ({
   count: products.filter((product) => product.brand === brand).length,
 }))
 
-const categoryOptions = [{ label: 'Tüm Kategoriler', value: 'all' as const }].concat(
-  productCategories.map((category) => ({
+const categoryOptions: { label: string; value: CategoryFilterState }[] = [
+  { label: 'Tüm Kategoriler', value: 'all' },
+  ...productCategories.map((category) => ({
     label: category,
     value: category,
-  }))
-)
+  })),
+]
 
 type PreparedProduct = {
   product: (typeof products)[number]
