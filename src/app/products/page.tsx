@@ -138,7 +138,7 @@ export default function ProductsPage() {
               NK Beauty Ürün Dünyasını Keşfedin
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-white/90 sm:text-xl">
-              pHformula, Genosys, Theraderm ve Meline markalarına ait {products.length} ürünü;
+              GENOSYS, Theraderm, MeLine ve pHformula markalarına ait 200&apos;den fazla ürünü;
               içerik notları, kullanım önerileri ve dinamik filtreler ile kolayca inceleyin.
             </p>
             <div className="flex flex-col justify-center gap-3 sm:flex-row sm:gap-4">
