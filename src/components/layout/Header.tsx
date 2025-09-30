@@ -96,7 +96,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center group">
-              <div className="w-16 h-12 sm:w-20 sm:h-16 relative group-hover:scale-105 beauty-transition">
+              <div className="w-20 h-14 sm:w-28 sm:h-20 relative group-hover:scale-105 beauty-transition">
                 <Image
                   src="/images/nk-beauty-logo-transparent.png"
                   alt="NK Beauty Logo"

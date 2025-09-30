@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { Search, SlidersHorizontal } from 'lucide-react'
+import { Search, SlidersHorizontal, MessageCircle } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -128,7 +128,7 @@ export default function ProductsPage() {
               NK Beauty Ürün Dünyasını Keşfedin
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-white/90 sm:text-xl">
-              GENOSYS, Theraderm, MeLine ve pHformula markalarına ait 200’den fazla ürünü;
+              pHformula, Genosys, Theraderm ve Meline markalarına ait {products.length} ürünü;
               içerik notları, kullanım önerileri ve dinamik filtreler ile kolayca inceleyin.
             </p>
             <div className="flex flex-col justify-center gap-3 sm:flex-row sm:gap-4">
@@ -379,15 +379,15 @@ type ProductCardProps = {
 
 function ProductCard({ product }: ProductCardProps) {
   return (
-    <Card className="group h-full overflow-hidden rounded-2xl border border-border/60 bg-background p-0 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
-      <div className="relative aspect-[3/4] w-full overflow-hidden bg-background">
+    <Card className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border/60 bg-background shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+      <div className="relative aspect-square w-full overflow-hidden bg-muted/20">
         {product.image ? (
           <Image
             src={product.image}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className="object-contain p-4 transition duration-500 group-hover:scale-105 sm:p-6"
+            className="object-contain p-6 transition duration-500 group-hover:scale-110"
             priority={false}
           />
         ) : (
@@ -395,42 +395,43 @@ function ProductCard({ product }: ProductCardProps) {
             Görsel bulunamadı
           </div>
         )}
-        <div className="absolute left-4 top-4 flex flex-wrap gap-2">
-          <Badge variant="secondary" className="rounded-full bg-white/90 text-foreground">
+        <div className="absolute left-3 top-3 flex flex-wrap gap-2">
+          <Badge variant="secondary" className="rounded-full bg-white/95 text-xs font-medium shadow-sm backdrop-blur">
             {product.brand}
           </Badge>
         </div>
       </div>
-      <CardHeader className="space-y-3 px-4 pt-4 sm:px-6 sm:pt-6">
-        <Badge variant="outline" className="w-fit rounded-full border-primary/40 text-xs font-semibold text-primary">
+      <CardHeader className="flex-1 space-y-2 px-5 pb-3 pt-5">
+        <Badge variant="outline" className="w-fit rounded-full border-primary/40 px-3 py-0.5 text-xs font-medium text-primary">
           {product.category}
         </Badge>
-        <CardTitle className="text-base font-semibold leading-snug text-foreground sm:text-lg">
+        <CardTitle className="line-clamp-2 text-base font-bold leading-tight text-foreground sm:text-lg">
           {product.name}
         </CardTitle>
-        <CardDescription className="text-sm leading-6 text-muted-foreground">
+        <CardDescription className="line-clamp-3 text-sm leading-relaxed text-muted-foreground">
           {product.summary}
         </CardDescription>
       </CardHeader>
-      <CardContent className="space-y-4 px-4 pb-4 sm:px-6 sm:pb-6">
-        <div className="flex flex-wrap gap-2">
-          {product.tags.slice(0, 5).map((tag) => (
-            <Badge key={tag} variant="outline" className="rounded-full border-dashed text-xs">
+      <CardContent className="space-y-3 px-5 pb-5">
+        <div className="flex flex-wrap gap-1.5">
+          {product.tags.slice(0, 4).map((tag) => (
+            <Badge key={tag} variant="outline" className="rounded-full border-dashed px-2.5 py-0.5 text-xs">
               {tag}
             </Badge>
           ))}
         </div>
-        <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
-          <Button variant="ghost" asChild className="px-0 text-sm font-semibold">
+        <div className="flex items-center gap-2 border-t pt-3">
+          <Button variant="default" asChild className="flex-1 rounded-full text-sm font-medium">
             <Link href={`/products/${product.slug}`}>Detayları Gör</Link>
           </Button>
           <Button
             variant="outline"
+            size="icon"
             asChild
-            className="rounded-full border-primary/40 px-4 text-xs font-semibold text-primary shadow-sm"
+            className="rounded-full border-green-500/40 text-green-600 hover:bg-green-50 hover:text-green-700"
           >
-            <a href="https://wa.me/905358726752" target="_blank" rel="noreferrer">
-              WhatsApp
+            <a href="https://wa.me/905358726752" target="_blank" rel="noreferrer" title="WhatsApp ile iletişime geç">
+              <MessageCircle className="h-4 w-4" />
             </a>
           </Button>
         </div>

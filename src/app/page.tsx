@@ -21,9 +21,12 @@ import {
   Trophy,
   ThumbsUp,
   UserCheck,
-  TrendingUp
+  TrendingUp,
+  ShoppingBag,
+  ArrowRight
 } from 'lucide-react';
 import Link from 'next/link';
+import { productBrands } from '@/lib/products';
 
 const services = [
   {
@@ -230,6 +233,107 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* WhatsApp Consultation Section */}
+      <section className="py-12 sm:py-16 px-4 sm:px-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/20 dark:to-emerald-950/20">
+        <div className="max-w-4xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <Card className="border-green-200 dark:border-green-800 beauty-shadow">
+              <CardContent className="p-6 sm:p-8">
+                <div className="flex flex-col md:flex-row items-center gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-green-500 flex items-center justify-center shadow-lg">
+                      <MessageCircle className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
+                    </div>
+                  </div>
+                  <div className="flex-1 text-center md:text-left">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-2 text-foreground">
+                      Hangi Ürün veya İşlem Cildinize Uygun?
+                    </h3>
+                    <p className="text-base sm:text-lg text-muted-foreground mb-4">
+                      Cildinize en uygun ürün veya işlemi seçmekte kararsız mısınız? Uzman ekibimiz size özel önerilerle yardımcı olmaya hazır!
+                      Cilt fotoğrafınızı WhatsApp üzerinden gönderin, size en uygun çözümü hızlıca önerelim.
+                    </p>
+                    <Button
+                      size="lg"
+                      className="bg-green-500 hover:bg-green-600 text-white beauty-transition"
+                      asChild
+                    >
+                      <Link href="https://wa.me/905358726752?text=Merhaba,%20cildinize%20uygun%20ürün/işlem%20hakkında%20bilgi%20almak%20istiyorum." target="_blank">
+                        <MessageCircle className="mr-2 h-5 w-5" />
+                        WhatsApp ile Uzman Desteği Alın
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Products & Brands Section */}
+      <section className="py-12 sm:py-20 px-4 sm:px-6 bg-muted/30">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="text-center mb-8 sm:mb-16"
+          >
+            <Badge className="mb-4">Profesyonel Ürünler</Badge>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
+              Dünya Çapında Tanınmış Markalar
+            </h2>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+              NK Beauty'de, cilt bakımında güvenilir ve etkili sonuçlar için seçilmiş profesyonel markaları bulabilirsiniz
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8">
+            {productBrands.map((brand, index) => (
+              <motion.div
+                key={brand}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card className="beauty-transition hover:beauty-shadow hover:scale-105 cursor-pointer">
+                  <CardContent className="p-6 sm:p-8 text-center">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
+                      <ShoppingBag className="w-8 h-8 sm:w-10 sm:h-10 text-primary" />
+                    </div>
+                    <h3 className="text-lg sm:text-xl font-bold text-foreground">{brand}</h3>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <Button size="lg" className="beauty-gradient text-white" asChild>
+              <Link href="/products">
+                <ShoppingBag className="mr-2 h-5 w-5" />
+                Tüm Ürünleri İnceleyin
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+          </motion.div>
+        </div>
+      </section>
 
       {/* About Us Stats Section */}
       <section className="py-12 sm:py-20 px-4 sm:px-6">

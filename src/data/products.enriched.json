@@ -2135,5 +2135,44 @@
     "gallery": [
       "/products/yes-cream-1.png"
     ]
+  },
+  {
+    "name": "My Lamination Vitamin Lash Serum",
+    "brand": "My Lamination",
+    "category": "Göz Bakım Ürünleri",
+    "description": "My Lamination Vitamin Lash Serum Home, 7 farklı bileşenle formülize edilmiş zengin içeriği ile kaş ve kirpiklerinize ihtiyaç duyduğu bakımı sağlar.\n\nİçeriği:\n- C, E, F ve K Vitamini\n- B5 Pro-vitamini\n- Hidrolize Keratin\n- Kolajen\n- Hyaluronik Asit\n- Gliserin\n\nFaydaları:\n- Vitaminler kirpiklerinizi besler ve kirpik köklerini güçlendirerek dökülmesini engeller\n- Hidrolize keratin hem kaş hem de kirpikleri kalınlaştırır ve her teli sararak daha dolgun ve etkileyici bir görünüm kazandırır\n- Kolajen kirpik diplerine bakım uygular ve kaş ve kirpiklerinizin daha kısa sürede uzamasına, daha dolgun olmasına katkıda bulunur\n\nKullanımı:\n- Maskara şeklindeki ürünü uygulamak son derece kolaydır\n- Günde 1 kez, tercihen gece yatmadan önce temiz kaş ve kirpiklere uygulanır\n- Serum siyah, kahverengi ve şeffaf seçenekler ile sunulur\n\nTüm My Lamination ürünleri tamamen vegan, toksin, paraben ve sülfat içermez. Hamile ve emziren kadınlar için güvenlidir.",
+    "slug": "my-lamination-vitamin-lash-serum",
+    "summary": "7 farklı vitamin ve bileşenle formülize edilmiş kirpik bakım serumu. Kirpiklerinizi besler, güçlendirir ve dökülmesini engeller.",
+    "tags": [
+      "My Lamination",
+      "Göz Bakım Ürünleri",
+      "Kirpik Bakımı",
+      "Vitamin",
+      "Vegan"
+    ],
+    "image": "/products/my-lamination-vitamin-lash.png",
+    "gallery": [
+      "/products/my-lamination-vitamin-lash.png"
+    ]
+  },
+  {
+    "name": "My Lamination Mineral Lash Botox",
+    "brand": "My Lamination",
+    "category": "Göz Bakım Ürünleri",
+    "description": "My Lamination Mineral Lash Botox, 12 fonksiyonel içerik ile zenginleştirilmiş profesyonel kirpik bakım ürünüdür. Kaş ve kirpiklerinizin ihtiyaç duyduğu tüm mineralleri bir araya getirerek yüksek teknoloji ile üretilmiştir.\n\nİçeriği:\n- Mineraller (Bakır, Magnezyum, Sülfür, Sodyum)\n- Deniz Tuzları\n- Yosun Özü\n- Tatlı Badem\n- Hyaluronik Asit\n- Plankton Özü\n\nFaydaları:\n- 12 farklı mineral sayesinde kirpiklerinizi uzatır, güçlendirir ve gürleştirir\n- Uzun vadede dökülen, seyrelen veya zayıflayan kirpiklerinize kalıcı bakım sunar\n- Koruma kalkanı rolü üstlenerek seyrelen, dökülen ve zayıflayan kirpiklere kalıcı bakım sağlar\n- Bileşenlerindeki uyumu sayesinde gerekli tüm bakımı sağlar\n\nKullanımı:\n- Profesyonel laminasyon uzmanları tarafından uygulanır\n- Kirpik laminasyonu işlemi sırasında veya sonrasında kullanılır\n- Kıvırma ve sabitleme solüsyonu uygulandıktan sonra Mineral Lash Botox ile bakım yapılır\n\nTüm My Lamination ürünleri tamamen vegan, toksin, paraben ve sülfat içermez. Hamile ve emziren kadınlar için güvenlidir.",
+    "slug": "my-lamination-mineral-lash-botox",
+    "summary": "12 mineral ve fonksiyonel içerikle zenginleştirilmiş profesyonel kirpik botox ürünü. Kirpiklerinizi uzatır, güçlendirir ve gürleştirir.",
+    "tags": [
+      "My Lamination",
+      "Göz Bakım Ürünleri",
+      "Kirpik Bakımı",
+      "Mineral",
+      "Vegan",
+      "Profesyonel"
+    ],
+    "image": "/products/my-lamination-mineral-lash.png",
+    "gallery": [
+      "/products/my-lamination-mineral-lash.png"
+    ]
   }
 ]
