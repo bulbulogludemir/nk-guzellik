@@ -38,6 +38,8 @@ const categoryOptions: { label: string; value: CategoryFilterState }[] = [
   })),
 ]
 
+const quickCategories = categoryOptions.slice(1, 7)
+
 type PreparedProduct = {
   product: (typeof products)[number]
   searchContent: string
@@ -129,7 +131,7 @@ export default function ProductsPage() {
               GENOSYS, Theraderm, MeLine ve pHformula markalarına ait 200’den fazla ürünü;
               içerik notları, kullanım önerileri ve dinamik filtreler ile kolayca inceleyin.
             </p>
-            <div className="flex flex-col justify-center gap-4 sm:flex-row">
+            <div className="flex flex-col justify-center gap-3 sm:flex-row sm:gap-4">
               <Button
                 size="lg"
                 className="beauty-gradient border-none text-white shadow-lg shadow-primary/30"
@@ -148,9 +150,62 @@ export default function ProductsPage() {
                 <a href="/contact">Randevu Al</a>
               </Button>
             </div>
+            <div className="mx-auto grid max-w-3xl gap-3 text-left text-sm text-white/80 sm:grid-cols-3">
+              <div className="rounded-2xl bg-white/10 px-4 py-3 backdrop-blur">
+                <p className="text-xs uppercase tracking-wide">Toplam ürün</p>
+                <p className="text-lg font-semibold text-white">{products.length}</p>
+              </div>
+              <div className="rounded-2xl bg-white/10 px-4 py-3 backdrop-blur">
+                <p className="text-xs uppercase tracking-wide">Kategori</p>
+                <p className="text-lg font-semibold text-white">{productCategories.length}</p>
+              </div>
+              <div className="rounded-2xl bg-white/10 px-4 py-3 backdrop-blur">
+                <p className="text-xs uppercase tracking-wide">Marka</p>
+                <p className="text-lg font-semibold text-white">{productBrands.length}</p>
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>
+
+      {quickCategories.length > 0 && (
+        <section className="-mt-10 px-4 pb-6 sm:-mt-12">
+          <div className="mx-auto max-w-6xl">
+            <div className="flex items-center justify-between pb-3">
+              <span className="text-sm font-semibold text-muted-foreground">Hızlı filtreler</span>
+              {hasActiveFilters && (
+                <button
+                  type="button"
+                  onClick={clearFilters}
+                  className="text-xs font-medium text-primary underline-offset-4 hover:underline"
+                >
+                  Temizle
+                </button>
+              )}
+            </div>
+            <div className="flex gap-2 overflow-x-auto pb-2">
+              {quickCategories.map((option) => {
+                const isActive = selectedCategory === option.value
+                return (
+                  <button
+                    key={option.value}
+                    type="button"
+                    onClick={() => setSelectedCategory(option.value)}
+                    className={cn(
+                      'whitespace-nowrap rounded-full border px-4 py-2 text-sm transition',
+                      isActive
+                        ? 'border-primary bg-primary text-primary-foreground shadow-sm'
+                        : 'border-border bg-background/80 text-muted-foreground hover:bg-background'
+                    )}
+                  >
+                    {option.label}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="relative -mt-8 pb-16 sm:-mt-12 sm:pb-20">
         <div className="mx-auto max-w-6xl px-4">
@@ -158,20 +213,20 @@ export default function ProductsPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="rounded-3xl border bg-card/80 p-6 shadow-xl shadow-primary/5 backdrop-blur"
+            className="rounded-3xl border bg-card/80 p-4 shadow-xl shadow-primary/5 backdrop-blur sm:p-6"
           >
-            <div className="grid gap-6 lg:grid-cols-[1.2fr_1fr]">
-              <div className="space-y-4">
+            <div className="space-y-6">
+              <div className="flex flex-col gap-2 rounded-2xl border border-border/60 bg-muted/20 p-4 sm:p-6">
                 <div className="flex items-center justify-between text-sm font-medium text-muted-foreground">
-                  <span className="flex items-center gap-1 text-base font-semibold text-foreground">
-                    <SlidersHorizontal className="h-4 w-4" /> Akıllı Filtreler
+                  <span className="flex items-center gap-2 text-base font-semibold text-foreground">
+                    <SlidersHorizontal className="h-4 w-4" /> Filtrele & Ara
                   </span>
-                  <span>{filteredProducts.length} ürün listeleniyor</span>
+                  <span className="text-xs sm:text-sm">{filteredProducts.length} ürün</span>
                 </div>
-                <div className="grid gap-4 md:grid-cols-2">
-                  <div className="md:col-span-2">
-                    <label className="mb-2 block text-sm font-medium text-muted-foreground">
-                      Anahtar kelimeyle arayın
+                <div className="space-y-4">
+                  <div>
+                    <label className="mb-2 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                      Arama
                     </label>
                     <div className="relative">
                       <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
@@ -184,37 +239,45 @@ export default function ProductsPage() {
                     </div>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-muted-foreground">
-                      Marka seçin
-                    </label>
-                    <div className="flex flex-wrap gap-2">
+                    <div className="mb-2 flex items-center justify-between">
+                      <label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                        Markalar
+                      </label>
+                      {selectedBrands.length > 0 && (
+                        <button
+                          type="button"
+                          onClick={() => setSelectedBrands([])}
+                          className="text-xs text-primary underline-offset-4 hover:underline"
+                        >
+                          Temizle
+                        </button>
+                      )}
+                    </div>
+                    <div className="flex gap-2 overflow-x-auto pb-1">
                       {brandStats.map((brand) => {
                         const isActive = selectedBrands.includes(brand.name)
                         return (
-                          <Button
+                          <button
                             key={brand.name}
-                            variant={isActive ? 'default' : 'outline'}
-                            size="sm"
+                            type="button"
                             onClick={() => toggleBrand(brand.name)}
                             className={cn(
-                              'rounded-full border transition-all',
+                              'flex items-center gap-1 whitespace-nowrap rounded-full border px-3 py-2 text-xs font-medium transition',
                               isActive
-                                ? 'shadow-lg shadow-primary/20'
-                                : 'bg-background/60'
+                                ? 'border-primary bg-primary text-primary-foreground shadow-sm'
+                                : 'border-border bg-background/80 text-muted-foreground hover:bg-background'
                             )}
                           >
                             <span>{brand.name}</span>
-                            <span className="text-xs text-muted-foreground">
-                              {brand.count}
-                            </span>
-                          </Button>
+                            <span className="text-[10px] opacity-70">{brand.count}</span>
+                          </button>
                         )
                       })}
                     </div>
                   </div>
                   <div>
-                    <label className="mb-2 block text-sm font-medium text-muted-foreground">
-                      Kategori filtreleyin
+                    <label className="mb-2 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                      Kategori
                     </label>
                     <select
                       value={selectedCategory}
@@ -231,46 +294,40 @@ export default function ProductsPage() {
                     </select>
                   </div>
                 </div>
+                {hasActiveFilters && (
+                  <div className="flex flex-wrap items-center gap-2 pt-2 text-xs text-muted-foreground">
+                    {searchTerm && <span className="rounded-full bg-background px-3 py-1">Arama: “{searchTerm}”</span>}
+                    {selectedBrands.map((brand) => (
+                      <span key={brand} className="rounded-full bg-background px-3 py-1">
+                        #{brand}
+                      </span>
+                    ))}
+                    {selectedCategory !== 'all' && (
+                      <span className="rounded-full bg-background px-3 py-1">Kategori: #{selectedCategory}</span>
+                    )}
+                  </div>
+                )}
               </div>
 
-              <div className="space-y-5 rounded-2xl border border-border/60 bg-muted/20 p-6">
-                <div>
+              <div className="grid gap-4 rounded-2xl border border-border/40 bg-background/70 p-4 sm:grid-cols-2 sm:p-6">
+                <div className="space-y-2">
                   <h3 className="text-base font-semibold text-foreground">Katalog Özeti</h3>
-                  <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                    Toplam {products.length} ürün, {productCategories.length} kategori ve{' '}
-                    {productBrands.length} profesyonel markayı kapsayan geniş bir koleksiyon.
-                    Filtreleri kullanarak ihtiyacınıza uygun ürünü saniyeler içinde bulun.
+                  <p className="text-sm leading-6 text-muted-foreground">
+                    Toplam {products.length} ürün, {productCategories.length} kategori ve {productBrands.length}
+                    profesyonel markanın yer aldığı seçkiyi inceleyin.
                   </p>
                 </div>
-                <div className="flex flex-wrap gap-2">
-                  {categoryOptions.slice(1, 6).map((option) => (
-                    <Badge key={option.value} variant="secondary" className="rounded-full">
-                      {option.label}
-                    </Badge>
-                  ))}
-                  {productCategories.length > 5 && (
-                    <Badge variant="outline" className="rounded-full border-dashed">
-                      ve {productCategories.length - 5} kategori daha
-                    </Badge>
-                  )}
-                </div>
-                <div className="flex flex-wrap items-center gap-3 text-sm">
+                <div className="flex flex-wrap items-center gap-2 text-sm">
                   <Badge variant="outline" className="rounded-full border-primary/40 text-primary">
-                    {filteredProducts.length} sonuç
+                    {filteredProducts.length} sonuç listeleniyor
                   </Badge>
-                  {searchTerm && <span>Arama: “{searchTerm}”</span>}
-                  {selectedBrands.length > 0 && (
-                    <span>
-                      Markalar: {selectedBrands.map((brand) => `#${brand}`).join(' ')}
-                    </span>
-                  )}
-                  {selectedCategory !== 'all' && <span>Kategori: #{selectedCategory}</span>}
+                  <Badge variant="secondary" className="rounded-full">
+                    Mobile-first deneyim
+                  </Badge>
+                  <Badge variant="outline" className="rounded-full border-dashed">
+                    Uzman önerileri
+                  </Badge>
                 </div>
-                {hasActiveFilters && (
-                  <Button variant="ghost" size="sm" onClick={clearFilters}>
-                    Filtreleri temizle
-                  </Button>
-                )}
               </div>
             </div>
           </motion.div>
