@@ -6,23 +6,19 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { 
-  Phone, 
-  MapPin, 
+import {
+  Phone,
+  MapPin,
   Mail,
   Instagram,
   MessageCircle,
   Clock,
   Calendar,
   Send,
-  Star,
   Heart,
   Sparkles,
   Navigation,
-  Info,
-  Users,
-  Shield,
-  Award
+  Info
 } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';

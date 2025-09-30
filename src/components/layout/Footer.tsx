@@ -10,7 +10,6 @@ import {
   MessageCircle,
   Clock,
   Heart,
-  ShoppingBag,
   Star,
   Calendar,
   ArrowUp

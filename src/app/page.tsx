@@ -13,8 +13,6 @@ import {
   MapPin,
   Instagram,
   MessageCircle,
-  Clock,
-  Award,
   Users,
   Palette,
   Crown,
@@ -292,7 +290,7 @@ export default function Home() {
               Dünya Çapında Tanınmış Markalar
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              NK Beauty'de, cilt bakımında güvenilir ve etkili sonuçlar için seçilmiş profesyonel markaları bulabilirsiniz
+              NK Beauty&apos;de, cilt bakımında güvenilir ve etkili sonuçlar için seçilmiş profesyonel markaları bulabilirsiniz
             </p>
           </motion.div>
 
