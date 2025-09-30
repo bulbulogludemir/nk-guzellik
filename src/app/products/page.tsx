@@ -1,10 +1,11 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Search, SlidersHorizontal, MessageCircle } from 'lucide-react'
+import { useSearchParams } from 'next/navigation'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -50,9 +51,18 @@ type BrandFilterState = string[]
 type CategoryFilterState = string | 'all'
 
 export default function ProductsPage() {
+  const searchParams = useSearchParams()
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedBrands, setSelectedBrands] = useState<BrandFilterState>([])
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilterState>('all')
+
+  // Initialize filters from URL parameters
+  useEffect(() => {
+    const brandParam = searchParams.get('brand')
+    if (brandParam && productBrands.includes(brandParam)) {
+      setSelectedBrands([brandParam])
+    }
+  }, [searchParams])
 
   const searchMap = useMemo(() => {
     const map = new Map<string, string>()
@@ -171,19 +181,19 @@ export default function ProductsPage() {
       {quickCategories.length > 0 && (
         <section className="-mt-10 px-4 pb-6 sm:-mt-12">
           <div className="mx-auto max-w-6xl">
-            <div className="flex items-center justify-between pb-3">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pb-3">
               <span className="text-sm font-semibold text-muted-foreground">Hızlı filtreler</span>
               {hasActiveFilters && (
                 <button
                   type="button"
                   onClick={clearFilters}
-                  className="text-xs font-medium text-primary underline-offset-4 hover:underline"
+                  className="text-xs font-medium text-primary underline-offset-4 hover:underline text-left sm:text-right"
                 >
                   Temizle
                 </button>
               )}
             </div>
-            <div className="flex gap-2 overflow-x-auto pb-2">
+            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
               {quickCategories.map((option) => {
                 const isActive = selectedCategory === option.value
                 return (
@@ -192,7 +202,7 @@ export default function ProductsPage() {
                     type="button"
                     onClick={() => setSelectedCategory(option.value)}
                     className={cn(
-                      'whitespace-nowrap rounded-full border px-4 py-2 text-sm transition',
+                      'flex-shrink-0 whitespace-nowrap rounded-full border px-4 py-2 text-sm transition',
                       isActive
                         ? 'border-primary bg-primary text-primary-foreground shadow-sm'
                         : 'border-border bg-background/80 text-muted-foreground hover:bg-background'

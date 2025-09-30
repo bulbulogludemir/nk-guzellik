@@ -303,14 +303,16 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="beauty-transition hover:beauty-shadow hover:scale-105 cursor-pointer">
-                  <CardContent className="p-6 sm:p-8 text-center">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
-                      <ShoppingBag className="w-8 h-8 sm:w-10 sm:h-10 text-primary" />
-                    </div>
-                    <h3 className="text-lg sm:text-xl font-bold text-foreground">{brand}</h3>
-                  </CardContent>
-                </Card>
+                <Link href={`/products?brand=${encodeURIComponent(brand)}`}>
+                  <Card className="beauty-transition hover:beauty-shadow hover:scale-105 cursor-pointer">
+                    <CardContent className="p-6 sm:p-8 text-center">
+                      <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
+                        <ShoppingBag className="w-8 h-8 sm:w-10 sm:h-10 text-primary" />
+                      </div>
+                      <h3 className="text-lg sm:text-xl font-bold text-foreground">{brand}</h3>
+                    </CardContent>
+                  </Card>
+                </Link>
               </motion.div>
             ))}
           </div>
