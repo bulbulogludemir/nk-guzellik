@@ -4,7 +4,7 @@ import { useMemo, useState, useEffect, Suspense } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { Search, SlidersHorizontal, MessageCircle } from 'lucide-react'
+import { SlidersHorizontal, MessageCircle, ChevronDown } from 'lucide-react'
 import { useSearchParams } from 'next/navigation'
 
 import { Badge } from '@/components/ui/badge'
@@ -16,13 +16,15 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from '@/components/ui/collapsible'
 import {
   productBrands,
   productCategories,
-  productSearchIndex,
   products,
-  normalizeText,
 } from '@/lib/products'
 import { cn } from '@/lib/utils'
 
@@ -39,22 +41,15 @@ const categoryOptions: { label: string; value: CategoryFilterState }[] = [
   })),
 ]
 
-const quickCategories = categoryOptions.slice(1, 7)
-
-type PreparedProduct = {
-  product: (typeof products)[number]
-  searchContent: string
-}
-
 type BrandFilterState = string[]
 
 type CategoryFilterState = string | 'all'
 
 function ProductsPageContent() {
   const searchParams = useSearchParams()
-  const [searchTerm, setSearchTerm] = useState('')
   const [selectedBrands, setSelectedBrands] = useState<BrandFilterState>([])
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilterState>('all')
+  const [isFilterOpen, setIsFilterOpen] = useState(false)
 
   // Initialize filters from URL parameters
   useEffect(() => {
@@ -64,46 +59,25 @@ function ProductsPageContent() {
     }
   }, [searchParams])
 
-  const searchMap = useMemo(() => {
-    const map = new Map<string, string>()
-    for (const entry of productSearchIndex) {
-      map.set(entry.slug, entry.content)
-    }
-    return map
-  }, [])
-
-  const preparedProducts = useMemo<PreparedProduct[]>(() => {
-    return products.map((product) => ({
-      product,
-      searchContent: searchMap.get(product.slug) ?? '',
-    }))
-  }, [searchMap])
-
   const filteredProducts = useMemo(() => {
     const brandSet = new Set(selectedBrands)
-    const normalizedQuery = normalizeText(searchTerm)
-    const tokens = normalizedQuery.split(' ').filter(Boolean)
 
-    const filtered = preparedProducts.filter(({ product, searchContent }) => {
+    const filtered = products.filter((product) => {
       const matchesBrand = brandSet.size === 0 || brandSet.has(product.brand)
       const matchesCategory =
         selectedCategory === 'all' || product.category === selectedCategory
-      const matchesSearch =
-        tokens.length === 0 || tokens.every((token) => searchContent.includes(token))
-      return matchesBrand && matchesCategory && matchesSearch
+      return matchesBrand && matchesCategory
     })
 
-    return filtered
-      .map(({ product }) => product)
-      .sort((a, b) => {
-        const brandCompare = a.brand.localeCompare(b.brand, 'tr')
-        if (brandCompare !== 0) return brandCompare
-        return a.name.localeCompare(b.name, 'tr')
-      })
-  }, [preparedProducts, searchTerm, selectedBrands, selectedCategory])
+    return filtered.sort((a, b) => {
+      const brandCompare = a.brand.localeCompare(b.brand, 'tr')
+      if (brandCompare !== 0) return brandCompare
+      return a.name.localeCompare(b.name, 'tr')
+    })
+  }, [selectedBrands, selectedCategory])
 
   const activeFilters = selectedBrands.length + (selectedCategory === 'all' ? 0 : 1)
-  const hasActiveFilters = activeFilters > 0 || searchTerm.length > 0
+  const hasActiveFilters = activeFilters > 0
 
   const toggleBrand = (brand: string) => {
     setSelectedBrands((current) =>
@@ -114,7 +88,6 @@ function ProductsPageContent() {
   }
 
   const clearFilters = () => {
-    setSearchTerm('')
     setSelectedBrands([])
     setSelectedCategory('all')
   }
@@ -160,64 +133,11 @@ function ProductsPageContent() {
                 <a href="/contact">Randevu Al</a>
               </Button>
             </div>
-            <div className="mx-auto grid max-w-3xl gap-3 text-left text-sm text-white/80 sm:grid-cols-3">
-              <div className="rounded-2xl bg-white/10 px-4 py-3 backdrop-blur">
-                <p className="text-xs uppercase tracking-wide">Toplam ürün</p>
-                <p className="text-lg font-semibold text-white">{products.length}</p>
-              </div>
-              <div className="rounded-2xl bg-white/10 px-4 py-3 backdrop-blur">
-                <p className="text-xs uppercase tracking-wide">Kategori</p>
-                <p className="text-lg font-semibold text-white">{productCategories.length}</p>
-              </div>
-              <div className="rounded-2xl bg-white/10 px-4 py-3 backdrop-blur">
-                <p className="text-xs uppercase tracking-wide">Marka</p>
-                <p className="text-lg font-semibold text-white">{productBrands.length}</p>
-              </div>
-            </div>
           </motion.div>
         </div>
       </section>
 
-      {quickCategories.length > 0 && (
-        <section className="-mt-10 px-4 pb-6 sm:-mt-12">
-          <div className="mx-auto max-w-6xl">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pb-3">
-              <span className="text-sm font-semibold text-muted-foreground">Hızlı filtreler</span>
-              {hasActiveFilters && (
-                <button
-                  type="button"
-                  onClick={clearFilters}
-                  className="text-xs font-medium text-primary underline-offset-4 hover:underline text-left sm:text-right"
-                >
-                  Temizle
-                </button>
-              )}
-            </div>
-            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
-              {quickCategories.map((option) => {
-                const isActive = selectedCategory === option.value
-                return (
-                  <button
-                    key={option.value}
-                    type="button"
-                    onClick={() => setSelectedCategory(option.value)}
-                    className={cn(
-                      'flex-shrink-0 whitespace-nowrap rounded-full border px-4 py-2 text-sm transition',
-                      isActive
-                        ? 'border-primary bg-primary text-primary-foreground shadow-sm'
-                        : 'border-border bg-background/80 text-muted-foreground hover:bg-background'
-                    )}
-                  >
-                    {option.label}
-                  </button>
-                )
-              })}
-            </div>
-          </div>
-        </section>
-      )}
-
-      <section className="relative -mt-8 pb-16 sm:-mt-12 sm:pb-20">
+      <section className="relative pb-16 pt-8 sm:pb-20">
         <div className="mx-auto max-w-6xl px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -225,121 +145,109 @@ function ProductsPageContent() {
             transition={{ duration: 0.5 }}
             className="rounded-3xl border bg-card/80 p-4 shadow-xl shadow-primary/5 backdrop-blur sm:p-6"
           >
-            <div className="space-y-6">
-              <div className="flex flex-col gap-2 rounded-2xl border border-border/60 bg-muted/20 p-4 sm:p-6">
-                <div className="flex items-center justify-between text-sm font-medium text-muted-foreground">
-                  <span className="flex items-center gap-2 text-base font-semibold text-foreground">
-                    <SlidersHorizontal className="h-4 w-4" /> Filtrele & Ara
+            <Collapsible open={isFilterOpen} onOpenChange={setIsFilterOpen}>
+              <div className="flex items-center justify-between rounded-2xl border border-border/60 bg-muted/20 p-4">
+                <div className="flex items-center gap-2">
+                  <SlidersHorizontal className="h-4 w-4" />
+                  <span className="text-base font-semibold text-foreground">Filtrele</span>
+                  <span className="text-sm text-muted-foreground">
+                    ({filteredProducts.length} ürün)
                   </span>
-                  <span className="text-xs sm:text-sm">{filteredProducts.length} ürün</span>
                 </div>
-                <div className="space-y-4">
-                  <div>
-                    <label className="mb-2 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Arama
-                    </label>
-                    <div className="relative">
-                      <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-                      <Input
-                        value={searchTerm}
-                        onChange={(event) => setSearchTerm(event.target.value)}
-                        placeholder="Ürün adı, içerik veya problem arayın"
-                        className="h-12 rounded-xl border-input bg-background pl-10 text-base shadow-sm focus-visible:ring-2"
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="mb-2 flex items-center justify-between">
-                      <label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                        Markalar
-                      </label>
-                      {selectedBrands.length > 0 && (
-                        <button
-                          type="button"
-                          onClick={() => setSelectedBrands([])}
-                          className="text-xs text-primary underline-offset-4 hover:underline"
-                        >
-                          Temizle
-                        </button>
+                <CollapsibleTrigger asChild>
+                  <Button variant="ghost" size="sm" className="h-9 w-9 p-0">
+                    <ChevronDown
+                      className={cn(
+                        'h-4 w-4 transition-transform duration-200',
+                        isFilterOpen && 'rotate-180'
                       )}
-                    </div>
-                    <div className="flex gap-2 overflow-x-auto pb-1">
-                      {brandStats.map((brand) => {
-                        const isActive = selectedBrands.includes(brand.name)
-                        return (
-                          <button
-                            key={brand.name}
-                            type="button"
-                            onClick={() => toggleBrand(brand.name)}
-                            className={cn(
-                              'flex items-center gap-1 whitespace-nowrap rounded-full border px-3 py-2 text-xs font-medium transition',
-                              isActive
-                                ? 'border-primary bg-primary text-primary-foreground shadow-sm'
-                                : 'border-border bg-background/80 text-muted-foreground hover:bg-background'
-                            )}
-                          >
-                            <span>{brand.name}</span>
-                            <span className="text-[10px] opacity-70">{brand.count}</span>
-                          </button>
-                        )
-                      })}
-                    </div>
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                      Kategori
-                    </label>
-                    <select
-                      value={selectedCategory}
-                      onChange={(event) =>
-                        setSelectedCategory(event.target.value as CategoryFilterState)
-                      }
-                      className="h-12 w-full rounded-xl border border-input bg-background px-4 text-sm font-medium text-foreground shadow-sm focus-visible:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/20"
-                    >
-                      {categoryOptions.map((option) => (
-                        <option key={option.value} value={option.value}>
-                          {option.label}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                </div>
-                {hasActiveFilters && (
-                  <div className="flex flex-wrap items-center gap-2 pt-2 text-xs text-muted-foreground">
-                    {searchTerm && <span className="rounded-full bg-background px-3 py-1">Arama: “{searchTerm}”</span>}
-                    {selectedBrands.map((brand) => (
-                      <span key={brand} className="rounded-full bg-background px-3 py-1">
-                        #{brand}
-                      </span>
-                    ))}
-                    {selectedCategory !== 'all' && (
-                      <span className="rounded-full bg-background px-3 py-1">Kategori: #{selectedCategory}</span>
-                    )}
-                  </div>
-                )}
+                    />
+                    <span className="sr-only">Filtreleri aç/kapat</span>
+                  </Button>
+                </CollapsibleTrigger>
               </div>
 
-              <div className="grid gap-4 rounded-2xl border border-border/40 bg-background/70 p-4 sm:grid-cols-2 sm:p-6">
-                <div className="space-y-2">
-                  <h3 className="text-base font-semibold text-foreground">Katalog Özeti</h3>
-                  <p className="text-sm leading-6 text-muted-foreground">
-                    Toplam {products.length} ürün, {productCategories.length} kategori ve {productBrands.length}
-                    profesyonel markanın yer aldığı seçkiyi inceleyin.
-                  </p>
+              <CollapsibleContent className="mt-4 space-y-4">
+                <div className="rounded-2xl border border-border/60 bg-muted/20 p-4 sm:p-6">
+                  <div className="space-y-4">
+                    <div>
+                      <div className="mb-2 flex items-center justify-between">
+                        <label className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                          Markalar
+                        </label>
+                        {selectedBrands.length > 0 && (
+                          <button
+                            type="button"
+                            onClick={() => setSelectedBrands([])}
+                            className="text-xs text-primary underline-offset-4 hover:underline"
+                          >
+                            Temizle
+                          </button>
+                        )}
+                      </div>
+                      <div className="flex gap-2 overflow-x-auto pb-1">
+                        {brandStats.map((brand) => {
+                          const isActive = selectedBrands.includes(brand.name)
+                          return (
+                            <button
+                              key={brand.name}
+                              type="button"
+                              onClick={() => toggleBrand(brand.name)}
+                              className={cn(
+                                'flex items-center gap-1 whitespace-nowrap rounded-full border px-3 py-2 text-xs font-medium transition',
+                                isActive
+                                  ? 'border-primary bg-primary text-primary-foreground shadow-sm'
+                                  : 'border-border bg-background/80 text-muted-foreground hover:bg-background'
+                              )}
+                            >
+                              <span>{brand.name}</span>
+                              <span className="text-[10px] opacity-70">{brand.count}</span>
+                            </button>
+                          )
+                        })}
+                      </div>
+                    </div>
+                    <div>
+                      <label className="mb-2 block text-xs font-medium uppercase tracking-wide text-muted-foreground">
+                        Kategori
+                      </label>
+                      <select
+                        value={selectedCategory}
+                        onChange={(event) =>
+                          setSelectedCategory(event.target.value as CategoryFilterState)
+                        }
+                        className="h-12 w-full rounded-xl border border-input bg-background px-4 text-sm font-medium text-foreground shadow-sm focus-visible:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/20"
+                      >
+                        {categoryOptions.map((option) => (
+                          <option key={option.value} value={option.value}>
+                            {option.label}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+                  {hasActiveFilters && (
+                    <div className="flex flex-wrap items-center gap-2 pt-4 text-xs text-muted-foreground">
+                      {selectedBrands.map((brand) => (
+                        <span key={brand} className="rounded-full bg-background px-3 py-1">
+                          #{brand}
+                        </span>
+                      ))}
+                      {selectedCategory !== 'all' && (
+                        <span className="rounded-full bg-background px-3 py-1">Kategori: #{selectedCategory}</span>
+                      )}
+                      <button
+                        type="button"
+                        onClick={clearFilters}
+                        className="rounded-full bg-primary/10 px-3 py-1 text-primary hover:bg-primary/20"
+                      >
+                        Tümünü temizle
+                      </button>
+                    </div>
+                  )}
                 </div>
-                <div className="flex flex-wrap items-center gap-2 text-sm">
-                  <Badge variant="outline" className="rounded-full border-primary/40 text-primary">
-                    {filteredProducts.length} sonuç listeleniyor
-                  </Badge>
-                  <Badge variant="secondary" className="rounded-full">
-                    Mobile-first deneyim
-                  </Badge>
-                  <Badge variant="outline" className="rounded-full border-dashed">
-                    Uzman önerileri
-                  </Badge>
-                </div>
-              </div>
-            </div>
+              </CollapsibleContent>
+            </Collapsible>
           </motion.div>
 
           <motion.div
