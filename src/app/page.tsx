@@ -24,6 +24,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { productBrands } from '@/lib/products';
 
 const services = [
@@ -106,6 +107,15 @@ const expertTeam = [
     specialty: 'Cilt Bakım Specialist',
     experience: 'Hydrafacial sertifikalı'
   }
+];
+
+// Marka logoları - sırayla
+const brandLogos: { name: string; logo: string }[] = [
+  { name: 'pHformula', logo: '/brands/phformula.png' },
+  { name: 'Genosys', logo: '/brands/genosys.png' },
+  { name: 'Meline', logo: '/brands/meline.png' },
+  { name: 'Theraderm', logo: '/brands/theraderm.png' },
+  { name: 'My Lamination', logo: '/brands/my-lamination.png' },
 ];
 
 export default function Home() {
@@ -294,22 +304,27 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8">
-            {productBrands.map((brand, index) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 mb-8">
+            {brandLogos.map((brand, index) => (
               <motion.div
-                key={brand}
+                key={brand.name}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Link href={`/products?brand=${encodeURIComponent(brand)}`}>
+                <Link href={`/products?brand=${encodeURIComponent(brand.name)}`}>
                   <Card className="beauty-transition hover:beauty-shadow hover:scale-105 cursor-pointer">
-                    <CardContent className="p-6 sm:p-8 text-center">
-                      <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center">
-                        <ShoppingBag className="w-8 h-8 sm:w-10 sm:h-10 text-primary" />
+                    <CardContent className="p-6 sm:p-8 text-center flex flex-col items-center justify-center">
+                      <div className="relative w-32 h-32 mb-4 flex items-center justify-center">
+                        <Image
+                          src={brand.logo}
+                          alt={`${brand.name} Logo`}
+                          fill
+                          className="object-contain"
+                        />
                       </div>
-                      <h3 className="text-lg sm:text-xl font-bold text-foreground">{brand}</h3>
+                      <h3 className="text-base sm:text-lg font-semibold text-foreground">{brand.name}</h3>
                     </CardContent>
                   </Card>
                 </Link>
