@@ -90,7 +90,13 @@ export const products: Product[] = rawProducts.map((product) => {
   }
 })
 
-export const productBrands = Array.from(new Set(products.map((product) => product.brand))).sort()
+// Marka sıralaması - özel sırayla
+const brandOrder = ['pHformula', 'Genosys', 'Meline', 'Theraderm', 'My Lamination']
+const allBrands = Array.from(new Set(products.map((product) => product.brand)))
+export const productBrands = [
+  ...brandOrder.filter(brand => allBrands.includes(brand)),
+  ...allBrands.filter(brand => !brandOrder.includes(brand)).sort()
+]
 
 export const productCategories = Array.from(new Set(products.map((product) => product.category))).sort()
 
